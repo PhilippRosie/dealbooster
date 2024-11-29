@@ -4,7 +4,7 @@ export default function Home() {
       <div className="container">
         {/* Hero-sektion */}
         <section className="hero">
-          <h1>Välkommen till Dealbooster</h1>
+          <h1>Välkommen till Dealbooster.nu</h1>
           <p>Vi hjälper föreningar att växa ekonomiskt</p>
         </section>
 
