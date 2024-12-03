@@ -64,6 +64,11 @@
   text-transform: uppercase;
 }
 
+.gridSubHeading {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .gridItem p {
   font-size: 18px;
   font-weight: 200;
