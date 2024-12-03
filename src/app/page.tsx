@@ -38,6 +38,14 @@ export default function Home() {
             <div className={`${styles.gridItem} ${oswald.className}`}>
               <h2>Hjärtefrågor</h2>
               <p className={barlowCondensed.className}>
+                <div>
+                  <Image
+                    src={partnerBild}
+                    alt="Partner"
+                    width={200}
+                    className={styles.partnerImage}
+                  />
+                </div>
                 Som vår samarbetspartner blir du en vardagshjälte för många på
                 det sätt du och din verksamhet bidrar med i det lokala
                 ekonomiska kretsloppet.
@@ -46,6 +54,14 @@ export default function Home() {
             <div className={`${styles.gridItem} ${oswald.className}`}>
               <h2>Så Jobbar Vi</h2>
               <p className={barlowCondensed.className}>
+                <div>
+                  <Image
+                    src={partnerBild}
+                    alt="Partner"
+                    width={200}
+                    className={styles.partnerImage}
+                  />
+                </div>
                 Som vår samarbetspartner blir du en vardagshjälte för många på
                 det sätt du och din verksamhet bidrar med i det lokala
                 ekonomiska kretsloppet.
@@ -54,6 +70,14 @@ export default function Home() {
             <div className={`${styles.gridItem} ${oswald.className}`}>
               <h2>Vem är vi?</h2>
               <p className={barlowCondensed.className}>
+                <div>
+                  <Image
+                    src={partnerBild}
+                    alt="Partner"
+                    width={200}
+                    className={styles.partnerImage}
+                  />
+                </div>
                 Som vår samarbetspartner blir du en vardagshjälte för många på
                 det sätt du och din verksamhet bidrar med i det lokala
                 ekonomiska kretsloppet.

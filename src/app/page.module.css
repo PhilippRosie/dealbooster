@@ -38,6 +38,7 @@
   gap: 25px;
   justify-content: center;
   align-items: center;
+  margin: 0 30px;
 }
 
 .gridItem {
@@ -45,22 +46,26 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 400px;
-  height: 450px;
+  width: 100%;
+  height: 400px;
   color: #d4f4f8e3;
-  background: linear-gradient(20deg, #262929d2 60%, #d4f4f8e3);
-  border-radius: 18px;
+  background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
+  border-radius: 18 18 0 0;
   padding: 20px;
+  border-left: 1px solid #d4f4f88f;
+  border-right: 1px solid #d4f4f88f;
+  border-top: 1px solid #d4f4f88f;
+  box-shadow: 0 0 15px #000000d2;
 }
 
 .gridItem h2 {
-  font-size: 34px;
+  font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .gridItem p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
   text-align: center;
 }
