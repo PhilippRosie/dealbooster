@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Oswald, Barlow_Condensed } from "next/font/google";
 import styles from "./layout.module.css";
+import Header from "./components/header/Header";
 
 export const oswald = Oswald({
   subsets: ["latin"],
@@ -17,9 +18,13 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  console.log("Testing update:", new Date().toISOString());
   return (
     <html lang="sv">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }

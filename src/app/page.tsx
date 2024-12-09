@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import Header from "./components/header/Header";
+import Link from "next/link";
 import dealboosterBG from "../app/assets/images/landningssida/dealbosterBG.png";
 import partnerBild from "../app/assets/images/landningssida/partnerBild.jpg";
 import { barlowCondensed, oswald } from "../app/layout";
@@ -9,7 +9,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className={styles.landingPage}>
-      <Header />
       <main
         className={styles.main}
         style={{
@@ -18,8 +17,11 @@ export default function Home() {
       >
         <div className={styles.content}>
           <div className={styles.gridContainer}>
-            <div className={`${styles.gridItem} ${oswald.className}`}>
-              <h2>Partner</h2>
+            <Link
+              href="/partner"
+              className={`${styles.gridItem} ${oswald.className}`}
+            >
+              <h2>Partners</h2>
               <div className={styles.imageContainer}>
                 <Image
                   src={partnerBild}
@@ -34,8 +36,11 @@ export default function Home() {
                 det sätt du och din verksamhet bidrar med i det lokala
                 ekonomiska kretsloppet.
               </p>
-            </div>
-            <div className={`${styles.gridItem} ${oswald.className}`}>
+            </Link>
+            <Link
+              href="/hjartefragor"
+              className={`${styles.gridItem} ${oswald.className}`}
+            >
               <h2>Hjärtefrågor</h2>
               <div className={styles.imageContainer}>
                 <Image
@@ -51,8 +56,11 @@ export default function Home() {
                 det sätt du och din verksamhet bidrar med i det lokala
                 ekonomiska kretsloppet.
               </p>
-            </div>
-            <div className={`${styles.gridItem} ${oswald.className}`}>
+            </Link>
+            <Link
+              href="/sajobbarvi"
+              className={`${styles.gridItem} ${oswald.className}`}
+            >
               <h2>Så Jobbar Vi</h2>
               <div className={styles.imageContainer}>
                 <Image
@@ -68,8 +76,11 @@ export default function Home() {
                 det sätt du och din verksamhet bidrar med i det lokala
                 ekonomiska kretsloppet.
               </p>
-            </div>
-            <div className={`${styles.gridItem} ${oswald.className}`}>
+            </Link>
+            <Link
+              href="/vemarvi"
+              className={`${styles.gridItem} ${oswald.className}`}
+            >
               <h2>Vem är vi?</h2>
               <div className={styles.imageContainer}>
                 <Image
@@ -85,7 +96,7 @@ export default function Home() {
                 det sätt du och din verksamhet bidrar med i det lokala
                 ekonomiska kretsloppet.
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </main>
