@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./Kalkylator.module.css";
 
 const Kalkylator: React.FC = () => {
   const pricePerHafte = 150; // Sätt pris per häfte
@@ -9,10 +10,10 @@ const Kalkylator: React.FC = () => {
   };
 
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
+    <div className={styles.kalkylatorContainer}>
       <h1>Beräkna dina intäkter</h1>
 
-      <div style={{ margin: "20px 0" }}>
+      <div className={styles.sliderContainer}>
         <label htmlFor="salesSlider">
           Antal sålda häften: <span>{antalHäften}</span>
         </label>
@@ -31,9 +32,7 @@ const Kalkylator: React.FC = () => {
 
       <p>
         Intäkter:{" "}
-        <span style={{ fontWeight: "bold", fontSize: "24px" }}>
-          {antalHäften * pricePerHafte}
-        </span>{" "}
+        <span className={styles.intäkter}>{antalHäften * pricePerHafte}</span>{" "}
         SEK
       </p>
     </div>

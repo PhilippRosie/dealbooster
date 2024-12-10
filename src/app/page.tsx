@@ -12,7 +12,10 @@ export default function Home() {
       <main
         className={styles.main}
         style={{
-          backgroundImage: `url(${dealboosterBG.src})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${dealboosterBG.src})`,
+          backgroundSize: "cover",
+          width: "100%",
+          height: "100%",
         }}
       >
         <div className={styles.content}>
