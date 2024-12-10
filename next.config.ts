@@ -1,8 +1,13 @@
-import { NextConfig } from "next";
+import type { NextConfig } from "next";
 
 const config: NextConfig = {
-  images: {
-    disableStaticImages: false,
+  reactStrictMode: true,
+  experimental: {
+    turbo: {
+      rules: {
+        // Lägg till regler för Turbopack här om det behövs
+      },
+    },
   },
 };
 
