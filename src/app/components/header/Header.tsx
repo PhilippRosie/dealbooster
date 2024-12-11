@@ -1,6 +1,6 @@
 "use client";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./Header.module.css";
 import { barlowCondensed, oswald } from "../../layout";
 import Image from "next/image";
@@ -14,72 +14,105 @@ export default function Header() {
   const pathname = usePathname();
   const isHomePage = pathname !== "/";
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [isScrolled, setIsScrolled] = useState(false);
+  let scrollTimeout: NodeJS.Timeout;
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
   };
 
-  return (
-    <header className={styles.header}>
-      <Link href="/" className={styles.logo}>
-        <Image
-          src={isHomePage ? dealboosterLogoSmall : dealboosterLogo}
-          alt="Dealbooster Logo"
-          width={isHomePage ? 50 : 250}
-        />
-      </Link>
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+        setIsVisible(false);
+      } else {
+        setIsScrolled(false);
+        setIsVisible(true);
+      }
 
-      {isHomePage && (
-        <>
-          <button onClick={toggleModal} className={styles.kalkylatorButton}>
-            Öppna Kalkylator
-          </button>
-          {isModalOpen && (
-            <Modal onClose={toggleModal}>
-              <Kalkylator />
-            </Modal>
-          )}
-        </>
-      )}
-      <div className={styles.navContainer}>
-        <div className={styles.taglineContainer}>
-          <div
-            className={`${styles.tagline} ${
-              isHomePage ? styles.smallTagline : ""
-            } ${oswald.className}`}
-          >
-            Tjäna pengar till föreningen!
-          </div>
-          <div
-            className={`${styles.taglineDivider} ${
-              isHomePage ? styles.smallTaglineDivider : ""
-            } ${barlowCondensed.className}`}
-          >
-            -enkelt och långsiktigt.
-          </div>
-        </div>
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        setIsVisible(true);
+      }, 200); // Tiden i millisekunder innan headern dyker upp igen
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      clearTimeout(scrollTimeout);
+    };
+  }, []);
+
+  return (
+    <>
+      <header
+        className={`${styles.header} ${isScrolled ? styles.scrolled : ""} ${
+          isVisible ? styles.visible : styles.hidden
+        }`}
+      >
+        <Link href="/" className={styles.logo}>
+          <Image
+            src={isHomePage ? dealboosterLogoSmall : dealboosterLogo}
+            alt="Dealbooster Logo"
+            width={isHomePage ? 50 : 250}
+          />
+        </Link>
 
         {isHomePage && (
-          <nav className={styles.navLinks}>
-            <Link href="/partner" className={oswald.className}>
-              Partners
-            </Link>
-            <Link href="/hjartefragor" className={oswald.className}>
-              Hjärtefrågor
-            </Link>
-            <Link href="/sajobbarvi" className={oswald.className}>
-              Så Jobbar Vi
-            </Link>
-            <Link href="/vemarvi" className={oswald.className}>
-              Vem är vi?
-            </Link>
-          </nav>
+          <>
+            <button onClick={toggleModal} className={styles.kalkylatorButton}>
+              Öppna Kalkylator
+            </button>
+          </>
         )}
-      </div>
+        <div className={styles.navContainer}>
+          <div className={styles.taglineContainer}>
+            <div
+              className={`${styles.tagline} ${
+                isHomePage ? styles.smallTagline : ""
+              } ${oswald.className}`}
+            >
+              Tjäna pengar till föreningen!
+            </div>
+            <div
+              className={`${styles.taglineDivider} ${
+                isHomePage ? styles.smallTaglineDivider : ""
+              } ${barlowCondensed.className}`}
+            >
+              -enkelt och långsiktigt.
+            </div>
+          </div>
 
-      <button className={`${styles.contactButton} ${oswald.className}`}>
-        Kontakta Oss
-      </button>
-    </header>
+          {isHomePage && (
+            <nav className={styles.navLinks}>
+              <Link href="/partner" className={oswald.className}>
+                Partners
+              </Link>
+              <Link href="/hjartefragor" className={oswald.className}>
+                Hjärtefrågor
+              </Link>
+              <Link href="/sajobbarvi" className={oswald.className}>
+                Så Jobbar Vi
+              </Link>
+              <Link href="/vemarvi" className={oswald.className}>
+                Vem är vi?
+              </Link>
+            </nav>
+          )}
+        </div>
+
+        <button className={`${styles.contactButton} ${oswald.className}`}>
+          Kontakta Oss
+        </button>
+      </header>
+
+      {isModalOpen && (
+        <Modal onClose={toggleModal}>
+          <Kalkylator />
+        </Modal>
+      )}
+    </>
   );
 }
