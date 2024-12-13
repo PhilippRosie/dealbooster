@@ -14,8 +14,8 @@
 .scrolled {
   background: linear-gradient(
     to bottom,
-    #262929dc 50%,
-    #d4f4f8e3
+    #d4f4f8c6,
+    #262929dc
   ); /* Svart bakgrundsfärg när scrollad */
 }
 
@@ -44,10 +44,12 @@
   transition: 0.5s ease-in-out;
   opacity: 0.8;
   color: #262929;
+  text-shadow: 0 0 7px #d4f4f8;
 }
 
 .logo {
   font-size: 2.5rem;
+  color: #fd02f1;
 }
 
 .navContainer {
@@ -120,6 +122,9 @@
 }
 
 .contactButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 150px;
   height: 50px;
   background: linear-gradient(20deg, #262929d2 50%, #d4f4f8e3);
