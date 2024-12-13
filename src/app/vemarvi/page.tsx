@@ -1,5 +1,7 @@
 import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
+import basketcase from "../assets/images/vemarvi/basketcase.jpg";
+import iceHockey from "../assets/images/vemarvi/icehockey.jpg";
 
 import { barlowCondensed, oswald } from "../layout";
 
@@ -13,7 +15,7 @@ export default function Vemarvi() {
         }}
       >
         <div className={`${styles.vemarviTitle} ${oswald.className}`}>
-          <h1>Vem är vi?</h1>
+          <h1></h1>
           <div className={styles.vemarviText}>
             <h2 className={styles.vemarviTextTitle}>
               Redo att förändra spelet? <br /> Vi är här för dig!
@@ -23,58 +25,72 @@ export default function Vemarvi() {
               <div
                 className={`${styles.vemarviTextContent1} ${barlowCondensed.className}`}
               >
-                <b>Vem är vi?</b>
-                <br /> Tänk dig en vän som alltid har din rygg – det är vi på
-                Dealbooster. <br />
-                Vi hjälper idrottsföreningar att tjäna pengar på ett sätt som är
-                både enkelt och roligt. Genom våra förmånshäften fyller vi
-                plånböcker, stöttar lokala företag och gör livet lite bättre för
-                alla inblandade. Vår vision? Att hjälpa din förening att
-                blomstra samtidigt som vi bygger starkare lokalsamhällen.
-                <br />
-                <br /> <b>Vårt uppdrag</b>
-                <br /> Vi är inte bara en lösning – vi är en partner.
-                <br /> Genom att koppla ihop föreningar med lokala företag
-                skapar vi en kedja av positiv energi. Varje sålt häfte är ett
-                steg närmare era mål – vare sig det handlar om nya matchdräkter,
-                en turné eller bättre träningsförhållanden. Vi stöttar dig varje
-                steg på vägen.
-                <br />
+                <div className={styles.vemarviTextContent1Text}>
+                  <b>Vem är vi?</b>
+                  <br /> Tänk dig en vän som alltid har din rygg – det är vi på
+                  Dealbooster. <br />
+                  Vi hjälper idrottsföreningar att tjäna pengar på ett sätt som
+                  är både enkelt och roligt. Genom våra förmånshäften fyller vi
+                  plånböcker, stöttar lokala företag och gör livet lite bättre
+                  för alla inblandade. Vår vision? Att hjälpa din förening att
+                  blomstra samtidigt som vi bygger starkare lokalsamhällen.
+                  <br />
+                  <br /> <b>Vårt uppdrag</b>
+                  <br /> Vi är inte bara en lösning – vi är en partner.
+                  <br /> Genom att koppla ihop föreningar med lokala företag
+                  skapar vi en kedja av positiv energi. Varje sålt häfte är ett
+                  steg närmare era mål – vare sig det handlar om nya
+                  matchdräkter, en turné eller bättre träningsförhållanden. Vi
+                  stöttar dig varje steg på vägen.
+                  <br />
+                </div>
+                <img
+                  className={styles.vemarviTextContent1Img}
+                  src={basketcase.src}
+                  alt="Basketcase"
+                />
               </div>
               <div
                 className={`${styles.vemarviTextContent2} ${barlowCondensed.className}`}
               >
-                <b>Vad gör oss unika?</b>
-                <li>
-                  <b>Föreningsfokus:</b> Vi fattar hur viktig din förening är.
-                  Därför skräddarsyr vi lösningar som funkar för just er.
-                </li>
-                <li>
-                  <b>Stöd till lokala hjältar:</b> Vi sätter de lokala företagen
-                  i rampljuset och hjälper dem att hitta nya kunder.
-                </li>
-                <li>
-                  <b>Långsiktiga resultat:</b> Våra samarbeten handlar inte om
-                  snabba klipp utan om att bygga en hållbar framtid.
-                </li>
-                <br />
-                <h3>Våra värderingar</h3>
-                <li>
-                  <b>Gemenskap:</b> Tillsammans är vi starkare.
-                </li>
-                <li>
-                  <b>Engagemang:</b> Vi bryr oss på riktigt och jobbar hårt för
-                  din framgång.
-                </li>
-                <li>
-                  <b>Innovation:</b> Vi testar nytt och hittar alltid bättre
-                  sätt att göra saker.
-                </li>
-                <br />
-                Med Dealbooster vid din sida blir det roligare och enklare att
-                nå era drömmar. Så vad väntar du på? Hör av dig så hjälper vi
-                din förening att ta ett kliv framåt – tillsammans gör vi
-                skillnad!
+                <img
+                  className={styles.vemarviTextContent2Img}
+                  src={iceHockey.src}
+                  alt="Ice Hockey"
+                />
+                <div className={styles.vemarviTextContent2Text}>
+                  <b>Vad gör oss unika?</b>
+                  <li>
+                    <b>Föreningsfokus:</b> Vi fattar hur viktig din förening är.
+                    Därför skräddarsyr vi lösningar som funkar för just er.
+                  </li>
+                  <li>
+                    <b>Stöd till lokala hjältar:</b> Vi sätter de lokala
+                    företagen i rampljuset och hjälper dem att hitta nya kunder.
+                  </li>
+                  <li>
+                    <b>Långsiktiga resultat:</b> Våra samarbeten handlar inte om
+                    snabba klipp utan om att bygga en hållbar framtid.
+                  </li>
+                  <br />
+                  <h3>Våra värderingar</h3>
+                  <li>
+                    <b>Gemenskap:</b> Tillsammans är vi starkare.
+                  </li>
+                  <li>
+                    <b>Engagemang:</b> Vi bryr oss på riktigt och jobbar hårt
+                    för din framgång.
+                  </li>
+                  <li>
+                    <b>Innovation:</b> Vi testar nytt och hittar alltid bättre
+                    sätt att göra saker.
+                  </li>
+                  <br />
+                  Med Dealbooster vid din sida blir det roligare och enklare att
+                  nå era drömmar. Så vad väntar du på? Hör av dig så hjälper vi
+                  din förening att ta ett kliv framåt – tillsammans gör vi
+                  skillnad!
+                </div>
               </div>
             </ul>
           </div>

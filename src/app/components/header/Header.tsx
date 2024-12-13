@@ -103,9 +103,12 @@ export default function Header() {
           )}
         </div>
 
-        <button className={`${styles.contactButton} ${oswald.className}`}>
+        <Link
+          href="/kontaktaoss"
+          className={`${styles.contactButton} ${oswald.className}`}
+        >
           Kontakta Oss
-        </button>
+        </Link>
       </header>
 
       {isModalOpen && (
