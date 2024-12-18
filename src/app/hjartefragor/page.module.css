@@ -3,6 +3,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .mainHjartefragor {
@@ -21,11 +22,41 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #d4f4f8;
-  font-size: 3rem;
 }
 
 .hjartefragorTitle h1 {
   color: #d4f4f8;
   font-size: 3rem;
+  margin-top: 70%;
+}
+
+.hjartefragorContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  color: #d4f4f8;
+  background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
+  padding: 2rem;
+  border: 1px solid #d4f4f8;
+  border-radius: 16px;
+  margin: auto;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 15px #000000d2;
+  margin-top: 100px;
+}
+
+.hjartefragorContentHeading {
+  font-size: 1.1rem;
+  color: #d4f4f8;
+  margin-bottom: 0.5rem;
+}
+
+.hjartefragorContentText {
+  color: #d4f4f8;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 80%;
 }

@@ -15,6 +15,48 @@ export default function Hjartefragor() {
         <div className={`${styles.hjartefragorTitle} ${oswald.className}`}>
           <h1>Hjärtefrågor</h1>
         </div>
+        <div className={styles.hjartefragorContent}>
+          <h2
+            className={`${styles.hjartefragorContentHeading} ${oswald.className}`}
+          >
+            Lönsamma vardagsrabatter
+          </h2>
+          <p
+            className={`${styles.hjartefragorContentText} ${barlowCondensed.className}`}
+          >
+            Ett enkelt och lönsamt sätt för dig och din förening att tjäna
+            pengar till laget eller föreningen. Vi på Dealbooster arbetar med
+            att stärka ekonomin inom idrottsföreningar med stor barn- och
+            ungdomsverksamhet över hela landet med hjälp av våra förmånshäften.
+          </p>
+          <h2
+            className={`${styles.hjartefragorContentHeading} ${oswald.className}`}
+          >
+            Stor och långsiktig sponsor
+          </h2>
+          <p
+            className={`${styles.hjartefragorContentText} ${barlowCondensed.className}`}
+          >
+            Söker ni en större sponsor till er klubb eller förening? Då är du/ni
+            varmt välkommen att kontakta oss via mail eller telefon, så gör vi
+            allt vi kan för att återkomma till dig/er så fort som möjligt.
+          </p>
+          <h2
+            className={`${styles.hjartefragorContentHeading} ${oswald.className}`}
+          >
+            Gynna den lokala handeln
+          </h2>
+          <p
+            className={`${styles.hjartefragorContentText} ${barlowCondensed.className}`}
+          >
+            Våra häften består av lönsamma lokala rabatter på vardagsköpen med
+            erbjudanden som omfattar varor och tjänster som passar alla. – Allt
+            från den lokala restaurangen, till rikstäckande kedjor inom
+            heminredning och mat. Alla städer byggs också med hjälp av den
+            lokala föreningens sedan tidigare upparbetade sponsorer och
+            partners.
+          </p>
+        </div>
       </main>
     </div>
   );

@@ -74,7 +74,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   text-transform: uppercase;
   line-height: 1;
@@ -103,7 +103,7 @@
 
 .kalkylatorButton {
   position: absolute;
-  left: 7%;
+  left: 8%;
   width: 150px;
   height: 50px;
   background: linear-gradient(20deg, #262929d2 50%, #d4f4f8e3);
@@ -140,4 +140,8 @@
 
 .contactButton:hover {
   transform: scale(1.05);
+}
+
+.scrolledButton {
+  box-shadow: 0 0 15px #000000d2;
 }

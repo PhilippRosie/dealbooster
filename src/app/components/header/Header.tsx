@@ -56,13 +56,18 @@ export default function Header() {
           <Image
             src={isHomePage ? dealboosterLogoSmall : dealboosterLogo}
             alt="Dealbooster Logo"
-            width={isHomePage ? 50 : 250}
+            width={isHomePage ? 70 : 250}
           />
         </Link>
 
         {isHomePage && (
           <>
-            <button onClick={toggleModal} className={styles.kalkylatorButton}>
+            <button
+              onClick={toggleModal}
+              className={`${styles.kalkylatorButton} ${
+                isScrolled ? styles.scrolledButton : ""
+              }`}
+            >
               Öppna Kalkylator
             </button>
           </>
@@ -105,7 +110,9 @@ export default function Header() {
 
         <Link
           href="/kontaktaoss"
-          className={`${styles.contactButton} ${oswald.className}`}
+          className={`${styles.contactButton} ${oswald.className} ${
+            isScrolled ? styles.scrolledButton : ""
+          }`}
         >
           Kontakta Oss
         </Link>
