@@ -47,7 +47,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 400px;
+  height: 420px;
   color: #d4f4f8e3;
   background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
   border-radius: 20px 20px 0 0;
@@ -77,5 +77,6 @@
 
 .partnerImage {
   border-radius: 8px;
-  margin: 20px;
+  margin: 10px;
+  box-shadow: 0 0 15px #000000d2;
 }
