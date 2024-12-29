@@ -20,10 +20,9 @@
 .sajobbarviTextTitle {
   font-size: 2rem;
   color: #d4f4f8;
-  display: flex;
   margin-bottom: 2rem;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .sajobbarviContent1 {
@@ -31,6 +30,7 @@
   flex-direction: row;
   align-items: center;
   width: 80%;
+  max-width: 1200px;
   background: linear-gradient(20deg, #262929d2 50%, #d4f4f8e3);
   padding: 2rem;
   border: 1px solid #d4f4f8;
@@ -46,25 +46,10 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  width: 100%;
 }
 
-.sajobbarviContentText1 {
-  font-size: 1rem;
-  color: #d4f4f8;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.sajobbarviContentImage1 {
-  width: 20%;
-  object-fit: cover;
-  border-radius: 8px;
-  border: 1px solid #d4f4f8;
-  box-shadow: 0 0 15px #000000d2;
-}
-
+.sajobbarviContentText1,
 .sajobbarviContentText2 {
   font-size: 1rem;
   color: #d4f4f8;
@@ -72,4 +57,13 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 100%;
+}
+
+.sajobbarviContentImage1 {
+  width: 20%;
+  max-width: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #000000d2;
 }

@@ -22,11 +22,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .hjartefragorTitle h1 {
   color: #d4f4f8;
   font-size: 3rem;
+  text-align: center;
 }
 
 .hjartefragorContent {
@@ -35,6 +37,7 @@
   justify-content: center;
   align-items: center;
   width: 80%;
+  max-width: 1200px;
   color: #d4f4f8;
   background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
   padding: 2rem;
@@ -50,6 +53,7 @@
   font-size: 1.1rem;
   color: #d4f4f8;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .hjartefragorContentText {
@@ -58,4 +62,5 @@
   margin-bottom: 1.5rem;
   text-align: center;
   width: 80%;
+  max-width: 800px;
 }
