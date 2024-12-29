@@ -5,6 +5,9 @@ import Kim from "../assets/images/kontaktaoss/Kim.jpg";
 import Anna from "../assets/images/kontaktaoss/Anna.jpg";
 import { barlowCondensed, oswald } from "../layout";
 
+import PhoneIcon from "../assets/images/kontaktaoss/telephone.svg";
+import EmailIcon from "../assets/images/kontaktaoss/envelope.svg";
+
 export default function Kontaktaoss() {
   return (
     <div className={styles.kontaktaossPage}>
@@ -37,9 +40,15 @@ export default function Kontaktaoss() {
               <p
                 className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
               >
-                jonas@vemarvi.se
+                <a href="mailto:jonas@dealbooster.nu">
+                  jonas@dealbooster.nu <EmailIcon className={styles.icon} />
+                </a>
               </p>
-              <p className={styles.kontaktBoxPhone}>+46 70 707 07 07</p>
+              <p className={styles.kontaktBoxPhone}>
+                <a href="tel:+46706170878">
+                  +46 70 617 08 78 <PhoneIcon className={styles.icon} />
+                </a>
+              </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
               <img
@@ -60,9 +69,15 @@ export default function Kontaktaoss() {
               <p
                 className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
               >
-                kim@vemarvi.se
+                <a href="mailto:kim@dealbooster.nu">
+                  kim@dealbooster.nu <EmailIcon className={styles.icon} />
+                </a>
               </p>
-              <p className={styles.kontaktBoxPhone}>+46 70 707 07 07</p>
+              <p className={styles.kontaktBoxPhone}>
+                <a href="tel:+46721500909">
+                  +46 72 150 09 09 <PhoneIcon className={styles.icon} />
+                </a>
+              </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
               <img className={styles.kontaktBoxImage} src={Kim.src} alt="Kim" />
@@ -75,13 +90,19 @@ export default function Kontaktaoss() {
               >
                 Partner och produktansvarig
               </p>
-              <h2 className={styles.kontaktBoxName}>Anna Elfner</h2>
+              <h2 className={styles.kontaktBoxName}>Anna-Karin Elfner</h2>
               <p
                 className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
               >
-                anna@vemarvi.se
+                <a href="mailto:anna@dealbooster.nu">
+                  anna@dealbooster.nu <EmailIcon className={styles.icon} />
+                </a>
               </p>
-              <p className={styles.kontaktBoxPhone}>+46 70 707 07 07</p>
+              <p className={styles.kontaktBoxPhone}>
+                <a href="tel:+46738110903">
+                  +46 73 811 09 03 <PhoneIcon className={styles.icon} />
+                </a>
+              </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
               <img

@@ -14,50 +14,48 @@ export default function Vemarvi() {
           backgroundImage: `url(${pagesBG.src})`,
         }}
       >
-        <div className={`${styles.vemarviTitle} ${oswald.className}`}>
-          <h1></h1>
-          <div className={styles.vemarviText}>
-            <h2 className={styles.vemarviTextTitle}>
-              Redo att förändra spelet? <br /> Vi är här för dig!
-            </h2>
-
-            <ul>
-              <div
-                className={`${styles.vemarviTextContent1} ${barlowCondensed.className}`}
-              >
-                <div className={styles.vemarviTextContent1Text}>
-                  <b>Vem är vi?</b>
-                  <br /> Tänk dig en vän som alltid har din rygg – det är vi på
-                  Dealbooster. <br />
-                  Vi hjälper idrottsföreningar att tjäna pengar på ett sätt som
-                  är både enkelt och roligt. Genom våra förmånshäften fyller vi
-                  plånböcker, stöttar lokala företag och gör livet lite bättre
-                  för alla inblandade. Vår vision? Att hjälpa din förening att
-                  blomstra samtidigt som vi bygger starkare lokalsamhällen.
-                  <br />
-                  <br /> <b>Vårt uppdrag</b>
-                  <br /> Vi är inte bara en lösning – vi är en partner.
-                  <br /> Genom att koppla ihop föreningar med lokala företag
-                  skapar vi en kedja av positiv energi. Varje sålt häfte är ett
-                  steg närmare era mål – vare sig det handlar om nya
-                  matchdräkter, en turné eller bättre träningsförhållanden. Vi
-                  stöttar dig varje steg på vägen.
-                  <br />
-                </div>
-                <img
-                  className={styles.vemarviTextContent1Img}
-                  src={basketcase.src}
-                  alt="Basketcase"
-                />
-              </div>
-              <div
-                className={`${styles.vemarviTextContent2} ${barlowCondensed.className}`}
-              >
-                <img
-                  className={styles.vemarviTextContent2Img}
-                  src={iceHockey.src}
-                  alt="Ice Hockey"
-                />
+        <h2 className={`${styles.vemarviTextTitle} ${oswald.className}`}>
+          Redo att förändra spelet? <br /> Vi är här för dig!
+        </h2>
+        <div className={styles.vemarviContent1}>
+          <div
+            className={`${styles.vemarviTextContent1} ${barlowCondensed.className}`}
+          >
+            <div className={styles.vemarviTextContent1Text}>
+              <b>Vem är vi?</b>
+              <br /> Tänk dig en vän som alltid har din rygg – det är vi på
+              Dealbooster. <br />
+              Vi hjälper idrottsföreningar att tjäna pengar på ett sätt som är
+              både enkelt och roligt. Genom våra förmånshäften fyller vi
+              plånböcker, stöttar lokala företag och gör livet lite bättre för
+              alla inblandade. Vår vision? Att hjälpa din förening att blomstra
+              samtidigt som vi bygger starkare lokalsamhällen.
+              <br />
+              <br /> <b>Vårt uppdrag</b>
+              <br /> Vi är inte bara en lösning – vi är en partner.
+              <br /> Genom att koppla ihop föreningar med lokala företag skapar
+              vi en kedja av positiv energi. Varje sålt häfte är ett steg
+              närmare era mål – vare sig det handlar om nya matchdräkter, en
+              turné eller bättre träningsförhållanden. Vi stöttar dig varje steg
+              på vägen.
+              <br />
+            </div>
+            <img
+              className={styles.vemarviTextContent1Img}
+              src={basketcase.src}
+              alt="Basketcase"
+            />
+          </div>
+          <div className={styles.vemarviContent2}>
+            <div
+              className={`${styles.vemarviTextContent2} ${barlowCondensed.className}`}
+            >
+              <img
+                className={styles.vemarviTextContent2Img}
+                src={iceHockey.src}
+                alt="Ice Hockey"
+              />
+              <ul>
                 <div className={styles.vemarviTextContent2Text}>
                   <b>Vad gör oss unika?</b>
                   <li>
@@ -91,10 +89,9 @@ export default function Vemarvi() {
                   din förening att ta ett kliv framåt – tillsammans gör vi
                   skillnad!
                 </div>
-              </div>
-            </ul>
+              </ul>
+            </div>
           </div>
-          <div></div>
         </div>
       </main>
     </div>

@@ -27,7 +27,6 @@
 .hjartefragorTitle h1 {
   color: #d4f4f8;
   font-size: 3rem;
-  margin-top: 70%;
 }
 
 .hjartefragorContent {
@@ -44,7 +43,7 @@
   margin: auto;
   margin-bottom: 3rem;
   box-shadow: 0 0 15px #000000d2;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .hjartefragorContentHeading {
