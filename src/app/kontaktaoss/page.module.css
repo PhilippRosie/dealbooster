@@ -26,10 +26,12 @@
   justify-content: center;
   color: #d4f4f8;
   margin-top: 15%;
+  text-align: center;
 }
 
 .kontaktaossHeading {
   font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .kontaktaossSubheading {
@@ -42,7 +44,6 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100%;
   margin-top: 30px;
   margin-bottom: 20px;
 }
@@ -53,29 +54,16 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  height: 100%;
 }
 
-.kontaktBoxName {
-  font-size: 2rem;
-  color: #d4f4f8;
-  margin-bottom: 0.5rem;
-  text-align: right;
-  width: 50%;
-}
-
-.kontaktBoxEmail {
-  font-size: 1.1rem;
-  color: #d4f4f8;
-  text-align: right;
-  width: 50%;
-}
-
+.kontaktBoxName,
+.kontaktBoxEmail,
 .kontaktBoxPhone {
   font-size: 1.1rem;
   color: #d4f4f8;
   text-align: right;
   width: 50%;
+  margin-bottom: 0.5rem;
 }
 
 .kontaktBoxEmail a,
@@ -83,12 +71,11 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  transition: 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .kontaktBoxEmail a:hover,
 .kontaktBoxPhone a:hover {
-  transition: 0.3s ease-in-out;
   color: #fd02f1;
 }
 
@@ -100,13 +87,12 @@
   align-items: flex-end;
   justify-content: space-between;
   width: 50%;
-  height: 100%;
-  margin-bottom: 20px;
   border: 1px solid #d4f4f8;
   border-radius: 8px;
   padding: 20px;
   background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
   box-shadow: 0 0 15px #000000d2;
+  margin-bottom: 20px;
 }
 
 .kontaktBoxImageContainer {
@@ -121,6 +107,7 @@
   border-radius: 8px;
   box-shadow: 0 0 15px #000000d2;
 }
+
 .icon {
   margin-left: 8px;
   width: 45px;

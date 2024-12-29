@@ -20,10 +20,9 @@
 .vemarviTextTitle {
   font-size: 2rem;
   color: #d4f4f8;
-  display: flex;
   margin-bottom: 2rem;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 220px;
 }
 
 .vemarviContent1 {
@@ -32,6 +31,7 @@
   justify-content: center;
   align-items: center;
   width: 80%;
+  max-width: 1200px;
 }
 
 .vemarviContent2 {
@@ -40,9 +40,11 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
+  max-width: 1200px;
 }
 
-.vemarviTextContent1 {
+.vemarviTextContent1,
+.vemarviTextContent2 {
   font-size: 1rem;
   color: #d4f4f8;
   display: flex;
@@ -59,45 +61,19 @@
   box-shadow: 0 0 15px #000000d2;
 }
 
-.vemarviTextContent1Text {
-  display: flex;
-  flex-direction: column;
-}
-
-.vemarviTextContent1Img {
-  width: 40%;
-  object-fit: cover;
-  border-radius: 8px;
-  border: 1px solid #d4f4f8;
-  box-shadow: 0 0 15px #000000d2;
-}
-
-.vemarviTextContent2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background: linear-gradient(20deg, #262929d2 50%, #d4f4f8e3);
-  padding: 2rem;
-  border: 1px solid #d4f4f8;
-  border-radius: 16px;
-  margin-bottom: 3rem;
-  gap: 3rem;
-  box-shadow: 0 0 15px #000000d2;
-}
-
-.vemarviTextContent2Img {
-  width: 40%;
-  object-fit: cover;
-  border-radius: 8px;
-  border: 1px solid #d4f4f8;
-  box-shadow: 0 0 15px #000000d2;
-}
-
+.vemarviTextContent1Text,
 .vemarviTextContent2Text {
   display: flex;
   flex-direction: column;
   width: 100%;
   color: #d4f4f8;
+}
+
+.vemarviTextContent1Img,
+.vemarviTextContent2Img {
+  width: 40%;
+  max-width: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #000000d2;
 }
