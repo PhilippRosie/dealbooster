@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: center;
   color: #d4f4f8;
-  margin-top: 150px;
+  margin-top: 15%;
 }
 
 .kontaktaossHeading {
@@ -43,7 +43,7 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
@@ -78,6 +78,20 @@
   width: 50%;
 }
 
+.kontaktBoxEmail a,
+.kontaktBoxPhone a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: 0.3s ease-in-out;
+}
+
+.kontaktBoxEmail a:hover,
+.kontaktBoxPhone a:hover {
+  transition: 0.3s ease-in-out;
+  color: #fd02f1;
+}
+
 .kontaktBox {
   font-size: 1.1rem;
   color: #d4f4f8;
@@ -106,4 +120,18 @@
   height: 200px;
   border-radius: 8px;
   box-shadow: 0 0 15px #000000d2;
+}
+.icon {
+  margin-left: 8px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transition: fill 0.3s;
+  fill: #000; /* Standardfärg */
+  stroke: #000;
+}
+
+.icon:hover {
+  fill: #fd02f1; /* Ändra färg vid hover */
+  stroke: #fd02f1;
 }

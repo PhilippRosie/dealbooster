@@ -1,14 +1,15 @@
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
+import { Configuration } from "webpack";
 
-const config: NextConfig = {
-  reactStrictMode: true,
-  experimental: {
-    turbo: {
-      rules: {
-        // Lägg till regler för Turbopack här om det behövs
-      },
-    },
+const nextConfig: NextConfig = {
+  webpack(config: Configuration) {
+    config.module?.rules?.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"],
+    });
+
+    return config;
   },
 };
 
-export default config;
+export default nextConfig;
