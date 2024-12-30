@@ -22,7 +22,7 @@
   color: #d4f4f8;
   margin-bottom: 2rem;
   text-align: center;
-  margin-top: 220px;
+  margin-top: 150px;
 }
 
 .vemarviContent1 {
@@ -45,7 +45,7 @@
 
 .vemarviTextContent1,
 .vemarviTextContent2 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #d4f4f8;
   display: flex;
   flex-direction: row;
@@ -72,7 +72,7 @@
 .vemarviTextContent1Img,
 .vemarviTextContent2Img {
   width: 40%;
-  max-width: 300px;
+  max-width: 400px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 0 15px #000000d2;

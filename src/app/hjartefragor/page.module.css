@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 150px;
 }
 
 .hjartefragorTitle h1 {
@@ -50,7 +50,7 @@
 }
 
 .hjartefragorContentHeading {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #d4f4f8;
   margin-bottom: 0.5rem;
   text-align: center;
@@ -58,7 +58,7 @@
 
 .hjartefragorContentText {
   color: #d4f4f8;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 1.5rem;
   text-align: center;
   width: 80%;
