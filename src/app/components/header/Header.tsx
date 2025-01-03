@@ -1,6 +1,7 @@
 "use client";
+
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import styles from "./Header.module.css";
 import { barlowCondensed, oswald } from "../../layout";
 import Image from "next/image";
@@ -16,10 +17,15 @@ export default function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [isScrolled, setIsScrolled] = useState(false);
-  let scrollTimeout: NodeJS.Timeout;
+  const [isOpen, setIsOpen] = useState(false);
+  const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
+  };
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
 
   useEffect(() => {
@@ -32,16 +38,20 @@ export default function Header() {
         setIsVisible(true);
       }
 
-      clearTimeout(scrollTimeout);
-      scrollTimeout = setTimeout(() => {
+      if (scrollTimeout.current) {
+        clearTimeout(scrollTimeout.current);
+      }
+      scrollTimeout.current = setTimeout(() => {
         setIsVisible(true);
-      }, 200); // Tiden i millisekunder innan headern dyker upp igen
+      }, 200);
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      clearTimeout(scrollTimeout);
+      if (scrollTimeout.current) {
+        clearTimeout(scrollTimeout.current);
+      }
     };
   }, []);
 
@@ -107,6 +117,40 @@ export default function Header() {
             </nav>
           )}
         </div>
+
+        <button onClick={toggleMenu} className={styles.burgerButton}>
+          ☰
+        </button>
+
+        {isOpen && (
+          <nav className={styles.menu}>
+            <button onClick={toggleMenu} className={styles.closeButton}>
+              ✖
+            </button>
+            <ul>
+              <li>
+                <Link href="/partner" className={oswald.className}>
+                  Partners
+                </Link>
+              </li>
+              <li>
+                <Link href="/hjartefragor" className={oswald.className}>
+                  Hjärtefrågor
+                </Link>
+              </li>
+              <li>
+                <Link href="/sajobbarvi" className={oswald.className}>
+                  Så Jobbar Vi
+                </Link>
+              </li>
+              <li>
+                <Link href="/vemarvi" className={oswald.className}>
+                  Vem är vi?
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        )}
 
         <Link
           href="/kontaktaoss"

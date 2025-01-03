@@ -64,3 +64,21 @@
   width: 80%;
   max-width: 800px;
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .hjartefragorContentHeading {
+    font-size: 1.6rem;
+  }
+  .hjartefragorContentText {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2048px) and (orientation: portrait) {
+  .hjartefragorContentHeading {
+    font-size: 1.6rem;
+  }
+  .hjartefragorContentText {
+    font-size: 1.3rem;
+  }
+}
