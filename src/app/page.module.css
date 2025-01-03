@@ -80,3 +80,90 @@
   margin: 10px;
   box-shadow: 0 0 15px #000000d2;
 }
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .gridItem {
+    height: 450px; /* Öka höjden med 20px */
+  }
+  .gridItem p {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2048px) and (orientation: portrait) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Två kolumner */
+    grid-template-rows: repeat(2, auto); /* Två rader */
+    gap: 25px;
+    justify-items: center;
+    align-items: center;
+  }
+  .gridContainer .gridItem:nth-child(1),
+  .gridContainer .gridItem:nth-child(2) {
+    border: 1px solid #d4f4f8; /* Lägg till en ram runt de två översta */
+    border-radius: 20px;
+  }
+  .gridItem p {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Två kolumner */
+    grid-template-rows: repeat(2, auto); /* Två rader */
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .gridItem {
+    position: relative;
+    width: 100%;
+    height: 180px; /* Öka höjden med 20px */
+    border: 1px solid #d4f4f8; /* Lägg till en ram runt de två översta */
+    border-radius: 20px;
+  }
+
+  .gridItem h2 {
+    top: 40%;
+    font-size: 20px;
+    z-index: 1;
+  }
+
+  .gridItem h3 {
+    font-size: 16px;
+    text-align: center;
+    z-index: 1;
+    margin-top: 10px;
+  }
+
+  .gridItem p {
+    display: none;
+  }
+
+  .partnerImage {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0;
+    top: 5%;
+    left: 5%;
+    z-index: 0;
+    width: 90%;
+    height: 90%;
+  }
+ 
+}

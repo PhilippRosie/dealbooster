@@ -3,7 +3,7 @@ import Link from "next/link";
 import dealboosterBG from "../app/assets/images/landningssida/dealbosterBG.png";
 import partnerBild from "../app/assets/images/landningssida/partnerBild.jpg";
 import hjartefragorBild from "../app/assets/images/landningssida/hjartefragorBild.jpg";
-import { barlowCondensed, oswald } from "../app/layout";
+import { oswald, barlowCondensed } from "../app/layout";
 
 import Image from "next/image";
 

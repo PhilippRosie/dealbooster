@@ -37,8 +37,8 @@
 .vemarviContent2 {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 1200px;
 }
@@ -76,4 +76,34 @@
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 0 15px #000000d2;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .vemarviTextContent1Text,
+  .vemarviTextContent2Text {
+    font-size: 1.3rem;
+  }
+  .vemarviTextContent1Img,
+  .vemarviTextContent2Img {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2048px) and (orientation: portrait) {
+  .vemarviTextContent1,
+  .vemarviTextContent2 {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .vemarviTextContent1Img,
+  .vemarviTextContent2Img {
+    order: -1;
+  }
+
+  .vemarviTextContent1Text,
+  .vemarviTextContent2Text {
+    font-size: 1.3rem;
+  }
 }

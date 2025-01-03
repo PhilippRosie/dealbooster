@@ -122,3 +122,23 @@
   fill: #fd02f1; /* Ändra färg vid hover */
   stroke: #fd02f1;
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .kontaktBox {
+    width: 60%;
+  }
+
+  .kontaktBoxEmail a:hover,
+  .kontaktBoxPhone a:hover,
+  .kontaktBoxEmail a:active,
+  .kontaktBoxPhone a:active {
+    color: #fd02f1; /* Rosa textfärg */
+    text-shadow: 1px 1px 2px #ffffff; /* Vit textskugga */
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2048px) and (orientation: portrait) {
+  .kontaktBox {
+    width: 80%;
+  }
+}

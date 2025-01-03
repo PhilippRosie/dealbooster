@@ -69,21 +69,35 @@
   box-shadow: 0 0 15px #000000d2;
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .sajobbarviContentText1,
+  .sajobbarviContentText2 {
+    font-size: 1.3rem;
+  }
+  .sajobbarviContentImage1 {
+    width: 30%;
+  }
+}
+
 /* Media Queries for Responsiveness */
-@media (max-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 2048px) and (orientation: portrait) {
   /* För surfplattor */
   .sajobbarviTextTitle {
     font-size: 1.8rem;
   }
 
   .sajobbarviContent1 {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 90%;
   }
 
   .sajobbarviContentImage1 {
     width: 40%;
+  }
+  .sajobbarviContentText1,
+  .sajobbarviContentText2 {
+    font-size: 1.3rem;
   }
 }
 
