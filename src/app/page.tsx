@@ -10,15 +10,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className={styles.landingPage}>
-      <main
-        className={styles.main}
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${dealboosterBG.src})`,
-          backgroundSize: "cover",
-          width: "100%",
-          height: "100%",
-        }}
-      >
+      <main className={styles.main}>
         <div className={styles.content}>
           <div className={styles.gridContainer}>
             <Link
