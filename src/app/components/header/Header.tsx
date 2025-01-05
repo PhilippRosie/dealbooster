@@ -122,35 +122,33 @@ export default function Header() {
           ☰
         </button>
 
-        {isOpen && (
-          <nav className={styles.menu}>
-            <button onClick={toggleMenu} className={styles.closeButton}>
-              ✖
-            </button>
-            <ul>
-              <li>
-                <Link href="/partner" className={oswald.className}>
-                  Partners
-                </Link>
-              </li>
-              <li>
-                <Link href="/hjartefragor" className={oswald.className}>
-                  Hjärtefrågor
-                </Link>
-              </li>
-              <li>
-                <Link href="/sajobbarvi" className={oswald.className}>
-                  Så Jobbar Vi
-                </Link>
-              </li>
-              <li>
-                <Link href="/vemarvi" className={oswald.className}>
-                  Vem är vi?
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        )}
+        <nav className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
+          <button onClick={toggleMenu} className={styles.closeButton}>
+            ✖
+          </button>
+          <ul>
+            <li>
+              <Link href="/partner" className={oswald.className}>
+                Partners
+              </Link>
+            </li>
+            <li>
+              <Link href="/hjartefragor" className={oswald.className}>
+                Hjärtefrågor
+              </Link>
+            </li>
+            <li>
+              <Link href="/sajobbarvi" className={oswald.className}>
+                Så Jobbar Vi
+              </Link>
+            </li>
+            <li>
+              <Link href="/vemarvi" className={oswald.className}>
+                Vem är vi?
+              </Link>
+            </li>
+          </ul>
+        </nav>
 
         <Link
           href="/kontaktaoss"
