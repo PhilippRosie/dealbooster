@@ -190,7 +190,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Två kolumner */
     grid-template-rows: repeat(2, auto); /* Två rader */
-    gap: 10px;
+    gap: 15px;
     justify-items: center;
     align-items: center;
     margin-bottom: 100px;
@@ -198,8 +198,8 @@
 
   .gridItem {
     position: relative;
-    width: 150px;
-    height: 150px; /* Öka höjden med 20px */
+    width: 135px;
+    height: 135px; /* Öka höjden med 20px */
     border: 1px solid #d4f4f8; /* Lägg till en ram runt de två översta */
     border-radius: 20px;
     z-index: 0;
