@@ -1,11 +1,11 @@
 .contactButtonContainer {
   position: fixed;
   bottom: 0;
-  display: flex;
+  display: none;
   justify-content: center; /* Centrerar knapparna horisontellt */
   align-items: flex-end; /* Centrerar knapparna vertikalt */
   gap: 10px; /* Avstånd mellan knapparna */
-  height: 100vh; /* Se till att containern täcker hela höjden av viewporten */
+  height: 5vh; /* Se till att containern täcker hela höjden av viewporten */
   width: 100%; /* Se till att containern täcker hela bredden */
 }
 
@@ -39,12 +39,19 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .contactButtonContainer {
+    display: flex;
+    margin-bottom: 50px;
+  }
   .contactButton, .calculatorButton {
     bottom: 10%;
   }
 }
 
 @media only screen and (max-width: 425px) {
+  .contactButtonContainer {
+    margin-bottom: 40px;
+  }
   .contactButton, .calculatorButton {
     bottom: 3%;
   }
