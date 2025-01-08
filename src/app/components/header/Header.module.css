@@ -232,21 +232,8 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .burgerButton {
-    display: block;
-    position: absolute;
-    right: 10%;
-    top: 15%;
-    font-size: 45px;
-  }
+ 
 
-  .navLinks {
-    display: none;
-  }
-
-  .logo {
-    display: none;
-  }
 
   .tagline {
     font-size: 25px;
@@ -258,7 +245,22 @@
 }
 
 @media only screen and (max-width: 768px) {
-  
+  .burgerButton {
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    font-size: 45px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
   .taglineDivider {
     font-size: 20px;
     font-weight: 400;
