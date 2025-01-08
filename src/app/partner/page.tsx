@@ -18,9 +18,7 @@ export default function Partner() {
         <div className={styles.partnerForeningar}>
           <div className={styles.partnerForeningarContent}>
             <div className={styles.gridSection}>
-              <h2
-                className={`${styles.sectionTitle} ${barlowCondensed.className}`}
-              >
+              <h2 className={`${styles.sectionTitle} ${oswald.className}`}>
                 Föreningar
               </h2>
               <div className={styles.partnerForeningarGrid}>
@@ -44,36 +42,6 @@ export default function Partner() {
                 <div className={styles.foreningBox}></div>
                 <div className={styles.foreningBox}></div>
                 <div className={styles.foreningBox}></div>
-              </div>
-            </div>
-
-            <div className={styles.gridSection}>
-              <h2
-                className={`${styles.sectionTitle} ${barlowCondensed.className}`}
-              >
-                Samarbetspartners
-              </h2>
-              <div className={styles.partnerSamarbetsGrid}>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
-                <div className={styles.samarbetsBox}></div>
               </div>
             </div>
           </div>
