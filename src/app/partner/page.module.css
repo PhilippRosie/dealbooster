@@ -29,15 +29,6 @@
   padding-top: 30%;
 }
 
-.partnerContent {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-  padding: 1rem;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .partnerForeningar {
   display: flex;
   justify-content: center;
@@ -67,45 +58,20 @@
   text-align: center;
   font-size: 2rem;
   color: #d4f4f8;
-  font-weight: 400;
+  font-weight: 600;
 }
 
-.partner-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-.gridSection h2 {
-  margin: 0;
-  padding: 1rem 0;
-  color: #b5e2e3;
-}
-
-.foreningSection,
-.samarbetsSection {
-  flex: 1;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.partnerForeningarGrid,
-.partnerSamarbetsGrid {
+.partnerForeningarGrid {
   display: grid;
-  grid-template-columns: repeat(5, 80px);
-  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
   margin-top: 1rem;
   justify-content: center;
 }
 
-.foreningBox,
-.samarbetsBox {
-  width: 80px;
-  height: 80px;
+.foreningBox {
+  width: 100px;
+  height: 100px;
   background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
   border: 1px solid #d4f4f88f;
   border-radius: 4px;
@@ -113,25 +79,49 @@
   transition: transform 0.3s ease;
 }
 
-.foreningBox:hover,
-.samarbetsBox:hover {
+.foreningBox:hover {
   transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
   .partnerForeningarContent {
     flex-direction: column;
+    
   }
 
-  .partnerForeningarGrid,
-  .partnerSamarbetsGrid {
-    grid-template-columns: repeat(3, 80px);
+  .foreningBox {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
+    border: 1px solid #d4f4f88f;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.526);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+
+  .partnerForeningarGrid {
+    grid-template-columns: repeat(4, 1fr); /* Tre kolumner på mobila enheter */
+    gap: 1rem; /* Minska gapet för att få plats med tre kolumner */
   }
 }
 
-@media (max-width: 480px) {
-  .partnerForeningarGrid,
-  .partnerSamarbetsGrid {
-    grid-template-columns: repeat(2, 80px);
+@media (max-width: 425px) {
+  .partnerForeningarGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.4rem;
+  }
+  .gridSection {
+    gap: 0.5rem;
+
+  }
+  .partnerForeningarContent {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
   }
 }

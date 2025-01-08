@@ -107,3 +107,35 @@
     font-size: 1.3rem;
   }
 }
+
+@media (max-width: 768px) {
+  .vemarviTextTitle {
+    font-size: 1.5rem;
+    margin-top: 135px;
+  }
+  .vemarviTextContent1,
+  .vemarviTextContent2 {
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .vemarviTextContent1Text,
+  .vemarviTextContent2Text {
+    font-size: 1.3rem;
+    order: 1;
+  }
+  .vemarviTextContent1Img,
+  .vemarviTextContent2Img {
+    width: 100%;
+  }
+  .vemarviTextContent1Text h3, .vemarviTextContent2Text h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .vemarviTextTitle {
+    margin-top: 125px;
+  }
+}

@@ -28,6 +28,10 @@ export default function Header() {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -128,22 +132,22 @@ export default function Header() {
           </button>
           <ul>
             <li>
-              <Link href="/partner" className={oswald.className}>
+              <Link href="/partner" className={oswald.className} onClick={closeMenu}>
                 Partners
               </Link>
             </li>
             <li>
-              <Link href="/hjartefragor" className={oswald.className}>
+              <Link href="/hjartefragor" className={oswald.className} onClick={closeMenu}>
                 Hjärtefrågor
               </Link>
             </li>
             <li>
-              <Link href="/sajobbarvi" className={oswald.className}>
+              <Link href="/sajobbarvi" className={oswald.className} onClick={closeMenu}>
                 Så Jobbar Vi
               </Link>
             </li>
             <li>
-              <Link href="/vemarvi" className={oswald.className}>
+              <Link href="/vemarvi" className={oswald.className} onClick={closeMenu}>
                 Vem är vi?
               </Link>
             </li>

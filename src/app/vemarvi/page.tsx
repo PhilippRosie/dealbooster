@@ -22,8 +22,8 @@ export default function Vemarvi() {
             className={`${styles.vemarviTextContent1} ${barlowCondensed.className}`}
           >
             <div className={styles.vemarviTextContent1Text}>
-              <b>Vem är vi?</b>
-              <br /> Tänk dig en vän som alltid har din rygg – det är vi på
+              <h3>Vem är vi?</h3>
+               Tänk dig en vän som alltid har din rygg – det är vi på
               Dealbooster. <br />
               Vi hjälper idrottsföreningar att tjäna pengar på ett sätt som är
               både enkelt och roligt. Genom våra förmånshäften fyller vi
@@ -31,8 +31,8 @@ export default function Vemarvi() {
               alla inblandade. Vår vision? Att hjälpa din förening att blomstra
               samtidigt som vi bygger starkare lokalsamhällen.
               <br />
-              <br /> <b>Vårt uppdrag</b>
-              <br /> Vi är inte bara en lösning – vi är en partner.
+              <br /> <h3>Vårt uppdrag</h3>
+               Vi är inte bara en lösning – vi är en partner.
               <br /> Genom att koppla ihop föreningar med lokala företag skapar
               vi en kedja av positiv energi. Varje sålt häfte är ett steg
               närmare era mål – vare sig det handlar om nya matchdräkter, en
@@ -57,7 +57,7 @@ export default function Vemarvi() {
               />
               <ul>
                 <div className={styles.vemarviTextContent2Text}>
-                  <b>Vad gör oss unika?</b>
+                  <h3>Vad gör oss unika?</h3>
                   <li>
                     <b>Föreningsfokus:</b> Vi fattar hur viktig din förening är.
                     Därför skräddarsyr vi lösningar som funkar för just er.

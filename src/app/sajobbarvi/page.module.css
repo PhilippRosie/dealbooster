@@ -111,6 +111,12 @@
   .sajobbarviContent1 {
     width: 90%;
     padding: 1rem;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+
+  .sajobbarviTextTitle {
+    font-size: 1.5rem;
   }
 
   .sajobbarviContentImage1 {
@@ -119,6 +125,16 @@
 
   .sajobbarviContentText1,
   .sajobbarviContentText2 {
-    font-size: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .sajobbarviTextTitle {
+    font-size: 1.5rem;
+    margin-top: 125px;
+  }
+  .sajobbarviContent1 {
+    margin-bottom: 3rem;
   }
 }
