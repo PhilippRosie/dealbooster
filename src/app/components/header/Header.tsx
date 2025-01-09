@@ -10,7 +10,7 @@ import dealboosterLogo from "../../../app/assets/images/header/dealboosterLogo.p
 import dealboosterLogoSmall from "../../../app/assets/images/header/dealboosterLogoSmall.png";
 import Modal from "../kalkylatormodal/Modal";
 import Kalkylator from "../kalkylator/Kalkylator";
-
+import logoBG from "../../../app/assets/images/header/dealboosterLogoSmall.png";
 export default function Header() {
   const pathname = usePathname();
   const isHomePage = pathname !== "/";
@@ -127,6 +127,7 @@ export default function Header() {
         </button>
 
         <nav className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
+          <Image src={logoBG} alt="Close" className={styles.logoBG} />
           <button onClick={toggleMenu} className={styles.closeButton}>
             ✖
           </button>
