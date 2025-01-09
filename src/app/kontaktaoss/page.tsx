@@ -32,7 +32,7 @@ export default function Kontaktaoss() {
           <div className={`${styles.kontaktBox} ${oswald.className}`}>
             <div className={styles.kontaktBoxTextContainer}>
               <p
-                className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
+                className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
               >
                 VD & Grundare
               </p>
@@ -61,7 +61,7 @@ export default function Kontaktaoss() {
           <div className={`${styles.kontaktBox} ${oswald.className}`}>
             <div className={styles.kontaktBoxTextContainer}>
               <p
-                className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
+                className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
               >
                 Partner och produktansvarig
               </p>
@@ -86,7 +86,7 @@ export default function Kontaktaoss() {
           <div className={`${styles.kontaktBox} ${oswald.className}`}>
             <div className={styles.kontaktBoxTextContainer}>
               <p
-                className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
+                className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
               >
                 Partner och produktansvarig
               </p>

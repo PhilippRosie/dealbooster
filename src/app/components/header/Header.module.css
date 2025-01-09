@@ -47,6 +47,17 @@
   font-size: 2.5rem;
 }
 
+.logoBG {
+  width: 700px;
+  height: 700px;
+  opacity: 0.1;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
 .burgerButton {
   font-size: 24px;
   background: none;
@@ -84,7 +95,7 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  font-size: 24px;
+  font-size: 32px;
   background: none;
   border: none;
   cursor: pointer;
@@ -92,6 +103,7 @@
   display: block;
   margin-left: auto;
   margin-bottom: 10px;
+  text-shadow: 0 0 3px #d4f4f8;
 }
 
 .menu ul {
@@ -254,7 +266,7 @@
   }
 
   .logo {
-    display: none;
+   
   }
 
   .navLinks {
@@ -272,6 +284,12 @@
 }
 
 @media only screen and (max-width: 425px) {
+  .logoBG {
+    width: 600px;
+    height: 600px;
+    top: 0;
+  }
+
   .tagline {
     font-size: 20px;
   }
