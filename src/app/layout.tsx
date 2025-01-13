@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Oswald, Barlow_Condensed } from "next/font/google";
-import styles from "./layout.module.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import ContactButton from "./components/kontakt/KontaktButton";
