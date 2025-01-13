@@ -2,7 +2,9 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import dealboosterBG from "../app/assets/images/landningssida/dealbosterBG.png";
 import partnerBild from "../app/assets/images/landningssida/partnerBild.jpg";
+import sajobbarviBild from "../app/assets/images/landningssida/såjobbarviBild.jpg";
 import hjartefragorBild from "../app/assets/images/landningssida/hjartefragorBild.jpg";
+import vemarviBild from "../app/assets/images/landningssida/vemärviBild.jpg";
 import { oswald, barlowCondensed } from "../app/layout";
 
 import Image from "next/image";
@@ -17,7 +19,7 @@ export default function Home() {
               href="/partner"
               className={`${styles.gridItem} ${oswald.className}`}
             >
-              <h2>Partners</h2>
+              <h2>Föreningar</h2>
               <div className={styles.imageContainer}>
                 <Image
                   src={partnerBild}
@@ -28,8 +30,8 @@ export default function Home() {
               </div>
               <h3>Vilka är dom?</h3>
               <p className={barlowCondensed.className}>
-                Våra fantastiska föreningar och samarbetspartners är våra
-                största styrkor! Här kan ni hitta dom.
+                Våra fantastiska föreningar är vår
+                största styrka! <br/><br/> Här kan ni hitta dom...
               </p>
             </Link>
             <Link
@@ -40,7 +42,7 @@ export default function Home() {
               <div className={styles.imageContainer}>
                 <Image
                   src={hjartefragorBild}
-                  alt="Partner"
+                  alt="Hjärtefrågor"
                   width={200}
                   className={styles.partnerImage}
                 />
@@ -59,17 +61,17 @@ export default function Home() {
               <h2>Så Jobbar Vi</h2>
               <div className={styles.imageContainer}>
                 <Image
-                  src={partnerBild}
-                  alt="Partner"
+                  src={sajobbarviBild}
+                  alt="Såjobbarvi"
                   width={200}
                   className={styles.partnerImage}
                 />
               </div>
-              <h3>Bli en vardagshjälte!</h3>
+              <h3>Sponsring som boostar</h3>
               <p className={barlowCondensed.className}>
-                Som vår samarbetspartner blir du en vardagshjälte för många på
-                det sätt du och din verksamhet bidrar med i det lokala
-                ekonomiska kretsloppet.
+              Med vårt upplägg kan er förening tjäna hundratusentals kronor 
+              och få sponsring på upp till 35 000 kr.
+               Klicka vidare för att se hur enkelt det är att komma igång!
               </p>
             </Link>
             <Link
@@ -79,17 +81,16 @@ export default function Home() {
               <h2>Vem är vi?</h2>
               <div className={styles.imageContainer}>
                 <Image
-                  src={partnerBild}
-                  alt="Partner"
+                  src={vemarviBild}
+                  alt="Vem är vi"
                   width={200}
                   className={styles.partnerImage}
                 />
               </div>
-              <h3>Bli en vardagshjälte!</h3>
+              <h3>Er förenings bästa vän!</h3>
               <p className={barlowCondensed.className}>
-                Som vår samarbetspartner blir du en vardagshjälte för många på
-                det sätt du och din verksamhet bidrar med i det lokala
-                ekonomiska kretsloppet.
+              Vi är er partner för enklare och roligare föreningsintäkter.
+               Läs mer om hur vi hjälper föreningar att nå sina drömmar!
               </p>
             </Link>
           </div>

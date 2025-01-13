@@ -1,5 +1,8 @@
 import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
+import rabatthäfteBild from "../assets/images/hjartefragor/rabatthäfteBild.jpg";
+import levereradeHäften from "../assets/images/hjartefragor/leveradeHäften.jpg";
+import Image from "next/image";
 
 import { barlowCondensed, oswald } from "../layout";
 
@@ -19,6 +22,7 @@ export default function Hjartefragor() {
           <h2
             className={`${styles.hjartefragorContentHeading} ${oswald.className}`}
           >
+           
             Lönsamma vardagsrabatter
           </h2>
           <p
@@ -29,6 +33,12 @@ export default function Hjartefragor() {
             att stärka ekonomin inom idrottsföreningar med stor barn- och
             ungdomsverksamhet över hela landet med hjälp av våra förmånshäften.
           </p>
+          <Image
+              src={rabatthäfteBild}
+              alt="Lönsamma vardagsrabatter"
+              width={400}
+              className={styles.hjartefragorImage}
+                />
           <h2
             className={`${styles.hjartefragorContentHeading} ${oswald.className}`}
           >
@@ -41,9 +51,16 @@ export default function Hjartefragor() {
             varmt välkommen att kontakta oss via mail eller telefon, så gör vi
             allt vi kan för att återkomma till dig/er så fort som möjligt.
           </p>
+          <Image
+              src={levereradeHäften}
+              alt="Lönsamma vardagsrabatter"
+              width={400}
+              className={styles.hjartefragorImage}
+                />
           <h2
             className={`${styles.hjartefragorContentHeading} ${oswald.className}`}
           >
+            
             Gynna den lokala handeln
           </h2>
           <p
