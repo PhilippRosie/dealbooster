@@ -278,6 +278,13 @@
     display: none;
   }
 
+  .logoBG {
+    width: 700px;
+    height: 700px;
+    top: 40px;
+    display: block;
+  }
+
   .logoWhite {
     display: block;
     width: 100%;
