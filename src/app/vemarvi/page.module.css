@@ -133,11 +133,17 @@
     margin-bottom: 1rem;
     text-align: center;
   }
+  .vemarviContent2 {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 425px) {
   .vemarviTextTitle {
     font-size: 1.5rem;
     margin-top: 125px;
+  }
+  .vemarviContent2 {
+    margin-bottom: 1rem;
   }
 }
