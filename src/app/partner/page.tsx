@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 
-import { barlowCondensed, oswald } from "../layout";
+import {oswald } from "../layout";
 
 export default function Partner() {
   return (

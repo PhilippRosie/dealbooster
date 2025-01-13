@@ -1,6 +1,5 @@
 import styles from "./page.module.css";
 import Link from "next/link";
-import dealboosterBG from "../app/assets/images/landningssida/dealbosterBG.png";
 import partnerBild from "../app/assets/images/landningssida/partnerBild.jpg";
 import sajobbarviBild from "../app/assets/images/landningssida/såjobbarviBild.jpg";
 import hjartefragorBild from "../app/assets/images/landningssida/hjartefragorBild.jpg";
