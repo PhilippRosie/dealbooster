@@ -21,6 +21,8 @@ export default function Sajobbarvi() {
           <Image
             src={girlPlayBasketball}
             alt="Girl playing basketball"
+            height={300}
+            
             className={styles.sajobbarviContentImage1}
           />
           <div className={styles.sajobbarviTextContainer}>
