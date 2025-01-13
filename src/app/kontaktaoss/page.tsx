@@ -4,6 +4,7 @@ import Jonas from "../assets/images/kontaktaoss/Jonas.jpg";
 import Kim from "../assets/images/kontaktaoss/Kim.jpg";
 import Anna from "../assets/images/kontaktaoss/Anna.jpg";
 import { barlowCondensed, oswald } from "../layout";
+import Image from "next/image";
 
 import PhoneIcon from "../assets/images/kontaktaoss/telephone.svg";
 import EmailIcon from "../assets/images/kontaktaoss/envelope.svg";
@@ -51,10 +52,12 @@ export default function Kontaktaoss() {
               </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
-              <img
+              <Image
                 className={styles.kontaktBoxImage}
-                src={Jonas.src}
+                src={Jonas}
                 alt="Jonas"
+                width={200}
+                height={200}
               />
             </div>
           </div>
@@ -80,7 +83,13 @@ export default function Kontaktaoss() {
               </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
-              <img className={styles.kontaktBoxImage} src={Kim.src} alt="Kim" />
+              <Image
+                className={styles.kontaktBoxImage}
+                src={Kim}
+                alt="Kim"
+                width={200}
+                height={200}
+              />
             </div>
           </div>
           <div className={`${styles.kontaktBox} ${oswald.className}`}>
@@ -105,10 +114,12 @@ export default function Kontaktaoss() {
               </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
-              <img
+              <Image
                 className={styles.kontaktBoxImage}
-                src={Anna.src}
+                src={Anna}
                 alt="Anna"
+                width={200}
+                height={200}
               />
             </div>
           </div>

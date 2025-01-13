@@ -28,6 +28,8 @@
     "@types/node": "^20",
     "@types/react": "18.3.16",
     "@types/react-dom": "^18.3.2",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0",
     "eslint": "^9.18.0",
     "eslint-config-next": "^15.1.4",
     "postcss": "^8",
@@ -39,6 +41,6 @@
     "npm": ">=9"
   },
   "resolutions": {
-  "punycode": "^3.0.0"
-}
+    "punycode": "^3.0.0"
+  }
 }
