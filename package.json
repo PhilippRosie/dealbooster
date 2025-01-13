@@ -9,30 +9,46 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/plugin-transform-class-properties": "^7.25.9",
     "@eslint/config-array": "^0.19.1",
     "@eslint/object-schema": "^2.1.5",
     "@swc/helpers": "^0.5.15",
-    "glob": "^11.0.0",
-    "inflight": "^1.0.6",
-    "next": "^15.0.3",
+    "ajv": "^8.17.1",
+    "axios": "^1.7.9",
+    "consolidate": "^1.0.4",
+    "glob": "^11.0.1",
+    "highlight.js": "^11.11.1",
+    "lru-cache": "^11.0.2",
+    "mkdirp": "^3.0.1",
+    "next": "^15.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rimraf": "^6.0.1",
-    "styled-jsx": "^5.1.6"
+    "styled-jsx": "^5.1.6",
+    "svgo": "^3.3.2",
+    "uri-js": "^4.4.1",
+    "uuid": "^11.0.5",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "18.3.16",
     "@types/react-dom": "^18.3.2",
-    "eslint": "^9.17.0",
-    "eslint-config-next": "15.0.3",
+    "@types/webpack": "^5.28.5",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "^15.1.4",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   },
   "engines": {
     "node": ">=22",
     "npm": ">=9"
+  },
+  "resolutions": {
+    "punycode": "^3.0.0"
   }
 }

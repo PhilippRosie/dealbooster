@@ -60,6 +60,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;
+  display: none;
 }
 
 .burgerButton {
@@ -71,6 +72,7 @@
   padding: 10px;
   margin-top: 15px;
   display: none;
+
 }
 
 .menu {
@@ -214,11 +216,12 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-right: 1rem;
+  text-decoration: none;
   transition: background-color 0.3s;
   font-size: 18px;
   box-shadow: 0 0px 5px #d4f4f8;
   transition: 0.5s ease-in-out;
+  z-index: 1000;
 }
 
 .contactButton:hover {
@@ -273,6 +276,13 @@
 
   .logo {
     display: none;
+  }
+
+  .logoBG {
+    width: 700px;
+    height: 700px;
+    top: 40px;
+    display: block;
   }
 
   .logoWhite {

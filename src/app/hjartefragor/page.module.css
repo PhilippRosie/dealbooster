@@ -99,6 +99,10 @@
     margin-top: -0.5rem;
   }
 
+  .hjartefragorContent {
+    margin-bottom: 5rem;
+  }
+
   .hjartefragorContentHeading {
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -114,5 +118,8 @@
   .hjartefragorTitle h1 {
     font-size: 1.5rem;
     margin-top: -1rem;
+  }
+  .hjartefragorContent {
+    margin-bottom: 4rem;
   }
 }

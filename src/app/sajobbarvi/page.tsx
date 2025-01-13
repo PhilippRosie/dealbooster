@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import { barlowCondensed, oswald } from "../layout";
+import Image from "next/image";
 
 import girlPlayBasketball from "../assets/images/sajobbarvi/girlPlayingBasketball.jpg";
 
@@ -17,9 +18,11 @@ export default function Sajobbarvi() {
           Så jobbar vi för att <br /> stärka er förenings ekonomi
         </h2>
         <div className={styles.sajobbarviContent1}>
-          <img
-            src={girlPlayBasketball.src}
+          <Image
+            src={girlPlayBasketball}
             alt="Girl playing basketball"
+            height={300}
+            
             className={styles.sajobbarviContentImage1}
           />
           <div className={styles.sajobbarviTextContainer}>
