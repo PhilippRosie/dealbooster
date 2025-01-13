@@ -121,6 +121,7 @@
   }
   .vemarviTextContent1Text,
   .vemarviTextContent2Text {
+    width: 100%;
     font-size: 1.3rem;
     order: 1;
   }
@@ -136,6 +137,7 @@
 
 @media (max-width: 425px) {
   .vemarviTextTitle {
+    font-size: 1.5rem;
     margin-top: 125px;
   }
 }
