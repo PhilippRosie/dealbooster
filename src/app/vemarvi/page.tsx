@@ -2,6 +2,7 @@ import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import basketcase from "../assets/images/vemarvi/basketcase.jpg";
 import iceHockey from "../assets/images/vemarvi/icehockey.jpg";
+import Image from "next/image";
 
 import { barlowCondensed, oswald } from "../layout";
 
@@ -40,20 +41,22 @@ export default function Vemarvi() {
               på vägen.
               <br />
             </div>
-            <img
+            <Image
               className={styles.vemarviTextContent1Img}
-              src={basketcase.src}
+              src={basketcase}
               alt="Basketcase"
+              width={400}
             />
           </div>
           <div className={styles.vemarviContent2}>
             <div
               className={`${styles.vemarviTextContent2} ${barlowCondensed.className}`}
             >
-              <img
+              <Image
                 className={styles.vemarviTextContent2Img}
-                src={iceHockey.src}
+                src={iceHockey}
                 alt="Ice Hockey"
+                width={400}
               />
               <ul>
                 <div className={styles.vemarviTextContent2Text}>
