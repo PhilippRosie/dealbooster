@@ -145,6 +145,7 @@
 
 @media only screen and (max-width: 768px) {
   .kontaktaossTitle h1 {
+    width: 80%;
     margin-top: 80px;
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -205,6 +206,7 @@
 
 @media only screen and (max-width: 425px) {
   .kontaktaossTitle h1 {
+    width: 80%;
     font-size: 1.5rem;
   }
 }
