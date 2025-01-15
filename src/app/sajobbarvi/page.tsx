@@ -3,7 +3,7 @@ import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import { barlowCondensed, oswald } from "../layout";
 import Image from "next/image";
 
-import girlPlayBasketball from "../assets/images/sajobbarvi/girlPlayingBasketball.jpg";
+import fottballAndFoot from "../assets/images/sajobbarvi/footballAndFoot.jpg";
 
 export default function Sajobbarvi() {
   return (
@@ -19,8 +19,8 @@ export default function Sajobbarvi() {
         </h2>
         <div className={styles.sajobbarviContent1}>
           <Image
-            src={girlPlayBasketball}
-            alt="Girl playing basketball"
+            src={fottballAndFoot}
+            alt="Football and Foot"
             height={300}
             
             className={styles.sajobbarviContentImage1}
