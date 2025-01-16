@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
-import basketcase from "../assets/images/vemarvi/basketcase.jpg";
-import iceHockey from "../assets/images/vemarvi/icehockey.jpg";
+import bandyTjejer from "../assets/images/vemarvi/bandyTjejer.jpg";
+import bandyKillar from "../assets/images/vemarvi/bandyKillar.jpg";
 import Image from "next/image";
 
 import { barlowCondensed, oswald } from "../layout";
@@ -43,8 +43,8 @@ export default function Vemarvi() {
             </div>
             <Image
               className={styles.vemarviTextContent1Img}
-              src={basketcase}
-              alt="Basketcase"
+              src={bandyTjejer}
+              alt="Bandy Tjejer"
               width={400}
             />
           </div>
@@ -54,8 +54,8 @@ export default function Vemarvi() {
             >
               <Image
                 className={styles.vemarviTextContent2Img}
-                src={iceHockey}
-                alt="Ice Hockey"
+                src={bandyKillar}
+                alt="BandyK illar"
                 width={400}
               />
               <ul>
