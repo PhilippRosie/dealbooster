@@ -55,7 +55,7 @@ export default function Vemarvi() {
               <Image
                 className={styles.vemarviTextContent2Img}
                 src={bandyKillar}
-                alt="BandyKillar"
+                alt="BandyK illar"
                 width={400}
               />
               <ul>
