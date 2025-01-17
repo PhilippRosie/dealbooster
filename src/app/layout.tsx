@@ -5,7 +5,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import ContactButton from "./components/kontakt/KontaktButton";
 import SocialMediaIcons from "./components/socialmediaicons/SocialmediaIcons";
-
+import CookiePopup from "./components/cookiepopup/CookiePopup";
 export const oswald = Oswald({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700"],
@@ -30,6 +30,7 @@ export default function RootLayout({
         <ContactButton />
         <div className={styles.socialMediaIconsContainer}><SocialMediaIcons /></div>
         <Footer />
+        <CookiePopup />
       </body>
     </html>
   );

@@ -13,3 +13,9 @@
   gap: 20px;
   z-index: 1000;
 }
+
+@media (max-width: 768px) {
+  .socialMediaIconsContainer {
+    display: none;
+  }
+}

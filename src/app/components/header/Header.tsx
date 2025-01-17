@@ -12,7 +12,7 @@ import Modal from "../kalkylatormodal/Modal";
 import Kalkylator from "../kalkylator/Kalkylator";
 import logoBG from "../../../app/assets/images/header/dealboosterLogoSmall.png";
 import logoWhite from "../../../app/assets/images/header/dealboosterLogoWhite.png";
-
+import SocialmediaIcons from "../socialmediaicons/SocialmediaIcons";
 export default function Header() {
   const pathname = usePathname();
   const isHomePage = pathname !== "/";
@@ -93,7 +93,7 @@ export default function Header() {
               onClick={toggleModal}
               className={`${styles.kalkylatorButton} ${
                 isScrolled ? styles.scrolledButton : ""
-              }`}
+              } ${oswald.className}`}
             >
               Öppna Kalkylator
             </button>
@@ -147,7 +147,7 @@ export default function Header() {
           <ul>
             <li>
               <Link href="/partner" className={oswald.className} onClick={closeMenu}>
-                Partners
+                Föreningar
               </Link>
             </li>
             <li>
@@ -166,6 +166,9 @@ export default function Header() {
               </Link>
             </li>
           </ul>
+          <div className={styles.socialMediaIconsContainer}>
+            <SocialmediaIcons />
+          </div>
         </nav>
         <div className={styles.contactButtonContainer}>
         
