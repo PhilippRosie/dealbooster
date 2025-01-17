@@ -1,0 +1,13 @@
+.socialMediaIcons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.socialMediaIcons a:hover {
+  fill: #000;
+  transition: 0.5s ease-in-out;
+  transform: scale(1.05);
+}

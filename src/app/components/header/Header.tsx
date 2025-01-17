@@ -167,7 +167,8 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-
+        <div className={styles.contactButtonContainer}>
+        
         <Link
           href="/kontaktaoss"
           className={`${styles.contactButton} ${oswald.className} ${
@@ -176,6 +177,7 @@ export default function Header() {
         >
           Kontakta Oss
         </Link>
+        </div>
       </header>
 
       {isModalOpen && (
