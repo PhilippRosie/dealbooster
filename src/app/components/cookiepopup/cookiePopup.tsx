@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react';
 import styles from './CookiePopup.module.css';
-import { oswald, barlowCondensed } from '../../layout';
+import { oswald } from '../../layout';
 
 const CookiePopup = () => {
   const [isVisible, setIsVisible] = useState(true);
