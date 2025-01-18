@@ -73,10 +73,6 @@
 .foreningBox {
   width: 100px;
   height: 100px;
-  background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
-  border: 1px solid #d4f4f88f;
-  border-radius: 4px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.526);
   transition: transform 0.3s ease;
 }
 
