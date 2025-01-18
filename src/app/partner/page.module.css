@@ -97,6 +97,11 @@
     text-align: center;
   }
 
+  .foreningImage {
+    width: 100%;
+    height: 100%;
+  }
+
   .partnerForeningarGrid {
     grid-template-columns: repeat(4, 1fr); /* Tre kolumner på mobila enheter */
     gap: 1rem; /* Minska gapet för att få plats med tre kolumner */

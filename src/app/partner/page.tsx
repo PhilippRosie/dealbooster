@@ -30,19 +30,19 @@ export default function Partner() {
               </h2>
               <div className={styles.partnerForeningarGrid}>
                 <div className={styles.foreningBox}>
-                  <Image src={aspudden} alt="Aspudden" />
+                  <Image className={styles.foreningImage} src={aspudden} alt="Aspudden" />
                 </div>
                 <div className={styles.foreningBox}>
-                  <Image src={borstahusen} alt="Borstahusen" />
+                  <Image className={styles.foreningImage} src={borstahusen} alt="Borstahusen" />
                 </div>
                 <div className={styles.foreningBox}>
-                  <Image src={djurgårdensHockey} alt="Djurgårdens Hockey" />
+                  <Image className={styles.foreningImage} src={djurgårdensHockey} alt="Djurgårdens Hockey" />
                 </div>
                 <div className={styles.foreningBox}>
-                  <Image src={djurgårdensIfUngdom} alt="Djurgårdens IF Ungdom" />
+                  <Image className={styles.foreningImage} src={djurgårdensIfUngdom} alt="Djurgårdens IF Ungdom" />
                 </div>
                 <div className={styles.foreningBox}>
-                  <Image src={dösjebro} alt="Dösjebro" />
+                  <Image className={styles.foreningImage} src={dösjebro} alt="Dösjebro" />
                 </div>
                 <div className={styles.foreningBox}></div>
                 <div className={styles.foreningBox}></div>
