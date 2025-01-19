@@ -68,7 +68,7 @@ export default function Partner() {
                 Föreningar
               </h2>
               <div className={styles.partnerForeningarGrid}>
-              <div className={styles.foreningBox}>
+                <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={hammarby} alt="Hammarby" />
                 </div>
                 <div className={styles.foreningBox}>
