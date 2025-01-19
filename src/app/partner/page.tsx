@@ -68,6 +68,9 @@ export default function Partner() {
                 Föreningar
               </h2>
               <div className={styles.partnerForeningarGrid}>
+              <div className={styles.foreningBox}>
+                  <Image className={styles.foreningImage} src={hammarby} alt="Hammarby" />
+                </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={aspudden} alt="Aspudden" />
                 </div>
@@ -91,9 +94,6 @@ export default function Partner() {
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={gustavsberg} alt="Gustavsberg" />
-                </div>
-                <div className={styles.foreningBox}>
-                  <Image className={styles.foreningImage} src={hammarby} alt="Hammarby" />
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={hässelby} alt="Hässelby" />
