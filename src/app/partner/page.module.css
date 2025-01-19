@@ -83,7 +83,8 @@
 @media (max-width: 768px) {
   .partnerForeningarContent {
     flex-direction: column;
-    margin-top: -10rem;
+    margin-top: -2.5rem;
+    margin-bottom: 3rem;
   }
 
   .sectionTitle {
@@ -123,7 +124,7 @@
   }
   .partnerForeningarContent {
     flex-direction: column;
-    margin-top: -5rem;
-    margin-bottom: 5rem;
+    margin-top: -4.5rem;
+    margin-bottom: 2rem;
   }
 }
