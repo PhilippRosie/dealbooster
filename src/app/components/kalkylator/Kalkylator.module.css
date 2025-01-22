@@ -16,3 +16,20 @@
   font-weight: bold;
   font-size: 24px;
 }
+
+@media only screen and (max-width: 768px) {
+  .slider {
+    width: 250px;
+    margin-top: 25px;
+    background: #fd02f1;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .kalkylatorContainer h1 {
+    text-align: center;
+    font-size: 28px;
+    
+  }
+}
+

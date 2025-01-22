@@ -120,7 +120,7 @@ export default function Header() {
           {isHomePage && (
             <nav className={styles.navLinks}>
               <Link href="/partner" className={oswald.className}>
-                Partners
+                Föreningar
               </Link>
               <Link href="/hjartefragor" className={oswald.className}>
                 Hjärtefrågor
