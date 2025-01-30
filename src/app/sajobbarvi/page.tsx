@@ -33,7 +33,7 @@ export default function Sajobbarvi() {
               respektive 2 var på hösten, och att ni är 700 aktiva medlemmar i
               er förening. Med detta upplägg skulle ni dra in 420 000 kronor i
               rena intäkter. Utöver de intäkter produkten inbringar, går vi på
-              dealbooster in med en sponsring någonstans runt 25.000 - 35 000
+              Dealbooster in med en sponsring någonstans runt 25.000 - 35.000
               kronor/år till föreningen. Vi skriver i regel ett 3-årskontrakt på
               sponsringen.
             </p>
