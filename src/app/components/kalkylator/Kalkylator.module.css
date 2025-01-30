@@ -12,7 +12,48 @@
   margin: 20px 0;
 }
 
+.slider {
+  height: 5px;
+  appearance: none;
+  background: rgb(0, 0, 0);
+  box-shadow: 0 5px 5px #000000d2, 0 10px 10px #0000009d, inset 5px 5px 5px #fd02f1;
+  outline: none;
+  border-radius: 15px;
+  margin-top: 25px;
+  width: 200px;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #fd02f1;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 10px #000000d2, 0 0 15px #000000d2, inset 0 0 5px #fd02f1, inset 0 0 7px #ffffffd4;
+}
+
+
 .intäkter {
   font-weight: bold;
   font-size: 24px;
 }
+
+@media only screen and (max-width: 768px) {
+  .slider {
+    width: 250px;
+    margin-top: 25px;
+  
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .kalkylatorContainer h1 {
+    text-align: center;
+    font-size: 28px;
+  
+  }
+}
+

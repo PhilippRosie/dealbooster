@@ -12,7 +12,7 @@ import Modal from "../kalkylatormodal/Modal";
 import Kalkylator from "../kalkylator/Kalkylator";
 import logoBG from "../../../app/assets/images/header/dealboosterLogoSmall.png";
 import logoWhite from "../../../app/assets/images/header/dealboosterLogoWhite.png";
-
+import SocialmediaIcons from "../socialmediaicons/SocialmediaIcons";
 export default function Header() {
   const pathname = usePathname();
   const isHomePage = pathname !== "/";
@@ -93,7 +93,7 @@ export default function Header() {
               onClick={toggleModal}
               className={`${styles.kalkylatorButton} ${
                 isScrolled ? styles.scrolledButton : ""
-              }`}
+              } ${oswald.className}`}
             >
               Öppna Kalkylator
             </button>
@@ -120,7 +120,7 @@ export default function Header() {
           {isHomePage && (
             <nav className={styles.navLinks}>
               <Link href="/partner" className={oswald.className}>
-                Partners
+                Föreningar
               </Link>
               <Link href="/hjartefragor" className={oswald.className}>
                 Hjärtefrågor
@@ -147,7 +147,7 @@ export default function Header() {
           <ul>
             <li>
               <Link href="/partner" className={oswald.className} onClick={closeMenu}>
-                Partners
+                Föreningar
               </Link>
             </li>
             <li>
@@ -166,8 +166,12 @@ export default function Header() {
               </Link>
             </li>
           </ul>
+          <div className={styles.socialMediaIconsContainer}>
+            <SocialmediaIcons />
+          </div>
         </nav>
-
+        <div className={styles.contactButtonContainer}>
+        
         <Link
           href="/kontaktaoss"
           className={`${styles.contactButton} ${oswald.className} ${
@@ -176,6 +180,7 @@ export default function Header() {
         >
           Kontakta Oss
         </Link>
+        </div>
       </header>
 
       {isModalOpen && (

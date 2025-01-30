@@ -73,10 +73,6 @@
 .foreningBox {
   width: 100px;
   height: 100px;
-  background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
-  border: 1px solid #d4f4f88f;
-  border-radius: 4px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.526);
   transition: transform 0.3s ease;
 }
 
@@ -87,7 +83,8 @@
 @media (max-width: 768px) {
   .partnerForeningarContent {
     flex-direction: column;
-    margin-top: -10rem;
+    margin-top: -2.5rem;
+    margin-bottom: 3rem;
   }
 
   .sectionTitle {
@@ -97,12 +94,13 @@
   .foreningBox {
     width: 70px;
     height: 70px;
-    background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
-    border: 1px solid #d4f4f88f;
-    border-radius: 4px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.526);
     transition: transform 0.3s ease;
     text-align: center;
+  }
+
+  .foreningImage {
+    width: 100%;
+    height: 100%;
   }
 
   .partnerForeningarGrid {
@@ -126,7 +124,7 @@
   }
   .partnerForeningarContent {
     flex-direction: column;
-    margin-top: -5rem;
-    margin-bottom: 5rem;
+    margin-top: -4.5rem;
+    margin-bottom: 2rem;
   }
 }

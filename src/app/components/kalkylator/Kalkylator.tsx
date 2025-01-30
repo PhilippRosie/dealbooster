@@ -19,6 +19,7 @@ const Kalkylator: React.FC = () => {
         </label>
         <br />
         <input
+          className={styles.slider}
           type="range"
           id="salesSlider"
           min="1000"
