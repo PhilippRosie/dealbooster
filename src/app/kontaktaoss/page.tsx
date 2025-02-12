@@ -3,6 +3,7 @@ import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import Jonas from "../assets/images/kontaktaoss/Jonas.jpg";
 import Kim from "../assets/images/kontaktaoss/Kim.jpg";
 import Anna from "../assets/images/kontaktaoss/Anna.jpg";
+import Poppy from "../assets/images/kontaktaoss/Poppy.jpg";
 import { barlowCondensed, oswald } from "../layout";
 import Image from "next/image";
 
@@ -118,6 +119,31 @@ export default function Kontaktaoss() {
                 className={styles.kontaktBoxImage}
                 src={Anna}
                 alt="Anna"
+                width={200}
+                height={200}
+              />
+            </div>
+          </div>
+          <div className={`${styles.kontaktBox} ${oswald.className}`}>
+            <div className={styles.kontaktBoxTextContainer}>
+              <p
+                className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
+              >
+                Social Media Manager
+              </p>
+              <h2 className={styles.kontaktBoxName}>Poppy Elfner</h2>
+              <p
+                className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
+              >
+              </p>
+              <p className={styles.kontaktBoxPhoneEmpty}>
+              </p>
+            </div>
+            <div className={styles.kontaktBoxImageContainer}>
+              <Image
+                className={styles.kontaktBoxImage}
+                src={Poppy}
+                alt="Poppy"
                 width={200}
                 height={200}
               />
