@@ -131,7 +131,7 @@ export default function Kontaktaoss() {
               >
                 Social Media Manager
               </p>
-              <h2 className={styles.kontaktBoxName}>Poppy Elfner</h2>
+              <h2 className={styles.kontaktBoxName}>Poppy Elfner Orgmets</h2>
               <p
                 className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
               >
