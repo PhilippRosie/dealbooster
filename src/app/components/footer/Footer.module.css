@@ -14,3 +14,12 @@
   align-items: center;
 }
 
+.kontaktButtonSticky {
+  position: sticky;
+  bottom: 40px; /* Avstånd från botten */
+  width: 100%; /* Anpassa bredden efter behov */
+  display: flex;
+  justify-content: center; /* Centrerar knappen horisontellt */
+  z-index: 1000; /* Se till att den ligger över andra element */
+}
+
