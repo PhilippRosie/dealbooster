@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Välkommen till Vår Förening | Din Företag</title>
-        <meta name="description" content="Upptäck hur vi samarbetar med föreningar för att skapa långsiktiga intäkter och sponsring. Läs mer om våra hjärtefrågor och hur vi arbetar." />
-        <meta name="keywords" content="föreningar, sponsring, hjärtefrågor, intäkter, samarbete" />
+        <title>Maxa Föreningens Intäkter | Välkommen till Dealbooster</title>
+        <meta name="description" content="Upptäck hur vi kan boosta din förenings ekonomi. Vi är här för att göra det enkelt och tryggt för er." />
+        <meta name="keywords" content="Föreningsintäkter, Sponsring för föreningar, Intäktslösningar, Föreningsfinansiering, Rabatter, Lokalsamhällesstöd, Ekonomisk tillväxt för föreningar, Föreningssamarbete, Hållbar föreningsekonomi, Föreningspartner, Intäktsgenerering, Föreningsstöd, Föreningsutveckling, Föreningssponsorer, Föreningsbidrag, Föreningsfinansieringstips, Lönsamma rabatter, Vardagsrabatter, Rabattprogram, Sparlösningar, Kundförmåner, Sponsringslösningar, Företagssponsring, Samhällssponsring, Partnerskap för föreningar, Sponsringsstrategier" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className={styles.landingPage}>
