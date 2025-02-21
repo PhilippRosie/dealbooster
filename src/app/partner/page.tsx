@@ -11,6 +11,7 @@ import fagerstaSödra from '../assets/images/partner/Fagersta-Södra-png.png'
 import grums from '../assets/images/partner/Grums-png.png'
 import gustavsberg from '../assets/images/partner/Gustavsberg-png.png'
 import hammarby from '../assets/images/partner/Hammarby-png.png'
+import heffnersklubbans from '../assets/images/partner/HeffnersKlubbans.png'
 import hässelby from '../assets/images/partner/Hässelby-png.png'
 import järla from '../assets/images/partner/Järla-png.png'
 import karlstadFBK from '../assets/images/partner/Karlstad-FBK-png.png'
@@ -94,6 +95,9 @@ export default function Partner() {
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={gustavsberg} alt="Gustavsberg" />
+                </div>
+                <div className={styles.foreningBox}>
+                  <Image className={styles.foreningImage} src={heffnersklubbans} alt="Heffners Klubban" />
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={hässelby} alt="Hässelby" />
