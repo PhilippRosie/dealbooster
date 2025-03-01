@@ -6,17 +6,21 @@ import hjartefragorBild from "../app/assets/images/landningssida/hjartefragorBil
 import vemarviBild from "../app/assets/images/landningssida/vemärviBild.jpg";
 import { oswald, barlowCondensed } from "../app/layout";
 import Image from "next/image";
-import Head from "next/head";
+
+export const metadata = {
+  title: 'Maxa Föreningens Intäkter | Välkommen till Dealbooster',
+  description: 'Upptäck hur vi kan boosta din förenings ekonomi. Vi är här för att göra det enkelt och tryggt för er.',
+  keywords: 'Föreningsintäkter, Sponsring för föreningar, Intäktslösningar, Föreningsfinansiering, Rabatter, Lokalsamhällesstöd, Ekonomisk tillväxt för föreningar, Föreningssamarbete, Hållbar föreningsekonomi, Föreningspartner, Intäktsgenerering, Föreningsstöd, Föreningsutveckling, Föreningssponsorer, Föreningsbidrag, Föreningsfinansieringstips, Lönsamma rabatter, Vardagsrabatter, Rabattprogram, Sparlösningar, Kundförmåner, Sponsringslösningar, Företagssponsring, Samhällssponsring, Partnerskap för föreningar, Sponsringsstrategier',
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Maxa Föreningens Intäkter | Välkommen till Dealbooster</title>
-        <meta name="description" content="Upptäck hur vi kan boosta din förenings ekonomi. Vi är här för att göra det enkelt och tryggt för er." />
-        <meta name="keywords" content="Föreningsintäkter, Sponsring för föreningar, Intäktslösningar, Föreningsfinansiering, Rabatter, Lokalsamhällesstöd, Ekonomisk tillväxt för föreningar, Föreningssamarbete, Hållbar föreningsekonomi, Föreningspartner, Intäktsgenerering, Föreningsstöd, Föreningsutveckling, Föreningssponsorer, Föreningsbidrag, Föreningsfinansieringstips, Lönsamma rabatter, Vardagsrabatter, Rabattprogram, Sparlösningar, Kundförmåner, Sponsringslösningar, Företagssponsring, Samhällssponsring, Partnerskap för föreningar, Sponsringsstrategier" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
       <div className={styles.landingPage}>
         <main className={styles.main}>
           <div className={styles.content}>
