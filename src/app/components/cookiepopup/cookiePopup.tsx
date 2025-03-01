@@ -18,7 +18,7 @@ const CookiePopup = () => {
   if (!isVisible) return null;
 
   return (
-    <div className={styles.cookiePopup}>
+    <div className={styles.cookiePopup} data-nosnippet aria-label="Cookie-meddelande">
       <p className={oswald.className}>
         Vi använder cookies för att förbättra din upplevelse. Läs vår 
         <a href="/cookiePolicy" target="_blank" rel="noopener noreferrer"> cookiepolicy</a>.
