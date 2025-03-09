@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import aspudden from '../assets/images/partner/Aspudden-png.png'
 import borstahusen from '../assets/images/partner/Borstahusen-png.png'
+import brommapojkarna from '../assets/images/partner/Brommapojkarna-png.png'
 import djurgårdensHockey from '../assets/images/partner/Djurgårdens-Hockey-png.png'
 import djurgårdensIfUngdom from '../assets/images/partner/DjurgårdensIF-Ungdom-png.png'
 import dösjebro from '../assets/images/partner/Dösjebro-png.png'
@@ -36,11 +37,9 @@ import strömstad from '../assets/images/partner/Strömstad.png'
 import stuvsta from '../assets/images/partner/Stuvsta-png.png'
 import sundsvallHandboll from '../assets/images/partner/Sundsvall-Handboll-png.png'
 import sundsvallIBF from '../assets/images/partner/Sundsvall-IBF-png.png'
-import sundsvallsSlalom from '../assets/images/partner/Sundsvalls-Slalom-png.png'
 import säffle from '../assets/images/partner/Säffle-png.png'
 import ulricehamn from '../assets/images/partner/Ulricehamn-png.png'
 import umeåIBKDalen from '../assets/images/partner/Umeå-IBK-Dalen-png.png'
-import varberg from '../assets/images/partner/Varberg-png.png'
 import värnamo from '../assets/images/partner/Värnamo-png.png'
 import växjöNorra from '../assets/images/partner/Växjö-Norra-png.png'
 import ystad from '../assets/images/partner/Ystad-png.png'
@@ -77,6 +76,9 @@ export default function Partner() {
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={borstahusen} alt="Borstahusen" />
+                </div>
+                <div className={styles.foreningBox}>
+                  <Image className={styles.foreningImage} src={brommapojkarna} alt="Brommapojkarna" />
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={djurgårdensHockey} alt="Djurgårdens Hockey" />
@@ -172,9 +174,6 @@ export default function Partner() {
                   <Image className={styles.foreningImage} src={sundsvallIBF} alt="Sundsvall IBF" />
                 </div>
                 <div className={styles.foreningBox}>
-                  <Image className={styles.foreningImage} src={sundsvallsSlalom} alt="Sundsvalls Slalom" />
-                </div>
-                <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={säffle} alt="Säffle" />
                 </div>
                 <div className={styles.foreningBox}>
@@ -182,9 +181,6 @@ export default function Partner() {
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={umeåIBKDalen} alt="Umeå IBK Dalen" />
-                </div>
-                <div className={styles.foreningBox}>
-                  <Image className={styles.foreningImage} src={varberg} alt="Varberg" />
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={värnamo} alt="Värnamo" />
