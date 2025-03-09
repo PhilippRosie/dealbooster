@@ -3,6 +3,7 @@ import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import Jonas from "../assets/images/kontaktaoss/Jonas.jpg";
 import Kim from "../assets/images/kontaktaoss/Kim.jpg";
 import Anna from "../assets/images/kontaktaoss/Anna.jpg";
+import Fredrik from "../assets/images/kontaktaoss/Fredrik.jpg";
 import Poppy from "../assets/images/kontaktaoss/Poppy.jpg";
 import { barlowCondensed, oswald } from "../layout";
 import Image from "next/image";
@@ -119,6 +120,37 @@ export default function Kontaktaoss() {
                 className={styles.kontaktBoxImage}
                 src={Anna}
                 alt="Anna"
+                width={200}
+                height={200}
+              />
+            </div>
+          </div>
+          <div className={`${styles.kontaktBox} ${oswald.className}`}>
+            <div className={styles.kontaktBoxTextContainer}>
+              <p
+                className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
+              >
+                Partner och produktansvarig
+              </p>
+              <h2 className={styles.kontaktBoxName}>Fredrik Skaring</h2>
+              <p
+                className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
+              >
+                <a href="mailto:fredrik@dealbooster.nu">
+                  fredrik@dealbooster.nu <EmailIcon className={styles.icon} />
+                </a>
+              </p>
+              <p className={styles.kontaktBoxPhone}>
+                <a href="tel:+46739889900">
+                  +46 73 988 99 00 <PhoneIcon className={styles.icon} />
+                </a>
+              </p>
+            </div>
+            <div className={styles.kontaktBoxImageContainer}>
+              <Image
+                className={styles.kontaktBoxImage}
+                src={Fredrik}
+                alt="Fredrik"
                 width={200}
                 height={200}
               />
