@@ -23,6 +23,7 @@ import kramforsAlliansen from '../assets/images/partner/Kramfors-Alliansen-png.p
 import kungsängen from '../assets/images/partner/Kungsängen-png.png'
 import linköpingFriidrott from '../assets/images/partner/Linköping-Friidrott.png'
 import linköpingInnebandy from '../assets/images/partner/Linköping-Innebandy.png'
+import lucksta from '../assets/images/partner/Lucksta.png'
 import mallbacken from '../assets/images/partner/Mallbacken.png'
 import munkaLjungby from '../assets/images/partner/Munka-Ljungby-png.png'
 import mälarhöjden from '../assets/images/partner/Mälarhöjden-png.png'
@@ -135,6 +136,9 @@ export default function Partner() {
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={linköpingInnebandy} alt="Linköping Innebandy" />
+                </div>
+                <div className={styles.foreningBox}>
+                  <Image className={styles.foreningImage} src={lucksta} alt="Lucksta" />
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={mallbacken} alt="Mallbacken" />
