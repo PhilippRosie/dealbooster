@@ -2,7 +2,6 @@ import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import Image from "next/image";
 
-import aspudden from '../assets/images/partner/Aspudden-png.png'
 import borstahusen from '../assets/images/partner/Borstahusen-png.png'
 import brommapojkarna from '../assets/images/partner/Brommapojkarna-png.png'
 import djurgårdensHockey from '../assets/images/partner/Djurgårdens-Hockey-png.png'
@@ -11,6 +10,7 @@ import dösjebro from '../assets/images/partner/Dösjebro-png.png'
 import fagerstaSödra from '../assets/images/partner/Fagersta-Södra-png.png'
 import grums from '../assets/images/partner/Grums-png.png'
 import gustavsberg from '../assets/images/partner/Gustavsberg-png.png'
+import hammarbyhandboll from '../assets/images/partner/Hammarby-Handboll.png'
 import hammarby from '../assets/images/partner/Hammarby-png.png'
 import heffnersklubbans from '../assets/images/partner/HeffnersKlubbans.png'
 import hertzöga from '../assets/images/partner/Hertzöga.png'
@@ -21,13 +21,13 @@ import karlstadNorra from '../assets/images/partner/Karlstad-Norra-png.png'
 import kiruna from '../assets/images/partner/Kiruna-png.png'
 import kramforsAlliansen from '../assets/images/partner/Kramfors-Alliansen-png.png'
 import kungsängen from '../assets/images/partner/Kungsängen-png.png'
-import leksandInnebandy from '../assets/images/partner/Leksand-Innebandy-png.png'
 import linköpingFriidrott from '../assets/images/partner/Linköping-Friidrott.png'
 import linköpingInnebandy from '../assets/images/partner/Linköping-Innebandy.png'
 import mallbacken from '../assets/images/partner/Mallbacken.png'
 import munkaLjungby from '../assets/images/partner/Munka-Ljungby-png.png'
 import mälarhöjden from '../assets/images/partner/Mälarhöjden-png.png'
 import norrköping from '../assets/images/partner/Norrköping-png.png'
+import nyland from '../assets/images/partner/Nyland.png'
 import nynäshamn from '../assets/images/partner/Nynäshamn-png.png'
 import roslagsbro from '../assets/images/partner/Roslagsbro-png.png'
 import råtorp from '../assets/images/partner/Råtorp.png'
@@ -77,9 +77,6 @@ export default function Partner() {
                   <Image className={styles.foreningImage} src={hammarby} alt="Hammarby" />
                 </div>
                 <div className={styles.foreningBox}>
-                  <Image className={styles.foreningImage} src={aspudden} alt="Aspudden" />
-                </div>
-                <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={borstahusen} alt="Borstahusen" />
                 </div>
                 <div className={styles.foreningBox}>
@@ -102,6 +99,9 @@ export default function Partner() {
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={gustavsberg} alt="Gustavsberg" />
+                </div>
+                <div className={styles.foreningBox}>
+                  <Image className={styles.foreningImage} src={hammarbyhandboll} alt="Hammarby Handboll" />
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={heffnersklubbans} alt="Heffners Klubban" />
@@ -131,9 +131,6 @@ export default function Partner() {
                   <Image className={styles.foreningImage} src={kungsängen} alt="Kungsängen" />
                 </div>
                 <div className={styles.foreningBox}>
-                  <Image className={styles.foreningImage} src={leksandInnebandy} alt="Leksand Innebandy" />
-                </div>
-                <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={linköpingFriidrott} alt="Linköping Friidrott" />
                 </div>
                 <div className={styles.foreningBox}>
@@ -150,6 +147,9 @@ export default function Partner() {
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={norrköping} alt="Norrköping" />
+                </div>
+                <div className={styles.foreningBox}>
+                  <Image className={styles.foreningImage} src={nyland} alt="Nyland" />
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={nynäshamn} alt="Nynäshamn" />
