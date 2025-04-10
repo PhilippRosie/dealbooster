@@ -10,7 +10,7 @@ import dösjebro from '../assets/images/partner/Dösjebro-png.png'
 import fagerstaSödra from '../assets/images/partner/Fagersta-Södra-png.png'
 import grums from '../assets/images/partner/Grums-png.png'
 import gustavsberg from '../assets/images/partner/Gustavsberg-png.png'
-import hammarbyHandboll from '../assets/images/partner/Hammarby-Handboll.png'
+import hammarbyhandboll from '../assets/images/partner/Hammarby-Handboll.png'
 import hammarby from '../assets/images/partner/Hammarby-png.png'
 import heffnersklubbans from '../assets/images/partner/HeffnersKlubbans.png'
 import hertzöga from '../assets/images/partner/Hertzöga.png'
@@ -101,7 +101,7 @@ export default function Partner() {
                   <Image className={styles.foreningImage} src={gustavsberg} alt="Gustavsberg" />
                 </div>
                 <div className={styles.foreningBox}>
-                  <Image className={styles.foreningImage} src={hammarbyHandboll} alt="Hammarby Handboll" />
+                  <Image className={styles.foreningImage} src={hammarbyhandboll} alt="Hammarby Handboll" />
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={heffnersklubbans} alt="Heffners Klubban" />
