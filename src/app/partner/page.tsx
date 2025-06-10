@@ -42,6 +42,7 @@ import strömstad from '../assets/images/partner/Strömstad.png'
 import stuvsta from '../assets/images/partner/Stuvsta-png.png'
 import sundsvallHandboll from '../assets/images/partner/Sundsvall-Handboll-png.png'
 import sundsvallIBF from '../assets/images/partner/Sundsvall-IBF-png.png'
+import sundsvallHockey from '../assets/images/partner/SundsvallHockey.png'
 import säffle from '../assets/images/partner/Säffle-png.png'
 import torsby from '../assets/images/partner/Torsby.png'
 import ulricehamn from '../assets/images/partner/Ulricehamn-png.png'
@@ -76,6 +77,9 @@ export default function Partner() {
               <div className={styles.partnerForeningarGrid}>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={hammarby} alt="Hammarby" />
+                </div>
+                <div className={styles.foreningBox}>
+                  <Image className={styles.foreningImage} src={sundsvallHockey} alt="Sundsvall Hockey" />
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={borstahusen} alt="Borstahusen" />
