@@ -13,6 +13,7 @@
   border-right: 1px solid #d4f4f88f;
   border-top: 1px solid #d4f4f88f;
   box-shadow: 0 0 15px #000000d2;
+  z-index: 1000;
 }
 
 .cookiePopup p {

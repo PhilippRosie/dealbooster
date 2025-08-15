@@ -214,10 +214,16 @@
   .kontaktBoxPhone {
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
     font-size: 1.3rem;
+  }
+  
+  .kontaktBoxDiplom {
+    margin-top: 15px;
+    order: 2;
   }
 }
 

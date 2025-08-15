@@ -53,14 +53,14 @@ export default function Kontaktaoss() {
                 <a href="tel:+46706170878">
                   +46 70 617 08 78 <PhoneIcon className={styles.icon} />
                 </a>
-                <Image
+              </p>
+              <Image
                 className={styles.kontaktBoxDiplom}
                 src={dbDiplom}
                 alt="Diplom"
                 width={200}
                 height={80}
               />
-              </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
               <Image
@@ -91,14 +91,14 @@ export default function Kontaktaoss() {
                 <a href="tel:+46721500909">
                   +46 72 150 09 09 <PhoneIcon className={styles.icon} />
                 </a>
-                <Image
+              </p>
+              <Image
                 className={styles.kontaktBoxDiplom}
                 src={dbDiplom}
                 alt="Diplom"
                 width={200}
                 height={80}
               />
-              </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
               <Image
@@ -129,14 +129,14 @@ export default function Kontaktaoss() {
                 <a href="tel:+46738110903">
                   +46 73 811 09 03 <PhoneIcon className={styles.icon} />
                 </a>
-                <Image
+              </p>
+              <Image
                 className={styles.kontaktBoxDiplom}
                 src={dbDiplom}
                 alt="Diplom"
                 width={200}
                 height={80}
               />
-              </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
               <Image
@@ -167,14 +167,14 @@ export default function Kontaktaoss() {
                 <a href="tel:+46739889900">
                   +46 73 988 99 00 <PhoneIcon className={styles.icon} />
                 </a>
-                <Image
+              </p>
+              <Image
                 className={styles.kontaktBoxDiplom}
                 src={dbDiplom}
                 alt="Diplom"
                 width={200}
                 height={80}
               />
-              </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
               <Image
@@ -198,15 +198,13 @@ export default function Kontaktaoss() {
                 className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
               >
               </p>
-              <p className={styles.kontaktBoxPhoneEmpty}>
-                <Image
+              <Image
                 className={styles.kontaktBoxDiplom}
                 src={dbDiplom}
                 alt="Diplom"
                 width={200}
                 height={80}
               />
-              </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
               <Image
