@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import SocialMediaIcons from "./components/socialmediaicons/SocialmediaIcons";
 import CookiePopup from "./components/cookiepopup/cookiePopup";
+import PageButtons from "./components/PageButtons";
 
 export const oswald = Oswald({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <div className={styles.socialMediaIconsContainer}><SocialMediaIcons /></div>
+        <PageButtons />
         <Footer />
         <CookiePopup />
       </body>

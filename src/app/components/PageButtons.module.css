@@ -1,0 +1,48 @@
+.pageButtonsContainer {
+  display: none; /* Dölj som standard */
+}
+
+/* Visa endast på mobiler */
+@media (max-width: 768px) {
+  .pageButtonsContainer {
+    position: fixed;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    z-index: 10;
+  }
+}
+
+.pageButton {
+  background: linear-gradient(20deg, #262929d2 50%, #d4f4f8e3);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 400;
+  border: none;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  box-shadow: 0 0px 5px #d4f4f8;
+  cursor: pointer;
+}
+
+.pageButton:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {  
+  .pageButton {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    width: 180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
