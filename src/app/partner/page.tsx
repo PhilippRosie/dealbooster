@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
+import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import Image from "next/image";
 
 import borstahusen from '../assets/images/partner/Borstahusen-png.png'
@@ -229,6 +230,7 @@ export default function Partner() {
             </div>
           </div>
         </div>
+        <Image className={styles.diplomImage} src={DiplomImage} alt="Diplom" />
       </main>
     </div>
   );

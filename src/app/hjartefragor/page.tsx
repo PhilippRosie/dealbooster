@@ -2,6 +2,7 @@ import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import rabatthäfteBild from "../assets/images/hjartefragor/rabatthäfteBild.jpg";
 import levereradeHäften from "../assets/images/hjartefragor/leveradeHäften.jpg";
+import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import Image from "next/image";
 
 import { barlowCondensed, oswald } from "../layout";
@@ -74,6 +75,7 @@ export default function Hjartefragor() {
             partners.
           </p>
         </div>
+        <Image className={styles.diplomImage} src={DiplomImage} alt="Diplom" />
       </main>
     </div>
   );

@@ -68,6 +68,14 @@
   box-shadow: 0 0 15px #000000d2;
 }
 
+.diplomImage {
+  width: 30%;
+  height: auto;
+  max-width: 200px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
   .sajobbarviContentText1,
   .sajobbarviContentText2 {

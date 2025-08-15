@@ -80,6 +80,14 @@
   transform: scale(1.1);
 }
 
+.diplomImage {
+  width: 30%;
+  height: auto;
+  max-width: 200px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
 @media (max-width: 768px) {
   .partnerForeningarContent {
     flex-direction: column;

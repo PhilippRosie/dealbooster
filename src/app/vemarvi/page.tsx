@@ -2,6 +2,7 @@ import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import bandyTjejer from "../assets/images/vemarvi/bandyTjejer.jpg";
 import bandyKillar from "../assets/images/vemarvi/bandyKillar.jpg";
+import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import Image from "next/image";
 
 import { barlowCondensed, oswald } from "../layout";
@@ -96,6 +97,7 @@ export default function Vemarvi() {
             </div>
           </div>
         </div>
+        <Image className={styles.diplomImage} src={DiplomImage} alt="Diplom" />
       </main>
     </div>
   );
