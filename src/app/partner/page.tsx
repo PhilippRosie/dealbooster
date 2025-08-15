@@ -3,6 +3,7 @@ import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import Image from "next/image";
 
+import aikHandboll from '../assets/images/partner/AIK-Handboll.png'
 import borstahusen from '../assets/images/partner/Borstahusen-png.png'
 import brommapojkarna from '../assets/images/partner/Brommapojkarna-png.png'
 import djurgårdensHockey from '../assets/images/partner/Djurgårdens-Hockey-png.png'
@@ -78,6 +79,9 @@ export default function Partner() {
               <div className={styles.partnerForeningarGrid}>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={hammarby} alt="Hammarby" />
+                </div>
+                <div className={styles.foreningBox}>
+                  <Image className={styles.foreningImage} src={aikHandboll} alt="AIK Handboll" />
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={sundsvallHockey} alt="Sundsvall Hockey" />
