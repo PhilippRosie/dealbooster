@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import pagesBG from "../assets/images/pagesBG/pagesBG.png";
+import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import { barlowCondensed, oswald } from "../layout";
 import Image from "next/image";
 
@@ -51,6 +52,7 @@ export default function Sajobbarvi() {
             </p>
           </div>
         </div>
+        <Image className={styles.diplomImage} src={DiplomImage} alt="Diplom" />
       </main>
     </div>
   );

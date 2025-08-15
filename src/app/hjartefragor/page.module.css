@@ -74,6 +74,14 @@
   margin-bottom: 1.5rem;
 }
 
+.diplomImage {
+  width: 30%;
+  height: auto;
+  max-width: 200px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
   .hjartefragorContentHeading {
     font-size: 1.6rem;

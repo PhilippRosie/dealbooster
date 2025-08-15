@@ -5,6 +5,7 @@ import Kim from "../assets/images/kontaktaoss/Kim.jpg";
 import Anna from "../assets/images/kontaktaoss/Anna.jpg";
 import Fredrik from "../assets/images/kontaktaoss/Fredrik.jpg";
 import Poppy from "../assets/images/kontaktaoss/Poppy.jpg";
+import dbDiplom from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import { barlowCondensed, oswald } from "../layout";
 import Image from "next/image";
 
@@ -52,6 +53,13 @@ export default function Kontaktaoss() {
                 <a href="tel:+46706170878">
                   +46 70 617 08 78 <PhoneIcon className={styles.icon} />
                 </a>
+                <Image
+                className={styles.kontaktBoxDiplom}
+                src={dbDiplom}
+                alt="Diplom"
+                width={200}
+                height={80}
+              />
               </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
@@ -83,6 +91,13 @@ export default function Kontaktaoss() {
                 <a href="tel:+46721500909">
                   +46 72 150 09 09 <PhoneIcon className={styles.icon} />
                 </a>
+                <Image
+                className={styles.kontaktBoxDiplom}
+                src={dbDiplom}
+                alt="Diplom"
+                width={200}
+                height={80}
+              />
               </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
@@ -114,6 +129,13 @@ export default function Kontaktaoss() {
                 <a href="tel:+46738110903">
                   +46 73 811 09 03 <PhoneIcon className={styles.icon} />
                 </a>
+                <Image
+                className={styles.kontaktBoxDiplom}
+                src={dbDiplom}
+                alt="Diplom"
+                width={200}
+                height={80}
+              />
               </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
@@ -145,6 +167,13 @@ export default function Kontaktaoss() {
                 <a href="tel:+46739889900">
                   +46 73 988 99 00 <PhoneIcon className={styles.icon} />
                 </a>
+                <Image
+                className={styles.kontaktBoxDiplom}
+                src={dbDiplom}
+                alt="Diplom"
+                width={200}
+                height={80}
+              />
               </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>
@@ -170,6 +199,13 @@ export default function Kontaktaoss() {
               >
               </p>
               <p className={styles.kontaktBoxPhoneEmpty}>
+                <Image
+                className={styles.kontaktBoxDiplom}
+                src={dbDiplom}
+                alt="Diplom"
+                width={200}
+                height={80}
+              />
               </p>
             </div>
             <div className={styles.kontaktBoxImageContainer}>

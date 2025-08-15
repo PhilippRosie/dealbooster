@@ -125,9 +125,19 @@
 }
 
 .kontaktBoxPhoneEmpty {
-  width: 100%;
+  width: 50%;
   height: 45px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 10px;
+}
+
+.kontaktBoxDiplom {
+  width: 200px;
+  height: 80px;
+  border-radius: 8px;
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
