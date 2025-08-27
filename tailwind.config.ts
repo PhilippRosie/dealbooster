@@ -14,7 +14,5 @@ export default {
       },
     },
   },
-  plugins: [
-    require('lightswind/plugin'),
-  ],
+  plugins: [],
 } satisfies Config;
