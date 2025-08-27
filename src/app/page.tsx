@@ -21,13 +21,19 @@ export const viewport = {
 export default function Home() {
   return (
     <>
+      {/* Preload bilder för snabbare laddning */}
+      <link rel="preload" as="image" href={partnerBild.src} />
+      <link rel="preload" as="image" href={sajobbarviBild.src} />
+      <link rel="preload" as="image" href={hjartefragorBild.src} />
+      <link rel="preload" as="image" href={vemarviBild.src} />
+      
       <div className={styles.landingPage}>
         <main className={styles.main}>
           <div className={styles.content}>
             <div className={styles.gridContainer}>
               <Link
                 href="/partner"
-                className={`${styles.gridItem} ${oswald.className}`}
+                className={`${styles.gridItem} ${styles.slideFromLeft} ${oswald.className}`}
               >
                 <h2>Föreningar</h2>
                 <div className={styles.imageContainer}>
@@ -36,6 +42,7 @@ export default function Home() {
                     alt="Partner"
                     width={200}
                     className={styles.partnerImage}
+                    priority
                   />
                 </div>
                 <h3>Vilka är dom?</h3>
@@ -46,7 +53,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/hjartefragor"
-                className={`${styles.gridItem} ${oswald.className}`}
+                className={`${styles.gridItem} ${styles.slideFromLeft} ${oswald.className}`}
               >
                 <h2>Hjärtefrågor</h2>
                 <div className={styles.imageContainer}>
@@ -55,6 +62,7 @@ export default function Home() {
                     alt="Hjärtefrågor"
                     width={200}
                     className={styles.partnerImage}
+                    priority
                   />
                 </div>
                 <h3>Vi brinner för din förening!</h3>
@@ -66,7 +74,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/sajobbarvi"
-                className={`${styles.gridItem} ${oswald.className}`}
+                className={`${styles.gridItem} ${styles.slideFromRight} ${oswald.className}`}
               >
                 <h2>Så Jobbar Vi</h2>
                 <div className={styles.imageContainer}>
@@ -75,6 +83,7 @@ export default function Home() {
                     alt="Så jobbar vi"
                     width={200}
                     className={styles.partnerImage}
+                    priority
                   />
                 </div>
                 <h3>Sponsring som boostar</h3>
@@ -86,7 +95,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/vemarvi"
-                className={`${styles.gridItem} ${oswald.className}`}
+                className={`${styles.gridItem} ${styles.slideFromRight} ${oswald.className}`}
               >
                 <h2>Vem är vi?</h2>
                 <div className={styles.imageContainer}>
@@ -95,6 +104,7 @@ export default function Home() {
                     alt="Vem är vi"
                     width={200}
                     className={styles.partnerImage}
+                    priority
                   />
                 </div>
                 <h3>Er förenings bästa vän!</h3>
