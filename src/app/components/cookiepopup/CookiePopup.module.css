@@ -14,6 +14,20 @@
   border-top: 1px solid #d4f4f88f;
   box-shadow: 0 0 15px #000000d2;
   z-index: 1000;
+  animation: slideInFromBottom 1s ease-out 2.5s forwards;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .cookiePopup p {

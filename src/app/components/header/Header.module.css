@@ -10,6 +10,19 @@
   background-color: transparent;
   opacity: 1;
   z-index: 1000;
+  animation: slideInFromTop 2s ease-out forwards;
+  transform: translateY(-100%);
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .scrolled {
