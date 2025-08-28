@@ -15,19 +15,19 @@ export default function HomePageAnimationTrigger() {
       
       if (header) {
         (header as HTMLElement).style.animation = 'none';
-        (header as HTMLElement).offsetHeight; // Trigger reflow
+        void (header as HTMLElement).offsetHeight; // Trigger reflow
         (header as HTMLElement).style.animation = '';
       }
       
       if (socialMediaIcons) {
         (socialMediaIcons as HTMLElement).style.animation = 'none';
-        (socialMediaIcons as HTMLElement).offsetHeight; // Trigger reflow
+        void (socialMediaIcons as HTMLElement).offsetHeight; // Trigger reflow
         (socialMediaIcons as HTMLElement).style.animation = '';
       }
       
       if (pageButtons) {
         (pageButtons as HTMLElement).style.animation = 'none';
-        (pageButtons as HTMLElement).offsetHeight; // Trigger reflow
+        void (pageButtons as HTMLElement).offsetHeight; // Trigger reflow
         (pageButtons as HTMLElement).style.animation = '';
       }
     }
