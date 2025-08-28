@@ -12,6 +12,20 @@
   justify-content: center;
   gap: 20px;
   z-index: 1000;
+  animation: slideInFromRight 2s ease-out forwards;
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 768px) {
