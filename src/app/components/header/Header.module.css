@@ -12,6 +12,7 @@
   z-index: 1000;
   animation: slideInFromTop 2s ease-out forwards;
   transform: translateY(-100%);
+  opacity: 0;
 }
 
 @keyframes slideInFromTop {
