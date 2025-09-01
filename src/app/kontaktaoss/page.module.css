@@ -48,10 +48,18 @@
   margin-bottom: 20px;
 }
 
-.kontaktBoxTextContainer {
+.kontaktBoxLeftContainer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.kontaktBoxTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   justify-content: flex-start;
   width: 100%;
 }
@@ -85,7 +93,7 @@
   color: #d4f4f8;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   width: 50%;
   border: 1px solid #d4f4f8;
@@ -100,13 +108,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0.5rem 0;
 }
 
 .kontaktBoxImage {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 8px;
   box-shadow: 0 0 15px #000000d2;
+  margin: 0.5rem 0;
 }
 
 .icon {
@@ -134,10 +144,19 @@
   margin-top: 10px;
 }
 
+.kontaktBoxDiplomContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
 .kontaktBoxDiplom {
   width: 200px;
   height: 80px;
   border-radius: 8px;
+  align-self: flex-end;
+  margin-bottom: 0.5rem;
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
@@ -174,13 +193,22 @@
     margin-bottom: 1rem;
   }
 
+  .kontaktBoxLeftContainer {
+    order: 2;
+    width: 100%;
+  }
+
   .kontaktBoxTextContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    order: 2;
+    width: 100%;
+  }
+
+  .kontaktBoxImageContainer {
+    order: 1;
+    margin-bottom: 20px;
   }
 
   .kontaktBox {
@@ -222,8 +250,11 @@
   }
   
   .kontaktBoxDiplom {
-    margin-top: 15px;
-    order: 2;
+    order: 3;
+    width: 200px;
+    height: 80px;
+    margin: 15px auto 0 auto;
+    display: block;
   }
 }
 
@@ -231,5 +262,23 @@
   .kontaktaossTitle h1 {
     width: 80%;
     font-size: 1.5rem;
+  }
+
+  .kontaktBoxLeftContainer {
+    order: 2;
+    width: 100%;
+  }
+
+  .kontaktBoxImageContainer {
+    order: 1;
+    margin-bottom: 20px;
+  }
+  
+  .kontaktBoxDiplom {
+    order: 3;
+    width: 200px;
+    height: 80px;
+    margin: 15px auto 0 auto;
+    display: block;
   }
 }
