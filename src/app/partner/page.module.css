@@ -74,10 +74,46 @@
   width: 100px;
   height: 100px;
   transition: transform 0.3s ease;
+  position: relative;
+  cursor: pointer;
 }
 
 .foreningBox:hover {
   transform: scale(1.1);
+}
+
+.foreningBox:active {
+  transform: scale(1.05);
+}
+
+.foreningOverlay {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 12px;
+}
+
+.foreningBox:hover .foreningOverlay,
+.foreningBox:active .foreningOverlay {
+  opacity: 1;
+}
+
+.foreningOverlayText {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem;
+  line-height: 1.2;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 .diplomImage {
@@ -106,9 +142,22 @@
     text-align: center;
   }
 
+  .foreningOverlay {
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border-radius: 10px;
+  }
+
   .foreningImage {
     width: 100%;
     height: 100%;
+  }
+
+  .foreningOverlayText {
+    font-size: 0.7rem;
+    padding: 0.3rem;
   }
 
   .partnerForeningarGrid {
