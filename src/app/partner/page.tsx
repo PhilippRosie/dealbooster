@@ -56,7 +56,7 @@ import älvsjö from '../assets/images/partner/Älvsjö-png.png'
 import östersund from '../assets/images/partner/Östersund-png.png'
 
 
-import {oswald } from "../layout";
+import {oswald, barlowCondensed } from "../layout";
 
 export default function Partner() {
   return (
@@ -79,156 +79,309 @@ export default function Partner() {
               <div className={styles.partnerForeningarGrid}>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={hammarby} alt="Hammarby" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Hammarby Fotboll</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={aikHandboll} alt="AIK Handboll" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>AIK Handboll</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={sundsvallHockey} alt="Sundsvall Hockey" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sundsvall Hockey</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={borstahusen} alt="Borstahusen" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Borstahusen BK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={brommapojkarna} alt="Brommapojkarna" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Brommapojkarna</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={djurgårdensHockey} alt="Djurgårdens Hockey" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Djurgårdens Hockey</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={djurgårdensIfUngdom} alt="Djurgårdens IF Ungdom" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Djurgårdens IF Ungdom</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={dösjebro} alt="Dösjebro" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Dösjebro IF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={fagerstaSödra} alt="Fagersta Södra" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Fagersta Södra IK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={grums} alt="Grums" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Grums Fotboll</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={gustavsberg} alt="Gustavsberg" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Gustavsberg IF Fotboll</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={hammarbyhandboll} alt="Hammarby Handboll" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Hammarby Handboll</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={heffnersklubbans} alt="Heffners Klubban" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Heffners Klubbans</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={hertzöga} alt="Hertzöga" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Hertzöga BK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={hässelby} alt="Hässelby" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Hässelby SK Fotboll</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={järla} alt="Järla" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Järla IF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={karlstadFBK} alt="Karlstad FBK" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Karlstad FBK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={karlstadNorra} alt="Karlstad Norra" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Karlstad Norra</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={kiruna} alt="Kiruna" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Kiruna Fotbollförening</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={kramforsAlliansen} alt="Kramfors Alliansen" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Kramfors Alliansen</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={kungsängen} alt="Kungsängen" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Kungsängens Sportklubb</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={linköpingFriidrott} alt="Linköping Friidrott" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Linköping Friidrott</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={linköpingInnebandy} alt="Linköping Innebandy" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Linköping Innebandy</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={lucksta} alt="Lucksta" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Lucksta IF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={mallbacken} alt="Mallbacken" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Mallbackens IF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={munkaLjungby} alt="Munka Ljungby" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Munka Ljungby IBK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={mälarhöjden} alt="Mälarhöjden" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Mälarhöjden IK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={norrköping} alt="Norrköping" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Norrköpings HK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={nyland} alt="Nyland" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Nyland IFK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={nynäshamn} alt="Nynäshamn" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Nynäshamns IF Fotboll</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={roslagsbro} alt="Roslagsbro" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Roslagsbro IF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={råtorp} alt="Råtorp" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Råtorp IK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={sandsbro} alt="Sandsbro" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sandsbro AIK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={sandåkerns} alt="Sandåkerns" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sandåkerns SK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={selånger} alt="Selånger" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Selånger SK Fotboll</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={sollefteå} alt="Sollefteå" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sollefteå GIF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={spånga} alt="Spånga" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Spånga/Bromstens Bandyklubb</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={storvreta} alt="Storvreta" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Storvreta Innebandy</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={strömstad} alt="Strömstad" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Strömstad IFK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={stuvsta} alt="Stuvsta" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Stuvsta IF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={sundsvallHandboll} alt="Sundsvall Handboll" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sundsvall Handboll</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={sundsvallIBF} alt="Sundsvall IBF" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sundsvalls IBF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={säffle} alt="Säffle" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Säffle Sportklubb</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={torsby} alt="Torsby" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Torsby IF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={ulricehamn} alt="Ulricehamn" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Ulricehamns IFK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={umeåIBKDalen} alt="Umeå IBK Dalen" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Umeå IBK Dalen</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={värnamo} alt="Värnamo" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Värnamo IFK</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={växjöNorra} alt="Växjö Norra" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Växjö Norra IF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={ystad} alt="Ystad" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Ystads IF</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={älvsjö} alt="Älvsjö" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Älvsjö AIK Fotboll</div>
+                  </div>
                 </div>
                 <div className={styles.foreningBox}>
                   <Image className={styles.foreningImage} src={östersund} alt="Östersund" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Östersund OPE IF</div>
+                  </div>
                 </div>
               </div>
             </div>
