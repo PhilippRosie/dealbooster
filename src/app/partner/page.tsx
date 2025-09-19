@@ -4,6 +4,7 @@ import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import Image from "next/image";
 
 import aikHandboll from '../assets/images/partner/AIK-Handboll.png'
+import aikInnebandy from '../assets/images/partner/AIK-INNEBANDY.png'
 import borstahusen from '../assets/images/partner/Borstahusen-png.png'
 import brommapojkarna from '../assets/images/partner/Brommapojkarna-png.png'
 import djurgårdensHockey from '../assets/images/partner/Djurgårdens-Hockey-png.png'
@@ -45,6 +46,7 @@ import stuvsta from '../assets/images/partner/Stuvsta-png.png'
 import sundsvallHandboll from '../assets/images/partner/Sundsvall-Handboll-png.png'
 import sundsvallIBF from '../assets/images/partner/Sundsvall-IBF-png.png'
 import sundsvallHockey from '../assets/images/partner/SundsvallHockey.png'
+import sundsvallsDamfotboll from '../assets/images/partner/sundsvalls-dff.png'
 import säffle from '../assets/images/partner/Säffle-png.png'
 import torsby from '../assets/images/partner/Torsby.png'
 import ulricehamn from '../assets/images/partner/Ulricehamn-png.png'
@@ -87,6 +89,12 @@ export default function Partner() {
                   <Image className={styles.foreningImage} src={aikHandboll} alt="AIK Handboll" />
                   <div className={styles.foreningOverlay}>
                     <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>AIK Handboll</div>
+                  </div>
+                </div>
+                <div className={styles.foreningBox}>
+                  <Image className={styles.foreningImage} src={aikInnebandy} alt="AIK Innebandy" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>AIK Innebandy</div>
                   </div>
                 </div>
                 <div className={styles.foreningBox}>
@@ -327,6 +335,12 @@ export default function Partner() {
                   <Image className={styles.foreningImage} src={sundsvallIBF} alt="Sundsvall IBF" />
                   <div className={styles.foreningOverlay}>
                     <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sundsvalls IBF</div>
+                  </div>
+                </div>
+                <div className={styles.foreningBox}>
+                  <Image className={styles.foreningImage} src={sundsvallsDamfotboll} alt="Sundsvalls Damfotboll" />
+                  <div className={styles.foreningOverlay}>
+                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sundsvalls Damfotboll</div>
                   </div>
                 </div>
                 <div className={styles.foreningBox}>
