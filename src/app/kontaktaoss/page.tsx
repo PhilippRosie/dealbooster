@@ -3,7 +3,7 @@ import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import Jonas from "../assets/images/kontaktaoss/Jonas.jpg";
 import Kim from "../assets/images/kontaktaoss/Kim.jpg";
 import Anna from "../assets/images/kontaktaoss/Anna.jpg";
-import Conny from "../assets/images/kontaktaoss/Conny.jpg";
+import Conny from "../assets/images/kontaktaoss/Conny.png";
 import Philipp from "../assets/images/kontaktaoss/Philipp.jpg";
 import Poppy from "../assets/images/kontaktaoss/Poppy.jpg";
 import dbDiplom from "../assets/images/kontaktaoss/dealbooster-diplom.png";
