@@ -201,7 +201,7 @@ export default function Kontaktaoss() {
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  Grafiker, Partner och produktansvarig
+                  Grafiker Partner och produktansvarig
                 </p>
                 <h2 className={styles.kontaktBoxName}>Philipp Rosie</h2>
                 <p
