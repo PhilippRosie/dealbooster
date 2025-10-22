@@ -51,15 +51,31 @@
   width: 100%;
   height: 420px;
   color: #d4f4f8e3;
-  background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
+  /* Glassmorphism effekt med levande gradient */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px 20px 0 0;
   padding: 20px;
-  border-left: 1px solid #d4f4f88f;
-  border-right: 1px solid #d4f4f88f;
-  border-top: 1px solid #d4f4f88f;
-  box-shadow: 0 0 15px #000000d2;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
   opacity: 0;
   animation: slideInFromLeft 1s ease-out forwards;
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hover-effekt för glassmorphism */
+.gridItem:hover {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 10px 35px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  transform: translateY(-5px);
 }
 
 /* Animation för kort som kommer från vänster */
@@ -203,9 +219,17 @@
     position: relative;
     width: 180px;
     height: 180px; /* Öka höjden med 20px */
-    border: 1px solid #d4f4f8; /* Lägg till en ram runt de två översta */
+    /* Glassmorphism för mobil */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
+    box-shadow: 
+      0 4px 16px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.2);
     z-index: 0;
+    transition: all 0.3s ease;
   }
 
   .gridItem h2 {
@@ -265,9 +289,17 @@
     position: relative;
     width: 135px;
     height: 135px; /* Öka höjden med 20px */
-    border: 1px solid #d4f4f8; /* Lägg till en ram runt de två översta */
+    /* Glassmorphism för mindre skärmar */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
+    box-shadow: 
+      0 3px 12px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.2);
     z-index: 0;
+    transition: all 0.3s ease;
   }
   .gridItem h2 {
     font-size: 16px;

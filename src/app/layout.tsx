@@ -1,4 +1,5 @@
 import "./globals.css";
+import "../components/lightswind.css";
 import styles from "./layout.module.css";
 import { Oswald, Barlow_Condensed } from "next/font/google";
 import Header from "./components/header/Header";

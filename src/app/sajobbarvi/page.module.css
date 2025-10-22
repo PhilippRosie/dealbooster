@@ -31,14 +31,46 @@
   align-items: center;
   width: 80%;
   max-width: 1200px;
-  background: linear-gradient(20deg, #262929d2 50%, #d4f4f8e3);
-  padding: 2rem;
-  border: 1px solid #d4f4f8;
+  /* Glassmorphism effekt med levande gradient */
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.05) 30%,
+    rgba(255, 255, 255, 0.08) 70%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 16px;
+  padding: 2rem;
   margin-bottom: 3rem;
   gap: 3rem;
-  box-shadow: 0 0 15px #000000d2;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
+
+/* Skimrande shimmer-effekt */
+.sajobbarviContent1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  animation: shimmer 3s infinite;
+}
+
 
 .sajobbarviTextContainer {
   display: flex;

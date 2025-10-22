@@ -3,7 +3,8 @@ import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import Jonas from "../assets/images/kontaktaoss/Jonas.jpg";
 import Kim from "../assets/images/kontaktaoss/Kim.jpg";
 import Anna from "../assets/images/kontaktaoss/Anna.jpg";
-import Fredrik from "../assets/images/kontaktaoss/Fredrik.jpg";
+import Conny from "../assets/images/kontaktaoss/Conny.jpg";
+import Philipp from "../assets/images/kontaktaoss/Philipp.jpg";
 import Poppy from "../assets/images/kontaktaoss/Poppy.jpg";
 import dbDiplom from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import { barlowCondensed, oswald } from "../layout";
@@ -162,17 +163,17 @@ export default function Kontaktaoss() {
                 >
                   Partner och produktansvarig
                 </p>
-                <h2 className={styles.kontaktBoxName}>Fredrik Skaring</h2>
+                <h2 className={styles.kontaktBoxName}>Conny Nilsson</h2>
                 <p
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
                 >
-                  <a href="mailto:fredrik@dealbooster.nu">
-                    fredrik@dealbooster.nu <EmailIcon className={styles.icon} />
+                  <a href="mailto:conny@dealbooster.nu">
+                    conny@dealbooster.nu <EmailIcon className={styles.icon} />
                   </a>
                 </p>
                 <p className={styles.kontaktBoxPhone}>
-                  <a href="tel:+46739889900">
-                    +46 73 988 99 00 <PhoneIcon className={styles.icon} />
+                  <a href="tel:+46701454588">
+                    +46 70 145 45 88 <PhoneIcon className={styles.icon} />
                   </a>
                 </p>
               </div>
@@ -187,8 +188,48 @@ export default function Kontaktaoss() {
             <div className={styles.kontaktBoxImageContainer}>
               <Image
                 className={styles.kontaktBoxImage}
-                src={Fredrik}
-                alt="Fredrik"
+                src={Conny}
+                alt="Conny"
+                width={200}
+                height={200}
+              />
+            </div>
+          </div>
+          <div className={`${styles.kontaktBox} ${oswald.className}`}>
+            <div className={styles.kontaktBoxLeftContainer}>
+              <div className={styles.kontaktBoxTextContainer}>
+                <p
+                  className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
+                >
+                  Grafiker, Partner och produktansvarig
+                </p>
+                <h2 className={styles.kontaktBoxName}>Philipp Rosie</h2>
+                <p
+                  className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
+                >
+                  <a href="mailto:philipp@dealbooster.nu">
+                    philipp@dealbooster.nu <EmailIcon className={styles.icon} />
+                  </a>
+                </p>
+                <p className={styles.kontaktBoxPhone}>
+                  <a href="tel:+46768769490">
+                    +46 76 876 94 90 <PhoneIcon className={styles.icon} />
+                  </a>
+                </p>
+              </div>
+              <Image
+                className={styles.kontaktBoxDiplom}
+                src={dbDiplom}
+                alt="Diplom"
+                width={200}
+                height={80}
+              />
+            </div>
+            <div className={styles.kontaktBoxImageContainer}>
+              <Image
+                className={styles.kontaktBoxImage}
+                src={Philipp}
+                alt="Philipp"
                 width={200}
                 height={200}
               />
