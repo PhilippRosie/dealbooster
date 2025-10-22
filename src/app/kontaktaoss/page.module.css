@@ -81,6 +81,7 @@
   align-items: center;
   justify-content: flex-end;
   transition: color 0.3s ease-in-out;
+  white-space: nowrap;
 }
 
 .kontaktBoxEmail a:hover,
@@ -96,13 +97,47 @@
   align-items: center;
   justify-content: space-between;
   width: 50%;
-  border: 1px solid #d4f4f8;
+  /* Glassmorphism effekt med levande gradient */
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.05) 30%,
+    rgba(255, 255, 255, 0.08) 70%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
   padding: 20px;
-  background: linear-gradient(20deg, #262929b5 60%, #d4f4f8ba);
-  box-shadow: 0 0 15px #000000d2;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
   margin-bottom: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
+
+/* Skimrande shimmer-effekt för kontakt-boxar */
+.kontaktBox::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  animation: shimmer 3s infinite;
+  z-index: 1;
+  border-radius: 8px;
+}
+
 
 .kontaktBoxImageContainer {
   display: flex;
@@ -127,6 +162,12 @@
   transition: fill 0.3s;
   fill: #000; /* Standardfärg */
   stroke: #000;
+  /* Säkerställ att båda ikonerna har exakt samma storlek */
+  min-width: 45px;
+  min-height: 45px;
+  max-width: 45px;
+  max-height: 45px;
+  flex-shrink: 0;
 }
 
 .icon:hover {
