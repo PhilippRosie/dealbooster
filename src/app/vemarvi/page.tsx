@@ -12,9 +12,6 @@ export default function Vemarvi() {
     <div className={styles.vemarviPage}>
       <main
         className={styles.mainVemarvi}
-        style={{
-          backgroundImage: `url(${pagesBG1.src})`,
-        }}
       >
         <h2 className={`${styles.vemarviTextTitle} ${oswald.className}`}>
           Redo att förändra spelet? <br /> Vi är här för dig!

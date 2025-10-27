@@ -12,9 +12,6 @@ export default function Hjartefragor() {
     <div className={styles.hjartefragorPage}>
       <main
         className={styles.mainHjartefragor}
-        style={{
-          backgroundImage: `url(${pagesBG1.src})`,
-        }}
       >
         <div className={`${styles.hjartefragorTitle} ${oswald.className}`}>
           <h1>Hjärtefrågor</h1>

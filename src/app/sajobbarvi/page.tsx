@@ -11,9 +11,6 @@ export default function Sajobbarvi() {
     <div className={styles.sajobbarviPage}>
       <main
         className={styles.mainSajobbarvi}
-        style={{
-          backgroundImage: `url(${pagesBG1.src})`,
-        }}
       >
         <h2 className={`${styles.sajobbarviTextTitle} ${oswald.className}`}>
           Så jobbar vi för att <br /> stärka er förenings ekonomi

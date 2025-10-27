@@ -11,6 +11,8 @@
   flex: 1;
   display: flex;
   width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../assets/images/pagesBG/pagesBG1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -223,12 +225,11 @@
 
 @media only screen and (max-width: 768px) {
   .mainKontaktaoss {
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    height: 100vh;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("../assets/images/pagesBG/pagesBGMobile1.png") !important;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: repeat;
   }
 
   .kontaktaossTitle h1 {

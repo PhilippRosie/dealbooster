@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import pagesBG from "../assets/images/pagesBG/pagesBG.png";
+import pagesBG1 from "../assets/images/pagesBG/pagesBG1.png";
 
 import { oswald, barlowCondensed } from "../layout";
 
@@ -11,7 +11,7 @@ const CookiePolicy = () => {
          <main
         className={styles.mainCookiePolicy}
         style={{
-          backgroundImage: `url(${pagesBG.src})`,
+          backgroundImage: `url(${pagesBG1.src})`,
         }}
       >
       <h1 className={`${oswald.className} ${styles.cookiePolicyTitle}`}>Cookie Policy</h1>

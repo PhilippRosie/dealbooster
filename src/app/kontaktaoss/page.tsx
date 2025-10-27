@@ -18,9 +18,6 @@ export default function Kontaktaoss() {
     <div className={styles.kontaktaossPage}>
       <main
         className={styles.mainKontaktaoss}
-        style={{
-          backgroundImage: `url(${pagesBG1.src})`,
-        }}
       >
         <div className={`${styles.kontaktaossTitle} ${oswald.className}`}>
           <h1 className={styles.kontaktaossHeading}>

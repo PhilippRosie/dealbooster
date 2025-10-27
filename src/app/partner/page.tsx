@@ -65,9 +65,6 @@ export default function Partner() {
     <div className={styles.partnerPage}>
       <main
         className={styles.mainPartner}
-        style={{
-          backgroundImage: `url(${pagesBG1.src})`,
-        }}
       >
         <div className={`${styles.partnerTitle} ${oswald.className}`}>
           <h1></h1>
