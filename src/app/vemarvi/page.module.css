@@ -151,6 +151,15 @@
 }
 
 @media (max-width: 768px) {
+  .mainVemarvi {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+
   .vemarviTextTitle {
     font-size: 2rem;
     margin-top: 135px;

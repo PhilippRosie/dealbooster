@@ -222,6 +222,15 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .mainKontaktaoss {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+
   .kontaktaossTitle h1 {
     width: 80%;
     margin-top: 80px;
