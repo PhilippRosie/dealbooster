@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import pagesBG from "../assets/images/pagesBG/pagesBG.png";
+import pagesBG1 from "../assets/images/pagesBG/pagesBG1.png";
 import Jonas from "../assets/images/kontaktaoss/Jonas.jpg";
 import Kim from "../assets/images/kontaktaoss/Kim.jpg";
 import Anna from "../assets/images/kontaktaoss/Anna.jpg";
@@ -19,7 +19,7 @@ export default function Kontaktaoss() {
       <main
         className={styles.mainKontaktaoss}
         style={{
-          backgroundImage: `url(${pagesBG.src})`,
+          backgroundImage: `url(${pagesBG1.src})`,
         }}
       >
         <div className={`${styles.kontaktaossTitle} ${oswald.className}`}>

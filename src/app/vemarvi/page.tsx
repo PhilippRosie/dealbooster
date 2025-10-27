@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import pagesBG from "../assets/images/pagesBG/pagesBG.png";
+import pagesBG1 from "../assets/images/pagesBG/pagesBG1.png";
 import bandyTjejer from "../assets/images/vemarvi/bandyTjejer.jpg";
 import bandyKillar from "../assets/images/vemarvi/bandyKillar.jpg";
 import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
@@ -13,7 +13,7 @@ export default function Vemarvi() {
       <main
         className={styles.mainVemarvi}
         style={{
-          backgroundImage: `url(${pagesBG.src})`,
+          backgroundImage: `url(${pagesBG1.src})`,
         }}
       >
         <h2 className={`${styles.vemarviTextTitle} ${oswald.className}`}>
