@@ -1,5 +1,4 @@
 import styles from "./page.module.css";
-import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import bandyTjejer from "../assets/images/vemarvi/bandyTjejer.jpg";
 import bandyKillar from "../assets/images/vemarvi/bandyKillar.jpg";
 import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
@@ -12,9 +11,6 @@ export default function Vemarvi() {
     <div className={styles.vemarviPage}>
       <main
         className={styles.mainVemarvi}
-        style={{
-          backgroundImage: `url(${pagesBG.src})`,
-        }}
       >
         <h2 className={`${styles.vemarviTextTitle} ${oswald.className}`}>
           Redo att förändra spelet? <br /> Vi är här för dig!

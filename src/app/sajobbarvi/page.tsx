@@ -1,5 +1,4 @@
 import styles from "./page.module.css";
-import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import { barlowCondensed, oswald } from "../layout";
 import Image from "next/image";
@@ -11,9 +10,6 @@ export default function Sajobbarvi() {
     <div className={styles.sajobbarviPage}>
       <main
         className={styles.mainSajobbarvi}
-        style={{
-          backgroundImage: `url(${pagesBG.src})`,
-        }}
       >
         <h2 className={`${styles.sajobbarviTextTitle} ${oswald.className}`}>
           Så jobbar vi för att <br /> stärka er förenings ekonomi

@@ -1,5 +1,4 @@
 import styles from "./page.module.css";
-import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import Image from "next/image";
 
@@ -65,9 +64,6 @@ export default function Partner() {
     <div className={styles.partnerPage}>
       <main
         className={styles.mainPartner}
-        style={{
-          backgroundImage: `url(${pagesBG.src})`,
-        }}
       >
         <div className={`${styles.partnerTitle} ${oswald.className}`}>
           <h1></h1>

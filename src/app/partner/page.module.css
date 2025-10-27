@@ -12,7 +12,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url('../assets/images/pagesBG/pagesBG.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../assets/images/pagesBG/pagesBG1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -136,6 +137,14 @@
 }
 
 @media (max-width: 768px) {
+  .mainPartner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("../assets/images/pagesBG/pagesBGMobile1.png") !important;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: repeat;
+  }
+  
   .partnerForeningarContent {
     flex-direction: column;
     margin-top: -2.5rem;

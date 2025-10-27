@@ -6,7 +6,7 @@
 
 .main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../app/assets/images/landningssida/dealbosterBG.png");
+    url("../app/assets/images/landningssida/dealbosterBG1.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -169,7 +169,7 @@
 @media only screen and (max-width: 768px) {
   .main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url("../app/assets/images/landningssida/dealbosterBGMobile.jpg");
+      url("../app/assets/images/landningssida/dealbosterBGMobile1.png");
   }
   
   /* Mobil animationer för 2+2 grid */

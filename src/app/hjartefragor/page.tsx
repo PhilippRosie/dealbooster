@@ -1,5 +1,4 @@
 import styles from "./page.module.css";
-import pagesBG from "../assets/images/pagesBG/pagesBG.png";
 import rabatthäfteBild from "../assets/images/hjartefragor/rabatthäfteBild.jpg";
 import levereradeHäften from "../assets/images/hjartefragor/leveradeHäften.jpg";
 import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
@@ -12,9 +11,6 @@ export default function Hjartefragor() {
     <div className={styles.hjartefragorPage}>
       <main
         className={styles.mainHjartefragor}
-        style={{
-          backgroundImage: `url(${pagesBG.src})`,
-        }}
       >
         <div className={`${styles.hjartefragorTitle} ${oswald.className}`}>
           <h1>Hjärtefrågor</h1>
