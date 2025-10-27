@@ -1,5 +1,4 @@
 import styles from "./page.module.css";
-import pagesBG1 from "../assets/images/pagesBG/pagesBG1.png";
 import bandyTjejer from "../assets/images/vemarvi/bandyTjejer.jpg";
 import bandyKillar from "../assets/images/vemarvi/bandyKillar.jpg";
 import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";

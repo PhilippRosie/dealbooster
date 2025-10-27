@@ -1,5 +1,4 @@
 import styles from "./page.module.css";
-import pagesBG1 from "../assets/images/pagesBG/pagesBG1.png";
 import rabatthäfteBild from "../assets/images/hjartefragor/rabatthäfteBild.jpg";
 import levereradeHäften from "../assets/images/hjartefragor/leveradeHäften.jpg";
 import DiplomImage from "../assets/images/kontaktaoss/dealbooster-diplom.png";
