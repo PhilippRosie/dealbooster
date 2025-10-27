@@ -121,7 +121,7 @@ export default function Kontaktaoss() {
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  Partner och produktansvarig
+                  Partner och Produktansvarig
                 </p>
                 <h2 className={styles.kontaktBoxName}>Anna-Karin Elfner</h2>
                 <p
@@ -201,7 +201,7 @@ export default function Kontaktaoss() {
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  Grafiker, Partner och produktansvarig
+                  Grafiker, Partner och Produktansvarig
                 </p>
                 <h2 className={styles.kontaktBoxName}>Philipp Rosie</h2>
                 <p
