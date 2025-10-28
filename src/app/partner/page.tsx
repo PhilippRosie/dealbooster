@@ -7,7 +7,6 @@ import aikInnebandy from '../assets/images/partner/AIK-INNEBANDY.png'
 import borstahusen from '../assets/images/partner/Borstahusen-png.png'
 import brommapojkarna from '../assets/images/partner/Brommapojkarna-png.png'
 import djurgårdensHockey from '../assets/images/partner/Djurgårdens-Hockey-png.png'
-import djurgårdensIfUngdom from '../assets/images/partner/DjurgårdensIF-Ungdom-png.png'
 import fagerstaSödra from '../assets/images/partner/Fagersta-Södra-png.png'
 import fchInnebandy from '../assets/images/partner/FCH-Innebandy.png'
 import fiskeviksIF from '../assets/images/partner/FiskeviksIF.png'
@@ -106,12 +105,6 @@ export default function Partner() {
                   <Image className={styles.foreningImage} src={djurgårdensHockey} alt="Djurgårdens Hockey" />
                   <div className={styles.foreningOverlay}>
                     <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Djurgårdens Hockey</div>
-                  </div>
-                </div>
-                <div className={styles.foreningBox}>
-                  <Image className={styles.foreningImage} src={djurgårdensIfUngdom} alt="Djurgårdens IF Ungdom" />
-                  <div className={styles.foreningOverlay}>
-                    <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Djurgårdens IF Ungdom</div>
                   </div>
                 </div>
                 <div className={styles.foreningBox}>
