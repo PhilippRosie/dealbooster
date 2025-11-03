@@ -4,16 +4,20 @@ import { oswald, barlowCondensed } from "../layout";
 
 import aikHandboll from '../assets/images/partner/AIK-Handboll.png'
 import aikInnebandy from '../assets/images/partner/AIK-INNEBANDY.png'
+import boltic from '../assets/images/partner/Boltic.png'
 import borstahusen from '../assets/images/partner/Borstahusen-png.png'
 import brommapojkarna from '../assets/images/partner/Brommapojkarna-png.png'
 import djurgårdensHockey from '../assets/images/partner/Djurgårdens-Hockey-png.png'
 import fagerstaSödra from '../assets/images/partner/Fagersta-Södra-png.png'
+import FBCEngelholm from '../assets/images/partner/FBC-Engelholm.png'
 import fchInnebandy from '../assets/images/partner/FCH-Innebandy.png'
 import fiskeviksIF from '../assets/images/partner/FiskeviksIF.png'
+import FKBromma from '../assets/images/partner/FK-Bromma.png'
 import grums from '../assets/images/partner/Grums-png.png'
 import gustavsberg from '../assets/images/partner/Gustavsberg-png.png'
 import hammarby from '../assets/images/partner/Hammarby-png.png'
 import heffnersklubbans from '../assets/images/partner/HeffnersKlubbans.png'
+import HelsingborgsÖstra from '../assets/images/partner/Helsingborgs-Östra.png'
 import hertzöga from '../assets/images/partner/Hertzöga.png'
 import ifkVaxholm from '../assets/images/partner/IFK-Vaxholm.png'
 import ifköstersund from '../assets/images/partner/IFK-Östersund.png'
@@ -74,6 +78,12 @@ export default function Föreningar() {
               </div>
             </div>
             <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={boltic} alt="Boltic IF - Karlstad" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Boltic IF - Karlstad</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={sundsvallHockey} alt="Sundsvall Hockey" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sundsvall Hockey</div>
@@ -104,6 +114,12 @@ export default function Föreningar() {
               </div>
             </div>
             <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={FBCEngelholm} alt="FBC Engelholm" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>FBC Engelholm</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={fchInnebandy} alt="FCH Innebandy" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>FCH Innebandy</div>
@@ -113,6 +129,12 @@ export default function Föreningar() {
               <Image className={styles.foreningImage} src={fiskeviksIF} alt="Fiskeviks IF" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Fiskeviks IF</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={FKBromma} alt="FK Bromma" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>FK Bromma</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -131,6 +153,12 @@ export default function Föreningar() {
               <Image className={styles.foreningImage} src={heffnersklubbans} alt="Heffners Klubban" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Heffners Klubbans</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={HelsingborgsÖstra} alt="Helsingborgs Östra" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Helsingborgs Östra</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
