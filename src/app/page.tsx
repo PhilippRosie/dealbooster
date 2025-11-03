@@ -35,7 +35,7 @@ export default function Home() {
                 href="/partner"
                 className={`${styles.gridItem} ${styles.slideFromLeft} ${oswald.className}`}
               >
-                <h2>Föreningar</h2>
+                <h2>Samarbeten</h2>
                 <div className={styles.imageContainer}>
                   <Image
                     src={partnerBild}
@@ -47,8 +47,9 @@ export default function Home() {
                 </div>
                 <h3>Vilka är dom?</h3>
                 <p className={barlowCondensed.className}>
-                  Våra fantastiska föreningar är vår
-                  största styrka! <br/><br/> Här kan ni hitta dom...
+                  Våra fantastiska samarbeten och partnerskap är vår största styrka!
+                  <br />
+                  Här hittar du alla föreningar och samarbetspartners.
                 </p>
               </Link>
               <Link
