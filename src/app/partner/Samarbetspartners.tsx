@@ -17,7 +17,7 @@ import coop from '../assets/images/partner/samarbetspartners/Coop.png'
 import fluggerfarg from '../assets/images/partner/samarbetspartners/fluggerfärg.png'
 import friskisochsvettis from '../assets/images/partner/samarbetspartners/friskisochsvettis.png'
 import granngarden from '../assets/images/partner/samarbetspartners/granngården.png'
-import grekiskaKolgrillsBaren from '../assets/images/partner/samarbetspartners/GrekiskaKolgrillsbaren.png'
+import grekiskaGrillOchBar from '../assets/images/partner/samarbetspartners/grekiskaGrillOchBar.png'
 import gulf from '../assets/images/partner/samarbetspartners/Gulf.png'
 import ICA from '../assets/images/partner/samarbetspartners/ICA.png'
 import inlandet from '../assets/images/partner/samarbetspartners/inlandet.png'
@@ -157,9 +157,9 @@ export default function Samarbetspartners() {
               </div>
             </div>
             <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={grekiskaKolgrillsBaren} alt="Grekiska Kolgrillsbaren" />
+              <Image className={styles.foreningImage} src={grekiskaGrillOchBar} alt="Grekiska Grill & Bar" />
               <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Grekiska Kolgrillsbaren</div>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Grekiska Grill & Bar</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
