@@ -2,23 +2,30 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import { oswald, barlowCondensed } from "../layout";
 
+import abkarlhedin from '../assets/images/partner/samarbetspartners/abkarlhedin.png'
+import allstar from '../assets/images/partner/samarbetspartners/allstar.png'
 import apoteket from '../assets/images/partner/samarbetspartners/apoteket.png'
 import apotekHjärtat from '../assets/images/partner/samarbetspartners/apotekHjärtat.png'
 import apotekKronan from '../assets/images/partner/samarbetspartners/apotekKronan.png'
 import arkenZoo from '../assets/images/partner/samarbetspartners/arkenZoo.png'
 import bayb from '../assets/images/partner/samarbetspartners/bayb_logo_white.png'
+import beijerbygg from '../assets/images/partner/samarbetspartners/beijerbygg.png'
 import bergströmsSkor from '../assets/images/partner/samarbetspartners/bergstromsskor.png'
 import bikbok from '../assets/images/partner/samarbetspartners/bikbok.png'
+import brothers from '../assets/images/partner/samarbetspartners/brothers.png'
 import burgerking from '../assets/images/partner/samarbetspartners/burgerking.png'
 import carlings from '../assets/images/partner/samarbetspartners/carlings.png'
 import cervera from '../assets/images/partner/samarbetspartners/cervera.png'
 import circleK from '../assets/images/partner/samarbetspartners/circleK.png'
+import clarion from '../assets/images/partner/samarbetspartners/clarion.png'
+import colorama from '../assets/images/partner/samarbetspartners/colorama.png'
 import coop from '../assets/images/partner/samarbetspartners/Coop.png'
 import fluggerfarg from '../assets/images/partner/samarbetspartners/fluggerfärg.png'
 import friskisochsvettis from '../assets/images/partner/samarbetspartners/friskisochsvettis.png'
 import granngarden from '../assets/images/partner/samarbetspartners/granngården.png'
 import grekiskaGrillOchBar from '../assets/images/partner/samarbetspartners/grekiskaGrillOchBar.png'
 import gulf from '../assets/images/partner/samarbetspartners/Gulf.png'
+import hemköp from '../assets/images/partner/samarbetspartners/hemköp.png'
 import ICA from '../assets/images/partner/samarbetspartners/ICA.png'
 import inlandet from '../assets/images/partner/samarbetspartners/inlandet.png'
 import intersport from '../assets/images/partner/samarbetspartners/Intersport.png'
@@ -49,10 +56,12 @@ import sveavaccin from '../assets/images/partner/samarbetspartners/sveavaccin.pn
 import synsam from '../assets/images/partner/samarbetspartners/synsam.png'
 import teamsportia from '../assets/images/partner/samarbetspartners/teamsportia.png'
 import tejpGross from '../assets/images/partner/samarbetspartners/tejpgross.png'
+import texaslonghorn from '../assets/images/partner/samarbetspartners/texaslonghorn.png'
 import theLocalStore from '../assets/images/partner/samarbetspartners/TheLocalStore.png'
 import veromoda from '../assets/images/partner/samarbetspartners/veromoda.png'
 import vila from '../assets/images/partner/samarbetspartners/vila.png'
 import wanyes from '../assets/images/partner/samarbetspartners/wanyes.png'
+import xlbyggfresks from '../assets/images/partner/samarbetspartners/xlbyggfresks.png'
 import XXL from '../assets/images/partner/samarbetspartners/XXL.png'
 import zooSE from '../assets/images/partner/samarbetspartners/zooSE.png'
 
@@ -66,6 +75,18 @@ export default function Samarbetspartners() {
             Samarbetspartners
           </h2>
           <div className={styles.partnerForeningarGrid}>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={abkarlhedin} alt="Ab Karl Hedin" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Ab Karl Hedin</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={allstar} alt="Allstar - The Fabulous Sportsbar" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Allstar - The Fabulous Sportsbar</div>
+              </div>
+            </div>
             <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={apoteket} alt="Apoteket" />
               <div className={styles.foreningOverlay}>
@@ -97,6 +118,12 @@ export default function Samarbetspartners() {
               </div>
             </div>
             <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={beijerbygg} alt="Beijer Byggmaterial" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Beijer Byggmaterial</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={bergströmsSkor} alt="Bergströms Skor" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Bergströms Skor</div>
@@ -106,6 +133,12 @@ export default function Samarbetspartners() {
               <Image className={styles.foreningImage} src={bikbok} alt="Bikbok" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Bikbok</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={brothers} alt="Brothers" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Brothers</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -130,6 +163,18 @@ export default function Samarbetspartners() {
               <Image className={styles.foreningImage} src={circleK} alt="Circle K" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Circle K</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={clarion} alt="Clarion Hotel" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Clarion Hotel</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={colorama} alt="Colorama" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Colorama</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -166,6 +211,12 @@ export default function Samarbetspartners() {
               <Image className={styles.foreningImage} src={gulf} alt="Gulf" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Gulf</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={hemköp} alt="Hemköp" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Hemköp</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -349,6 +400,12 @@ export default function Samarbetspartners() {
               </div>
             </div>
             <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={texaslonghorn} alt="Texas Longhorn" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Texas Longhorn</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={theLocalStore} alt="The Local Store" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>The Local Store</div>
@@ -370,6 +427,12 @@ export default function Samarbetspartners() {
               <Image className={styles.foreningImage} src={wanyes} alt="Wanyes Coffee" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Wanyes Coffee</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={xlbyggfresks} alt="XL Bygg Fresks" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>XL Bygg Fresks</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
