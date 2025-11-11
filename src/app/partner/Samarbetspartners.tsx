@@ -75,6 +75,48 @@ export default function Samarbetspartners() {
             Samarbetspartners
           </h2>
           <div className={styles.partnerForeningarGrid}>
+          <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={jumpYard} alt="Jump Yard" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>JumpYard</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={coop} alt="Coop" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Coop</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={nordicwellness} alt="Nordic Wellness" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Nordic Wellness</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={synsam} alt="Synsam" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Synsam</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={sushiYama} alt="Sushi Yama" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sushi Yama</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={MIO} alt="MIO" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>MIO</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={bayb} alt="Be at your best" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>BE@YOURBEST</div>
+              </div>
+            </div>
             <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={abkarlhedin} alt="Ab Karl Hedin" />
               <div className={styles.foreningOverlay}>
@@ -91,6 +133,12 @@ export default function Samarbetspartners() {
               <Image className={styles.foreningImage} src={apoteket} alt="Apoteket" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Apoteket</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={ICA} alt="ICA" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>ICA</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -112,9 +160,9 @@ export default function Samarbetspartners() {
               </div>
             </div>
             <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={bayb} alt="Be at your best" />
+              <Image className={styles.foreningImage} src={circleK} alt="Circle K" />
               <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>BE@YOURBEST</div>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Circle K</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -160,12 +208,6 @@ export default function Samarbetspartners() {
               </div>
             </div>
             <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={circleK} alt="Circle K" />
-              <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Circle K</div>
-              </div>
-            </div>
-            <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={clarion} alt="Clarion Hotel" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Clarion Hotel</div>
@@ -175,12 +217,6 @@ export default function Samarbetspartners() {
               <Image className={styles.foreningImage} src={colorama} alt="Colorama" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Colorama</div>
-              </div>
-            </div>
-            <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={coop} alt="Coop" />
-              <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Coop</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -220,12 +256,6 @@ export default function Samarbetspartners() {
               </div>
             </div>
             <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={ICA} alt="ICA" />
-              <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>ICA</div>
-              </div>
-            </div>
-            <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={inlandet} alt="Inlandet" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Inlandet</div>
@@ -241,12 +271,6 @@ export default function Samarbetspartners() {
               <Image className={styles.foreningImage} src={jula} alt="Jula" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Jula</div>
-              </div>
-            </div>
-            <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={jumpYard} alt="Jump Yard" />
-              <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>JumpYard</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -274,21 +298,9 @@ export default function Samarbetspartners() {
               </div>
             </div>
             <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={MIO} alt="MIO" />
-              <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>MIO</div>
-              </div>
-            </div>
-            <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={nikitaHair} alt="Nikita Hair" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Nikita Hair</div>
-              </div>
-            </div>
-            <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={nordicwellness} alt="Nordic Wellness" />
-              <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Nordic Wellness</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -370,21 +382,9 @@ export default function Samarbetspartners() {
               </div>
             </div>
             <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={sushiYama} alt="Sushi Yama" />
-              <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sushi Yama</div>
-              </div>
-            </div>
-            <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={sveavaccin} alt="Svea Vaccin" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Svea Vaccin</div>
-              </div>
-            </div>
-            <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={synsam} alt="Synsam" />
-              <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Synsam</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
