@@ -94,15 +94,15 @@ export default function Samarbetspartners() {
               </div>
             </div>
             <div className={styles.foreningBox}>
-              <Image className={styles.foreningImage} src={synsam} alt="Synsam" />
-              <div className={styles.foreningOverlay}>
-                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Synsam</div>
-              </div>
-            </div>
-            <div className={styles.foreningBox}>
               <Image className={styles.foreningImage} src={sushiYama} alt="Sushi Yama" />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Sushi Yama</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image className={styles.foreningImage} src={synsam} alt="Synsam" />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Synsam</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
