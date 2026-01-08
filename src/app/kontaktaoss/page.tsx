@@ -59,6 +59,8 @@ export default function Kontaktaoss() {
                 alt="Diplom"
                 width={200}
                 height={80}
+                loading="lazy"
+                sizes="(max-width: 768px) 200px, 200px"
               />
             </div>
             <div className={styles.kontaktBoxImageContainer}>
@@ -68,6 +70,8 @@ export default function Kontaktaoss() {
                 alt="Jonas"
                 width={200}
                 height={200}
+                loading="lazy"
+                sizes="(max-width: 768px) 250px, 200px"
               />
             </div>
           </div>
@@ -99,6 +103,8 @@ export default function Kontaktaoss() {
                 alt="Diplom"
                 width={200}
                 height={80}
+                loading="lazy"
+                sizes="(max-width: 768px) 200px, 200px"
               />
             </div>
             <div className={styles.kontaktBoxImageContainer}>
@@ -108,6 +114,8 @@ export default function Kontaktaoss() {
                 alt="Kim"
                 width={200}
                 height={200}
+                loading="lazy"
+                sizes="(max-width: 768px) 250px, 200px"
               />
             </div>
           </div>
@@ -139,6 +147,8 @@ export default function Kontaktaoss() {
                 alt="Diplom"
                 width={200}
                 height={80}
+                loading="lazy"
+                sizes="(max-width: 768px) 200px, 200px"
               />
             </div>
             <div className={styles.kontaktBoxImageContainer}>
@@ -148,6 +158,8 @@ export default function Kontaktaoss() {
                 alt="Anna"
                 width={200}
                 height={200}
+                loading="lazy"
+                sizes="(max-width: 768px) 250px, 200px"
               />
             </div>
           </div>
@@ -179,6 +191,8 @@ export default function Kontaktaoss() {
                 alt="Diplom"
                 width={200}
                 height={80}
+                loading="lazy"
+                sizes="(max-width: 768px) 200px, 200px"
               />
             </div>
             <div className={styles.kontaktBoxImageContainer}>
@@ -188,6 +202,8 @@ export default function Kontaktaoss() {
                 alt="Conny"
                 width={200}
                 height={200}
+                loading="lazy"
+                sizes="(max-width: 768px) 250px, 200px"
               />
             </div>
           </div>
@@ -219,6 +235,8 @@ export default function Kontaktaoss() {
                 alt="Diplom"
                 width={200}
                 height={80}
+                loading="lazy"
+                sizes="(max-width: 768px) 200px, 200px"
               />
             </div>
             <div className={styles.kontaktBoxImageContainer}>
@@ -228,6 +246,8 @@ export default function Kontaktaoss() {
                 alt="Philipp"
                 width={200}
                 height={200}
+                loading="lazy"
+                sizes="(max-width: 768px) 250px, 200px"
               />
             </div>
           </div>
@@ -248,6 +268,8 @@ export default function Kontaktaoss() {
                 alt="Diplom"
                 width={200}
                 height={80}
+                loading="lazy"
+                sizes="(max-width: 768px) 200px, 200px"
               />
             </div>
             <div className={styles.kontaktBoxImageContainer}>
@@ -257,6 +279,8 @@ export default function Kontaktaoss() {
                 alt="Poppy"
                 width={200}
                 height={200}
+                loading="lazy"
+                sizes="(max-width: 768px) 250px, 200px"
               />
             </div>
           </div>

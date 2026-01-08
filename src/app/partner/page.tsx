@@ -32,7 +32,15 @@ export default function Partner() {
           </div>
         </div>
         {activeTab === "föreningar" ? <Föreningar /> : <Samarbetspartners />}
-        <Image className={styles.diplomImage} src={DiplomImage} alt="Diplom" />
+        <Image 
+          className={styles.diplomImage} 
+          src={DiplomImage} 
+          alt="Diplom" 
+          width={200}
+          height={80}
+          loading="lazy"
+          sizes="(max-width: 768px) 200px, 200px"
+        />
       </main>
     </div>
   );

@@ -18,9 +18,11 @@ export default function Sajobbarvi() {
           <Image
             src={fottballAndFoot}
             alt="Football and Foot"
+            width={300}
             height={300}
-            
             className={styles.sajobbarviContentImage1}
+            loading="lazy"
+            sizes="(max-width: 425px) 60vw, (max-width: 768px) 60vw, (max-width: 1024px) 30vw, 300px"
           />
           <div className={styles.sajobbarviTextContainer}>
             <p
@@ -48,7 +50,15 @@ export default function Sajobbarvi() {
             </p>
           </div>
         </div>
-        <Image className={styles.diplomImage} src={DiplomImage} alt="Diplom" />
+        <Image 
+          className={styles.diplomImage} 
+          src={DiplomImage} 
+          alt="Diplom" 
+          width={200}
+          height={80}
+          loading="lazy"
+          sizes="(max-width: 768px) 200px, 200px"
+        />
       </main>
     </div>
   );
