@@ -41,8 +41,10 @@ export default function Home() {
                     src={partnerBild}
                     alt="Partner"
                     width={200}
+                    height={200}
                     className={styles.partnerImage}
                     priority
+                    sizes="(max-width: 768px) 200px, 200px"
                   />
                 </div>
                 <h3>Vilka är dom?</h3>
@@ -62,8 +64,10 @@ export default function Home() {
                     src={hjartefragorBild}
                     alt="Hjärtefrågor"
                     width={200}
+                    height={200}
                     className={styles.partnerImage}
                     priority
+                    sizes="(max-width: 768px) 200px, 200px"
                   />
                 </div>
                 <h3>Vi brinner för din förening!</h3>
@@ -83,8 +87,10 @@ export default function Home() {
                     src={sajobbarviBild}
                     alt="Så jobbar vi"
                     width={200}
+                    height={200}
                     className={styles.partnerImage}
                     priority
+                    sizes="(max-width: 768px) 200px, 200px"
                   />
                 </div>
                 <h3>Sponsring som boostar</h3>
@@ -104,8 +110,10 @@ export default function Home() {
                     src={vemarviBild}
                     alt="Vem är vi"
                     width={200}
+                    height={200}
                     className={styles.partnerImage}
                     priority
+                    sizes="(max-width: 768px) 200px, 200px"
                   />
                 </div>
                 <h3>Er förenings bästa vän!</h3>

@@ -43,6 +43,9 @@ export default function Vemarvi() {
               src={bandyTjejer}
               alt="Bandy Tjejer"
               width={400}
+              height={300}
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 40vw, 400px"
             />
           </div>
           <div className={styles.vemarviContent2}>
@@ -54,6 +57,9 @@ export default function Vemarvi() {
                 src={bandyKillar}
                 alt="Bandy Killar"
                 width={400}
+                height={300}
+                loading="lazy"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 40vw, 400px"
               />
               <ul>
                 <div className={styles.vemarviTextContent2Text}>
@@ -93,7 +99,15 @@ export default function Vemarvi() {
             </div>
           </div>
         </div>
-        <Image className={styles.diplomImage} src={DiplomImage} alt="Diplom" />
+        <Image 
+          className={styles.diplomImage} 
+          src={DiplomImage} 
+          alt="Diplom" 
+          width={200}
+          height={80}
+          loading="lazy"
+          sizes="(max-width: 768px) 200px, 200px"
+        />
       </main>
     </div>
   );
