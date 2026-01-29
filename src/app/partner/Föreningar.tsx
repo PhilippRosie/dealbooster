@@ -4,10 +4,12 @@ import { oswald, barlowCondensed } from "../layout";
 
 import aikHandboll from '../assets/images/partner/AIK-Handboll.png'
 import aikInnebandy from '../assets/images/partner/AIK-INNEBANDY.png'
+import bollstanäsSK from '../assets/images/partner/Bollstanas_SK.png'
 import boltic from '../assets/images/partner/Boltic.png'
 import borstahusen from '../assets/images/partner/Borstahusen-png.png'
 import brommapojkarna from '../assets/images/partner/Brommapojkarna-png.png'
 import djurgårdensHockey from '../assets/images/partner/Djurgårdens-Hockey-png.png'
+import enköpingsSK from '../assets/images/partner/Enkopings_SK_Hockey.png'
 import fagerstaSödra from '../assets/images/partner/Fagersta-Södra-png.png'
 import FBCEngelholm from '../assets/images/partner/FBC-Engelholm.png'
 import fchInnebandy from '../assets/images/partner/FCH-Innebandy.png'
@@ -16,12 +18,15 @@ import FKBromma from '../assets/images/partner/FK-Bromma.png'
 import grums from '../assets/images/partner/Grums-png.png'
 import gustavsberg from '../assets/images/partner/Gustavsberg-png.png'
 import hammarby from '../assets/images/partner/Hammarby-png.png'
+import hanvikensSK from '../assets/images/partner/Hanvikens_SK_Fotboll.png'
 import heffnersklubbans from '../assets/images/partner/HeffnersKlubbans.png'
 import HelsingborgsÖstra from '../assets/images/partner/Helsingborgs-Östra.png'
 import hertzöga from '../assets/images/partner/Hertzöga.png'
+import högaborgsBK from '../assets/images/partner/hogaborg_BK.png'
 import ifkVaxholm from '../assets/images/partner/IFK-Vaxholm.png'
 import ifköstersund from '../assets/images/partner/IFK-Östersund.png'
 import järla from '../assets/images/partner/Järla-png.png'
+import karlstadFotboll from '../assets/images/partner/Karlstad_fotboll.png'
 import karlstadFBK from '../assets/images/partner/Karlstad-FBK-png.png'
 import karlstadNorra from '../assets/images/partner/Karlstad-Norra-png.png'
 import kramforsAlliansen from '../assets/images/partner/Kramfors-Alliansen-png.png'
@@ -45,8 +50,10 @@ import säffle from '../assets/images/partner/Säffle-png.png'
 import torsby from '../assets/images/partner/Torsby.png'
 import ulricehamn from '../assets/images/partner/Ulricehamn-png.png'
 import umeåIBKDalen from '../assets/images/partner/Umeå-IBK-Dalen-png.png'
+import västeråsGymnastik from '../assets/images/partner/Vasteras_Gymnastik.png'
 import värnamo from '../assets/images/partner/Värnamo-png.png'
 import växjöNorra from '../assets/images/partner/Växjö-Norra-png.png'
+import wilsonDanceFactory from '../assets/images/partner/Wilson_Dance_Factory.png'
 import älvsjö from '../assets/images/partner/Älvsjö-png.png'
 import östersund from '../assets/images/partner/Östersund-png.png'
 
@@ -99,6 +106,20 @@ export default function Föreningar() {
               />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>AIK Innebandy</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
+                src={bollstanäsSK} 
+                alt="Bollstanäs SK" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Bollstanäs SK</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -169,6 +190,20 @@ export default function Föreningar() {
               />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Djurgårdens Hockey</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
+                src={enköpingsSK} 
+                alt="Enköpings SK" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Enköpings SK Hockey</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -272,6 +307,20 @@ export default function Föreningar() {
             <div className={styles.foreningBox}>
               <Image 
                 className={styles.foreningImage} 
+                src={hanvikensSK} 
+                alt="Hanvikens SK" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Hanvikens SK</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
                 src={heffnersklubbans} 
                 alt="Heffners Klubban" 
                 width={100}
@@ -314,6 +363,20 @@ export default function Föreningar() {
             <div className={styles.foreningBox}>
               <Image 
                 className={styles.foreningImage} 
+                src={högaborgsBK} 
+                alt="Högaborgs BK" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Högaborgs BK</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
                 src={ifkVaxholm} 
                 alt="IFK Vaxholm" 
                 width={100}
@@ -351,6 +414,20 @@ export default function Föreningar() {
               />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Järla IF</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
+                src={karlstadFotboll} 
+                alt="Karlstad Fotboll" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Karlstad Fotboll</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
@@ -664,6 +741,20 @@ export default function Föreningar() {
             <div className={styles.foreningBox}>
               <Image 
                 className={styles.foreningImage} 
+                src={västeråsGymnastik} 
+                alt="Västerås Gymnastik" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Västerås Gymnastikförening</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
                 src={värnamo} 
                 alt="Värnamo" 
                 width={100}
@@ -687,6 +778,20 @@ export default function Föreningar() {
               />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Växjö Norra IF</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
+                src={wilsonDanceFactory} 
+                alt="Wilson Dance Factory" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Wilson Dance Factory</div>
               </div>
             </div>
             <div className={styles.foreningBox}>

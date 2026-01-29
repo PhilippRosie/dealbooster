@@ -59,6 +59,7 @@ import tejpGross from '../assets/images/partner/samarbetspartners/tejpgross.png'
 import texaslonghorn from '../assets/images/partner/samarbetspartners/texaslonghorn.png'
 import theLocalStore from '../assets/images/partner/samarbetspartners/TheLocalStore.png'
 import veromoda from '../assets/images/partner/samarbetspartners/veromoda.png'
+import vibes from '../assets/images/partner/samarbetspartners/vibes_helsingborg.png'
 import vila from '../assets/images/partner/samarbetspartners/vila.png'
 import wanyes from '../assets/images/partner/samarbetspartners/wanyes.png'
 import xlbyggfresks from '../assets/images/partner/samarbetspartners/xlbyggfresks.png'
@@ -871,6 +872,20 @@ export default function Samarbetspartners() {
               />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Vero Moda</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
+                src={vibes} 
+                alt="Vibes Helsingborg" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Vibes Helsingborg</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
