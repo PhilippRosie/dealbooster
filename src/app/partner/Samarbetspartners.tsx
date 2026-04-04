@@ -27,7 +27,7 @@ import granngarden from '../assets/images/partner/samarbetspartners/granngården
 import grekiskaGrillOchBar from '../assets/images/partner/samarbetspartners/grekiskaGrillOchBar.png'
 import gulf from '../assets/images/partner/samarbetspartners/Gulf.png'
 import hemköp from '../assets/images/partner/samarbetspartners/hemköp.png'
-import hälsokraft from '../assets/images/partner/samarbetspartners/Hälsokraft.png'
+import hälsokraft from '../assets/images/partner/samarbetspartners/Hälsokraft.png'
 import ICA from '../assets/images/partner/samarbetspartners/ICA.png'
 import inlandet from '../assets/images/partner/samarbetspartners/inlandet.png'
 import intersport from '../assets/images/partner/samarbetspartners/Intersport.png'
