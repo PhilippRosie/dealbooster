@@ -27,6 +27,7 @@ import granngarden from '../assets/images/partner/samarbetspartners/granngården
 import grekiskaGrillOchBar from '../assets/images/partner/samarbetspartners/grekiskaGrillOchBar.png'
 import gulf from '../assets/images/partner/samarbetspartners/Gulf.png'
 import hemköp from '../assets/images/partner/samarbetspartners/hemköp.png'
+import hälsokraft from '../assets/images/partner/samarbetspartners/Hälsokraft.png'
 import ICA from '../assets/images/partner/samarbetspartners/ICA.png'
 import inlandet from '../assets/images/partner/samarbetspartners/inlandet.png'
 import intersport from '../assets/images/partner/samarbetspartners/Intersport.png'
@@ -509,6 +510,20 @@ export default function Samarbetspartners() {
               />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Hemköp</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
+                src={hälsokraft} 
+                alt="Hälsokraft" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Hälsokraft</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
