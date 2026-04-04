@@ -55,6 +55,7 @@ import värnamo from '../assets/images/partner/Värnamo-png.png'
 import växjöNorra from '../assets/images/partner/Växjö-Norra-png.png'
 import wilsonDanceFactory from '../assets/images/partner/Wilson_Dance_Factory.png'
 import älvsjö from '../assets/images/partner/Älvsjö-png.png'
+import ödåkraRidsällskap from '../assets/images/partner/ödåkraRidsällskap.png'
 import östersund from '../assets/images/partner/Östersund-png.png'
 
 export default function Föreningar() {
@@ -806,6 +807,20 @@ export default function Föreningar() {
               />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Älvsjö AIK Fotboll</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
+                src={ödåkraRidsällskap} 
+                alt="Ödåkra Ridsällskap" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Ödåkra Ridsällskap</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
