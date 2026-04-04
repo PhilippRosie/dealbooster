@@ -8,6 +8,7 @@ import apoteket from '../assets/images/partner/samarbetspartners/apoteket.png'
 import apotekHjärtat from '../assets/images/partner/samarbetspartners/apotekHjärtat.png'
 import apotekKronan from '../assets/images/partner/samarbetspartners/apotekKronan.png'
 import arkenZoo from '../assets/images/partner/samarbetspartners/arkenZoo.png'
+import bagatelle from '../assets/images/partner/samarbetspartners/bagatelle.png'
 import bayb from '../assets/images/partner/samarbetspartners/bayb_logo_white.png'
 import beijerbygg from '../assets/images/partner/samarbetspartners/beijerbygg.png'
 import bergströmsSkor from '../assets/images/partner/samarbetspartners/bergstromsskor.png'
@@ -270,6 +271,20 @@ export default function Samarbetspartners() {
               />
               <div className={styles.foreningOverlay}>
                 <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Arken Zoo</div>
+              </div>
+            </div>
+            <div className={styles.foreningBox}>
+              <Image 
+                className={styles.foreningImage} 
+                src={bagatelle} 
+                alt="Bagatelle" 
+                width={100}
+                height={100}
+                loading="lazy"
+                sizes="(max-width: 425px) 70px, (max-width: 768px) 70px, 100px"
+              />
+              <div className={styles.foreningOverlay}>
+                <div className={`${styles.foreningOverlayText} ${barlowCondensed.className}`}>Bagatelle</div>
               </div>
             </div>
             <div className={styles.foreningBox}>
