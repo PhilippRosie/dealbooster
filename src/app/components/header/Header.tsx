@@ -125,11 +125,11 @@ export default function Header() {
               <Link href="/hjartefragor" className={oswald.className}>
                 Hjärtefrågor
               </Link>
-              <Link href="/sajobbarvi" className={oswald.className}>
-                Så Jobbar Vi
+              <Link href="/varfordealbooster" className={oswald.className}>
+                Varför Dealbooster?
               </Link>
-              <Link href="/vemarvi" className={oswald.className}>
-                Vem är vi?
+              <Link href="/builttoperform" className={oswald.className}>
+                Built to Perform
               </Link>
             </nav>
           )}
@@ -156,13 +156,17 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/sajobbarvi" className={oswald.className} onClick={closeMenu}>
-                Så Jobbar Vi
+              <Link
+                href="/varfordealbooster"
+                className={oswald.className}
+                onClick={closeMenu}
+              >
+                Varför Dealbooster?
               </Link>
             </li>
             <li>
-              <Link href="/vemarvi" className={oswald.className} onClick={closeMenu}>
-                Vem är vi?
+              <Link href="/builttoperform" className={oswald.className} onClick={closeMenu}>
+                Built to Perform
               </Link>
             </li>
           </ul>
