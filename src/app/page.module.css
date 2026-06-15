@@ -78,6 +78,48 @@
   transform: translateY(-5px);
 }
 
+.builtToPerformCard {
+  color: #ffffff;
+  background: radial-gradient(
+      circle at top right,
+      rgba(111, 212, 232, 0.18),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(111, 212, 232, 0.15),
+      transparent 35%
+    ),
+    #030507;
+  border: 1px solid rgba(111, 212, 232, 0.15);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.builtToPerformCard:hover {
+  background: radial-gradient(
+      circle at top right,
+      rgba(111, 212, 232, 0.22),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(111, 212, 232, 0.2),
+      transparent 35%
+    ),
+    rgba(3, 5, 7, 0.9);
+  border: 1px solid rgba(111, 212, 232, 0.3);
+  box-shadow:
+    0 12px 45px rgba(0, 0, 0, 0.4),
+    0 0 35px rgba(111, 212, 232, 0.35);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.builtToPerformCard .partnerImage {
+  box-shadow: none;
+  margin: 0;
+}
+
 /* Animation för kort som kommer från vänster */
 .slideFromLeft {
   animation: slideInFromLeft 2s ease-out forwards;
@@ -118,6 +160,7 @@
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .gridSubHeading {
@@ -128,6 +171,7 @@
 .gridItem p {
   font-size: 18px;
   font-weight: 200;
+  
   text-align: center;
 }
 
@@ -246,6 +290,28 @@
   }
 
   .gridItem p {
+    display: none;
+  }
+
+  .builtToPerformCard {
+    background: radial-gradient(
+        circle at top right,
+        rgba(111, 212, 232, 0.18),
+        transparent 30%
+      ),
+      radial-gradient(
+        circle at bottom left,
+        rgba(111, 212, 232, 0.15),
+        transparent 35%
+      ),
+      #030507;
+    border: 1px solid rgba(111, 212, 232, 0.15);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .builtToPerformCard h2,
+  .builtToPerformCard h3,
+  .builtToPerformCard p {
     display: none;
   }
 

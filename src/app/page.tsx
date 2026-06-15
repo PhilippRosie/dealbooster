@@ -3,7 +3,7 @@ import Link from "next/link";
 import partnerBild from "../app/assets/images/landningssida/partnerBild.jpg";
 import sajobbarviBild from "../app/assets/images/landningssida/såjobbarviBild.jpg";
 import hjartefragorBild from "../app/assets/images/landningssida/hjartefragorBild.jpg";
-import vemarviBild from "../app/assets/images/landningssida/vemärviBild.jpg";
+import builtToPerformBild from "../app/assets/images/builttoperform/builtToPerform.png";
 import { oswald, barlowCondensed } from "../app/layout";
 import Image from "next/image";
 
@@ -25,7 +25,7 @@ export default function Home() {
       <link rel="preload" as="image" href={partnerBild.src} />
       <link rel="preload" as="image" href={sajobbarviBild.src} />
       <link rel="preload" as="image" href={hjartefragorBild.src} />
-      <link rel="preload" as="image" href={vemarviBild.src} />
+      <link rel="preload" as="image" href={builtToPerformBild.src} />
       
       <div className={styles.landingPage}>
         <main className={styles.main}>
@@ -78,10 +78,10 @@ export default function Home() {
                 </p>
               </Link>
               <Link
-                href="/sajobbarvi"
+                href="/varfordealbooster"
                 className={`${styles.gridItem} ${styles.slideFromRight} ${oswald.className}`}
               >
-                <h2>Så Jobbar Vi</h2>
+                <h2>Varför Dealbooster?</h2>
                 <div className={styles.imageContainer}>
                   <Image
                     src={sajobbarviBild}
@@ -96,19 +96,19 @@ export default function Home() {
                 <h3>Sponsring som boostar</h3>
                 <p className={barlowCondensed.className}>
                   Med vårt upplägg kan er förening tjäna hundratusentals kronor 
-                  och få sponsring på upp till 35 000 kr.
+                  och få sponsring.
                   Klicka vidare för att se hur enkelt det är att komma igång!
                 </p>
               </Link>
               <Link
-                href="/vemarvi"
-                className={`${styles.gridItem} ${styles.slideFromRight} ${oswald.className}`}
+                href="/builttoperform"
+                className={`${styles.gridItem} ${styles.builtToPerformCard} ${styles.slideFromRight} ${oswald.className}`}
               >
-                <h2>Vem är vi?</h2>
+                <h2>Built to Perform</h2>
                 <div className={styles.imageContainer}>
                   <Image
-                    src={vemarviBild}
-                    alt="Vem är vi"
+                    src={builtToPerformBild}
+                    alt="Built to Perform"
                     width={200}
                     height={200}
                     className={styles.partnerImage}
@@ -116,10 +116,10 @@ export default function Home() {
                     sizes="(max-width: 768px) 200px, 200px"
                   />
                 </div>
-                <h3>Er förenings bästa vän!</h3>
+                <h3>Produkter som föreningen vill sälja</h3>
                 <p className={barlowCondensed.className}>
-                  Vi är er partner för enklare och roligare föreningsintäkter.
-                  Läs mer om hur vi hjälper föreningar att nå sina drömmar!
+                  Built 2 Perform är moderna, användbara produkter som gör
+                  försäljningen enklare och mer självklar för hela föreningen.
                 </p>
               </Link>
             </div>

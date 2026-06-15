@@ -1,0 +1,428 @@
+.builttoperformPage {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #030507;
+}
+
+.mainBuilttoperform {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  background: radial-gradient(
+      circle at top right,
+      rgba(111, 212, 232, 0.18),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(111, 212, 232, 0.15),
+      transparent 35%
+    ),
+    #030507;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.mainBuilttoperform::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/images/builttoperform/builtToPerform.png");
+  background-repeat: no-repeat;
+  background-size: 625px auto;
+  background-position: center center;
+  background-attachment: fixed;
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.mainBuilttoperform > * {
+  position: relative;
+  z-index: 1;
+}
+
+.builttoperformTextTitle {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.heroSubtitle {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.builttoperformContent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.builttoperformContent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.builttoperformTextContent1,
+.builttoperformTextContent2 {
+  font-size: 1.1rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: rgba(8, 15, 18, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(111, 212, 232, 0.15);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  gap: 3rem;
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Skimrande shimmer-effekt */
+.builttoperformTextContent1::before,
+.builttoperformTextContent2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(111, 212, 232, 0.08), transparent);
+  animation: shimmer 3s infinite;
+}
+
+.builttoperformTextContent1Text,
+.builttoperformTextContent2Text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #ffffff;
+  gap: 1rem;
+}
+
+.builttoperformTextContent1Text h3,
+.builttoperformTextContent2Text h3 {
+  color: #6fd4e8;
+}
+
+.builttoperformTextContent1Img,
+.builttoperformTextContent2Img {
+  width: 40%;
+  max-width: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #000000d2;
+}
+
+.sectionHeading {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.sectionHeading h3 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.sectionHeading p {
+  color: #ffffff;
+}
+
+.accentText {
+  color: #6fd4e8;
+}
+
+.imagePlaceholder {
+  width: 40%;
+  min-height: 220px;
+  border-radius: 12px;
+  border: 1px dashed rgba(111, 212, 232, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6fd4e8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: rgba(11, 59, 66, 0.35);
+}
+
+.sectionImageWrapper {
+  width: 40%;
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionImage {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(111, 212, 232, 0.2);
+}
+
+.cardGrid,
+.productGrid,
+.stepGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.infoCard,
+.productCard {
+  background: rgba(8, 15, 18, 0.7);
+  border: 1px solid rgba(111, 212, 232, 0.15);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.infoCard h4,
+.productCard h4 {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.infoCard p,
+.productCard p {
+  color: #ffffff;
+}
+
+.productFeatures {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+  color: #ffffff;
+}
+
+.productFeatureTitle {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6fd4e8;
+  margin-top: 0.5rem;
+}
+
+.productFeatures li::before {
+  content: "•";
+  color: #6fd4e8;
+  margin-right: 0.5rem;
+}
+
+.productFeatureTitle::before {
+  content: "";
+  margin-right: 0;
+}
+
+.productCard .imagePlaceholder {
+  width: 100%;
+  min-height: 180px;
+}
+
+.productImageRow {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.productImageWrapper {
+  width: 45%;
+  max-width: 220px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 12px;
+  background: url("../assets/images/builttoperform/produktbildBG.png") center/cover,
+    rgba(11, 59, 66, 0.3);
+  border: 1px solid rgba(111, 212, 232, 0.2);
+}
+
+.productImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 2rem;
+  border-radius: 999px;
+  border: 1px solid rgba(111, 212, 232, 0.5);
+  color: #ffffff;
+  text-decoration: none;
+  background: rgba(11, 59, 66, 0.6);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  width: fit-content;
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+  background: rgba(111, 212, 232, 0.2);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .builttoperformTextContent1Text,
+  .builttoperformTextContent2Text {
+    font-size: 1.3rem;
+  }
+  .builttoperformTextContent1Img,
+  .builttoperformTextContent2Img {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2048px) and (orientation: portrait) {
+  .builttoperformTextContent1,
+  .builttoperformTextContent2 {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .builttoperformTextContent1Img,
+  .builttoperformTextContent2Img {
+    order: -1;
+  }
+
+  .builttoperformTextContent1Text,
+  .builttoperformTextContent2Text {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainBuilttoperform {
+    background: radial-gradient(
+        circle at top right,
+        rgba(111, 212, 232, 0.18),
+        transparent 30%
+      ),
+      radial-gradient(
+        circle at bottom left,
+        rgba(111, 212, 232, 0.15),
+        transparent 35%
+      ),
+      #030507;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .builttoperformTextTitle {
+    font-size: 2rem;
+    margin-top: 135px;
+  }
+
+  .hero {
+    width: 90%;
+  }
+
+  .builttoperformContent1,
+  .builttoperformContent2 {
+    width: 90%;
+  }
+
+  .builttoperformTextContent1,
+  .builttoperformTextContent2 {
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .builttoperformTextContent1Text,
+  .builttoperformTextContent2Text {
+    width: 100%;
+    font-size: 1.3rem;
+    order: 1;
+  }
+  .builttoperformTextContent1Img,
+  .builttoperformTextContent2Img {
+    width: 100%;
+  }
+  .imagePlaceholder {
+    width: 100%;
+  }
+  .sectionImageWrapper {
+    width: 100%;
+  }
+  .builttoperformTextContent1Text h3,
+  .builttoperformTextContent2Text h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .builttoperformContent2 {
+    margin-bottom: 2rem;
+  }
+
+  .cardGrid,
+  .productGrid,
+  .stepGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 425px) {
+  .builttoperformTextTitle {
+    font-size: 1.5rem;
+    margin-top: 125px;
+  }
+  .builttoperformContent2 {
+    margin-bottom: 1rem;
+  }
+}
