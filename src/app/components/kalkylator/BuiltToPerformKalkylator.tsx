@@ -13,7 +13,7 @@ const BuiltToPerformKalkylator: React.FC = () => {
 
   return (
     <div className={`${styles.kalkylatorContainer} ${styles.builtToPerform}`}>
-      <h1>Beräkna intäkter för Built 2 Perform</h1>
+      <h1>Beräkna intäkter för<br />Built 2 Perform</h1>
 
       <div className={styles.sliderContainer}>
         <label htmlFor="productsSlider">
