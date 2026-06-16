@@ -33,6 +33,10 @@
   color: #ffffff;
 }
 
+.builtToPerform h1 {
+  text-align: center;
+}
+
 .builtToPerformSlider {
   background: #0b3b42;
   box-shadow:

@@ -116,7 +116,7 @@ export default function Home() {
                     sizes="(max-width: 768px) 200px, 200px"
                   />
                 </div>
-                <h3>Produkter som föreningen vill sälja</h3>
+                <h3>Produkter som<br />föreningen vill sälja</h3>
                 <p className={barlowCondensed.className}>
                   Built 2 Perform är moderna, användbara produkter som gör
                   försäljningen enklare och mer självklar för hela föreningen.

@@ -120,6 +120,10 @@
   margin: 0;
 }
 
+.builtToPerformCard h3 {
+  text-align: center;
+}
+
 /* Animation för kort som kommer från vänster */
 .slideFromLeft {
   animation: slideInFromLeft 2s ease-out forwards;
