@@ -1,6 +1,9 @@
+"use client";
+
 import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import perfomanceGripSocksBlack from "../assets/images/builttoperform/perfomanceGripSocksBlack.png";
 import perfomanceGripSocksWhite from "../assets/images/builttoperform/perfomanceGripSocksWhite.png";
 import shinGuardsBlack from "../assets/images/builttoperform/shinGuardsBlack.png";
@@ -15,9 +18,54 @@ import produktBilderB2P2 from "../assets/images/builttoperform/produktBilderB2P2
 import { barlowCondensed, oswald } from "../layout";
 
 export default function BuiltToPerform() {
+  const [isVideoOpen, setIsVideoOpen] = useState(true);
+  const [isVideoClosing, setIsVideoClosing] = useState(false);
+
+  useEffect(() => {
+    setIsVideoOpen(true);
+    setIsVideoClosing(false);
+  }, []);
+
+  const closeVideo = () => {
+    setIsVideoClosing(true);
+    window.setTimeout(() => setIsVideoOpen(false), 500);
+  };
+
   return (
     <div className={styles.builttoperformPage}>
       <main className={`${styles.mainBuilttoperform} ${barlowCondensed.className}`}>
+        {isVideoOpen && (
+          <div
+            className={`${styles.videoModal} ${isVideoClosing ? styles.videoModalClosing : ""}`}
+            role="dialog"
+            aria-modal="true"
+          >
+            <button
+              className={styles.videoBackdrop}
+              onClick={closeVideo}
+              aria-label="Stäng video"
+              type="button"
+            />
+            <div className={styles.videoDialog}>
+              <button
+                className={styles.videoClose}
+                onClick={closeVideo}
+                type="button"
+              >
+                ✕
+              </button>
+              <video
+                className={styles.videoPlayer}
+                src="/builttoperform/builtToPerformPromo.mp4"
+                autoPlay
+                muted
+                playsInline
+                controls
+                onEnded={closeVideo}
+              />
+            </div>
+          </div>
+        )}
         <section className={styles.hero}>
           <h2 className={`${styles.builttoperformTextTitle} ${oswald.className}`}>
             Produkter som föreningen faktiskt vill sälja
