@@ -9,7 +9,7 @@ import Link from "next/link";
 import dealboosterLogo from "../../../app/assets/images/header/dealboosterLogo.png";
 import dealboosterLogoSmall from "../../../app/assets/images/header/dealboosterLogoSmall.png";
 import Modal from "../kalkylatormodal/Modal";
-import Kalkylator from "../kalkylator/Kalkylator";
+import KalkylatorSwitcher from "../kalkylator/KalkylatorSwitcher";
 import logoBG from "../../../app/assets/images/header/dealboosterLogoSmall.png";
 import logoWhite from "../../../app/assets/images/header/dealboosterLogoWhite.png";
 import SocialmediaIcons from "../socialmediaicons/SocialmediaIcons";
@@ -189,7 +189,7 @@ export default function Header() {
 
       {isModalOpen && (
         <Modal onClose={toggleModal}>
-          <Kalkylator />
+          <KalkylatorSwitcher />
         </Modal>
       )}
     </>
