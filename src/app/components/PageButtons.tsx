@@ -5,7 +5,7 @@ import { useState } from 'react';
 import styles from './PageButtons.module.css';
 import { oswald } from '../layout';
 import Modal from './kalkylatormodal/Modal';
-import Kalkylator from './kalkylator/Kalkylator';
+import KalkylatorSwitcher from './kalkylator/KalkylatorSwitcher';
 
 export default function PageButtons() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -30,7 +30,7 @@ export default function PageButtons() {
 
       {isModalOpen && (
         <Modal onClose={toggleModal}>
-          <Kalkylator />
+          <KalkylatorSwitcher />
         </Modal>
       )}
     </>

@@ -7,6 +7,59 @@
   color: #d4f4f8e3;
 }
 
+.kalkylatorTabs {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.kalkylatorTabButton {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.08);
+  color: #d4f4f8e3;
+  border-radius: 999px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.kalkylatorTabButtonActive {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.builtToPerform {
+  color: #ffffff;
+}
+
+.builtToPerformSlider {
+  background: #0b3b42;
+  box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.35),
+    inset 0 0 6px rgba(111, 212, 232, 0.6);
+}
+
+.builtToPerformSlider::-webkit-slider-thumb {
+  background: #6fd4e8;
+  box-shadow: 0 0 10px rgba(111, 212, 232, 0.6), inset 0 0 6px rgba(255, 255, 255, 0.4);
+}
+
+.builtToPerformSlider::-moz-range-thumb {
+  background: #6fd4e8;
+  box-shadow: 0 0 10px rgba(111, 212, 232, 0.6), inset 0 0 6px rgba(255, 255, 255, 0.4);
+  border: none;
+}
+
+.builtToPerformSlider::-moz-range-track {
+  background: #0b3b42;
+  box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.35),
+    inset 0 0 6px rgba(111, 212, 232, 0.6);
+  height: 5px;
+  border-radius: 15px;
+}
+
 .sliderContainer {
   text-align: center;
   margin: 20px 0;
