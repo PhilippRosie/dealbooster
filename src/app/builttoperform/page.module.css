@@ -52,6 +52,61 @@
   z-index: 1;
 }
 
+.videoModal {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.videoModalClosing {
+  opacity: 0;
+}
+
+.videoBackdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(3, 5, 7, 0.85);
+  border: none;
+  padding: 0;
+}
+
+.videoDialog {
+  position: relative;
+  width: min(90vw, 960px);
+  background: rgba(8, 15, 18, 0.95);
+  border: 1px solid rgba(111, 212, 232, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.videoClose {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(111, 212, 232, 0.3);
+  background: rgba(11, 59, 66, 0.6);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.videoPlayer {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background: #000000;
+}
+
 .builttoperformTextTitle {
   font-size: 2rem;
   color: #ffffff;
@@ -400,12 +455,14 @@
   }
   .sectionImageWrapper {
     width: 100%;
+    
   }
   .builttoperformTextContent1Text h3,
   .builttoperformTextContent2Text h3 {
     margin-bottom: 1rem;
     text-align: center;
   }
+
   .builttoperformContent2 {
     margin-bottom: 2rem;
   }
