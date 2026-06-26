@@ -122,7 +122,7 @@
 
 .varaHafteCard {
   color: #ffffff;
-  background: url("../app/assets/images/landningssida/varaHafteCardBg.png") center/cover,
+  background: url("../app/assets/images/landningssida/varaHafteCardBg.png") center/cover no-repeat,
     rgba(3, 5, 7, 0.9);
   border: 1px solid rgba(255, 82, 166, 0.25);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
@@ -130,7 +130,7 @@
 }
 
 .varaHafteCard:hover {
-  background: url("../app/assets/images/landningssida/varaHafteCardBg.png") center/cover,
+  background: url("../app/assets/images/landningssida/varaHafteCardBg.png") center/cover no-repeat,
     rgba(3, 5, 7, 0.75);
   border: 1px solid rgba(255, 82, 166, 0.45);
   box-shadow:
@@ -401,6 +401,29 @@
       inset 0 1px 0 rgba(255, 255, 255, 0.2);
     z-index: 0;
     transition: all 0.3s ease;
+  }
+
+  .builtToPerformCard {
+    background: radial-gradient(
+        circle at top right,
+        rgba(111, 212, 232, 0.18),
+        transparent 30%
+      ),
+      radial-gradient(
+        circle at bottom left,
+        rgba(111, 212, 232, 0.15),
+        transparent 35%
+      ),
+      #030507;
+    border: 1px solid rgba(111, 212, 232, 0.15);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .varaHafteCard {
+    background: url("../app/assets/images/landningssida/varaHafteCardBg.png") center/140% 140% no-repeat,
+      rgba(3, 5, 7, 0.9);
+    border: 1px solid rgba(255, 82, 166, 0.25);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
   }
   .gridItem h2 {
     font-size: 16px;
