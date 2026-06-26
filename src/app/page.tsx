@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import Link from "next/link";
 import partnerBild from "../app/assets/images/landningssida/partnerBild.jpg";
-import sajobbarviBild from "../app/assets/images/landningssida/såjobbarviBild.jpg";
+import sajobbarviBild from "../app/assets/images/landningssida/såjobbarviBild.png";
 import hjartefragorBild from "../app/assets/images/landningssida/hjartefragorBild.jpg";
 import builtToPerformBild from "../app/assets/images/builttoperform/builtToPerform.png";
 import { oswald, barlowCondensed } from "../app/layout";
@@ -33,7 +33,7 @@ export default function Home() {
             <div className={styles.gridContainer}>
               <Link
                 href="/partner"
-                className={`${styles.gridItem} ${styles.slideFromLeft} ${oswald.className}`}
+                className={`${styles.gridItem} ${styles.varaHafteCard} ${styles.slideFromLeft} ${oswald.className}`}
               >
                 <h2>Samarbeten</h2>
                 <div className={styles.imageContainer}>
@@ -56,7 +56,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/hjartefragor"
-                className={`${styles.gridItem} ${styles.slideFromLeft} ${oswald.className}`}
+                className={`${styles.gridItem} ${styles.varaHafteCard} ${styles.slideFromLeft} ${oswald.className}`}
               >
                 <h2>Hjärtefrågor</h2>
                 <div className={styles.imageContainer}>
@@ -79,9 +79,9 @@ export default function Home() {
               </Link>
               <Link
                 href="/varfordealbooster"
-                className={`${styles.gridItem} ${styles.slideFromRight} ${oswald.className}`}
+                className={`${styles.gridItem} ${styles.varaHafteCard} ${styles.slideFromRight} ${oswald.className}`}
               >
-                <h2>Varför Dealbooster?</h2>
+                <h2>Våra Häften</h2>
                 <div className={styles.imageContainer}>
                   <Image
                     src={sajobbarviBild}
