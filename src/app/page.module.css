@@ -120,6 +120,30 @@
   margin: 0;
 }
 
+.varaHafteCard {
+  color: #ffffff;
+  background: url("../app/assets/images/landningssida/varaHafteCardBg.png") center/cover,
+    rgba(3, 5, 7, 0.9);
+  border: 1px solid rgba(255, 82, 166, 0.25);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.varaHafteCard:hover {
+  background: url("../app/assets/images/landningssida/varaHafteCardBg.png") center/cover,
+    rgba(3, 5, 7, 0.75);
+  border: 1px solid rgba(255, 82, 166, 0.45);
+  box-shadow:
+    0 12px 45px rgba(0, 0, 0, 0.4),
+    0 0 40px rgba(255, 82, 166, 0.35);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.varaHafteCard .partnerImage {
+  box-shadow: none;
+  margin: 0;
+}
+
 .builtToPerformCard h3 {
   text-align: center;
 }
@@ -317,6 +341,13 @@
   .builtToPerformCard h3,
   .builtToPerformCard p {
     display: none;
+  }
+
+  .varaHafteCard {
+    background: url("../app/assets/images/landningssida/varaHafteCardBg.png") center/cover,
+      rgba(3, 5, 7, 0.9);
+    border: 1px solid rgba(255, 82, 166, 0.25);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
   }
 
   .partnerImage {
