@@ -118,6 +118,18 @@
 .builtToPerformCard .partnerImage {
   box-shadow: none;
   margin: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.builtToPerformCard .imageContainer {
+  width: 200px;
+  height: 200px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .varaHafteCard {
@@ -343,6 +355,20 @@
     display: none;
   }
 
+  .builtToPerformCard .imageContainer {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+  }
+
+  .builtToPerformCard .partnerImage {
+    position: static;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    object-fit: cover;
+  }
+
   .varaHafteCard {
     background: url("../app/assets/images/landningssida/varaHafteCardBg.png") center/cover,
       rgba(3, 5, 7, 0.9);
@@ -427,6 +453,20 @@
   }
   .gridItem h2 {
     font-size: 16px;
+  }
+
+  .builtToPerformCard .imageContainer {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+  }
+
+  .builtToPerformCard .partnerImage {
+    position: static;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    object-fit: cover;
   }
 }
 
