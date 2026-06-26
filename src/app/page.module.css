@@ -118,6 +118,18 @@
 .builtToPerformCard .partnerImage {
   box-shadow: none;
   margin: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.builtToPerformCard .imageContainer {
+  width: 200px;
+  height: 200px;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .varaHafteCard {
