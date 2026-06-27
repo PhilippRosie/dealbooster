@@ -3,7 +3,7 @@ import Link from "next/link";
 import partnerBild from "../app/assets/images/landningssida/partnerBild.jpg";
 import sajobbarviBild from "../app/assets/images/landningssida/såjobbarviBild.png";
 import hjartefragorBild from "../app/assets/images/landningssida/hjartefragorBild.jpg";
-import builtToPerformBild from "../app/assets/images/builttoperform/builtToPerform.png";
+import builtToPerformBild from "../app/assets/images/builttoperform/builtToPerform_Card.png";
 import { oswald, barlowCondensed } from "../app/layout";
 import Image from "next/image";
 
