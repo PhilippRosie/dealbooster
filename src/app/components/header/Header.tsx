@@ -78,9 +78,9 @@ export default function Header() {
         </Link>
         <Link href="/" className={styles.logoWhite}>
           <Image
-            src={isHomePage ? dealboosterLogoSmall : logoWhite}
+            src={dealboosterLogoSmall}
             alt="Dealbooster Logo"
-            width={isHomePage ? 80 : 75}
+            width={70}
           />
           
         </Link>
