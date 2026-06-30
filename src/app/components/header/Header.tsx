@@ -11,7 +11,6 @@ import dealboosterLogoSmall from "../../../app/assets/images/header/dealboosterL
 import Modal from "../kalkylatormodal/Modal";
 import KalkylatorSwitcher from "../kalkylator/KalkylatorSwitcher";
 import logoBG from "../../../app/assets/images/header/dealboosterLogoSmall.png";
-import logoWhite from "../../../app/assets/images/header/dealboosterLogoWhite.png";
 import SocialmediaIcons from "../socialmediaicons/SocialmediaIcons";
 export default function Header() {
   const pathname = usePathname();
@@ -78,9 +77,9 @@ export default function Header() {
         </Link>
         <Link href="/" className={styles.logoWhite}>
           <Image
-            src={isHomePage ? dealboosterLogoSmall : logoWhite}
+            src={dealboosterLogoSmall}
             alt="Dealbooster Logo"
-            width={isHomePage ? 80 : 75}
+            width={70}
           />
           
         </Link>
