@@ -40,7 +40,7 @@ export default function Kontaktaoss() {
                   Klubb och Sponsoransvarig
                 </p>
                 <h2 className={styles.kontaktBoxName}>Jonas Orgmets</h2>
-                <p
+                {/*<p
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
                 >
                   <a href="mailto:jonas@dealbooster.nu">
@@ -51,7 +51,7 @@ export default function Kontaktaoss() {
                   <a href="tel:+46706170878">
                     +46 70 617 08 78 <PhoneIcon className={styles.icon} />
                   </a>
-                </p>
+                </p>*/}
               </div>
               <Image
                 className={styles.kontaktBoxDiplom}
@@ -81,7 +81,7 @@ export default function Kontaktaoss() {
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  Klubb och Sponsoransvarig
+                  Klubb-, Sponsor- & Affärsutvecklingsansvarig
                 </p>
                 <h2 className={styles.kontaktBoxName}>Kim Walfridsson</h2>
                 <p
