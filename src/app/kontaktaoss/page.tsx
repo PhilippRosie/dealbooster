@@ -265,7 +265,7 @@ export default function Kontaktaoss() {
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
                 >
                   <a href="mailto:elliot@dealbooster.nu">
-                    philipp@dealbooster.nu <EmailIcon className={styles.icon} />
+                    elliot@dealbooster.nu <EmailIcon className={styles.icon} />
                   </a>
                 </p>
                 <p className={styles.kontaktBoxPhone}>
