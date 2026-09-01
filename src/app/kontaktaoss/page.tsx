@@ -4,6 +4,7 @@ import Kim from "../assets/images/kontaktaoss/Kim.jpg";
 import Anna from "../assets/images/kontaktaoss/Anna.jpg";
 import Conny from "../assets/images/kontaktaoss/Conny.png";
 import Philipp from "../assets/images/kontaktaoss/Philipp.jpg";
+import Elliot from "../assets/images/kontaktaoss/Elliot.jpg";
 import Poppy from "../assets/images/kontaktaoss/Poppy.jpg";
 import dbDiplom from "../assets/images/kontaktaoss/dealbooster-diplom.png";
 import { barlowCondensed, oswald } from "../layout";
@@ -33,13 +34,13 @@ export default function Kontaktaoss() {
           <div className={`${styles.kontaktBox} ${oswald.className}`}>
             <div className={styles.kontaktBoxLeftContainer}>
               <div className={styles.kontaktBoxTextContainer}>
+              <h2 className={styles.kontaktBoxName}>Jonas Orgmets</h2>
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  VD & Grundare, <br />
-                  Klubb och Sponsoransvarig
+                  Grundare <br />
+                  Klubb & Sponsoransvarig
                 </p>
-                <h2 className={styles.kontaktBoxName}>Jonas Orgmets</h2>
                 {/*<p
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
                 >
@@ -78,12 +79,12 @@ export default function Kontaktaoss() {
           <div className={`${styles.kontaktBox} ${oswald.className}`}>
             <div className={styles.kontaktBoxLeftContainer}>
               <div className={styles.kontaktBoxTextContainer}>
+              <h2 className={styles.kontaktBoxName}>Kim Walfridsson</h2>
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  Klubb-, Sponsor- & Affärsutvecklingsansvarig
+                  VD <br /> Klubb- Sponsor- & Affärsutvecklingsansvarig
                 </p>
-                <h2 className={styles.kontaktBoxName}>Kim Walfridsson</h2>
                 <p
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
                 >
@@ -122,12 +123,12 @@ export default function Kontaktaoss() {
           <div className={`${styles.kontaktBox} ${oswald.className}`}>
             <div className={styles.kontaktBoxLeftContainer}>
               <div className={styles.kontaktBoxTextContainer}>
+              <h2 className={styles.kontaktBoxName}>Anna-Karin Elfner</h2>
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  Partner och Produktansvarig
+                  Partner & Produktansvarig
                 </p>
-                <h2 className={styles.kontaktBoxName}>Anna-Karin Elfner</h2>
                 <p
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
                 >
@@ -166,12 +167,12 @@ export default function Kontaktaoss() {
           <div className={`${styles.kontaktBox} ${oswald.className}`}>
             <div className={styles.kontaktBoxLeftContainer}>
               <div className={styles.kontaktBoxTextContainer}>
+              <h2 className={styles.kontaktBoxName}>Conny Nilsson</h2>
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  Ekonomi och Utveckling
+                  Ekonomi & Utveckling<br /> Webbutvecklare
                 </p>
-                <h2 className={styles.kontaktBoxName}>Conny Nilsson</h2>
                 <p
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
                 >
@@ -210,12 +211,12 @@ export default function Kontaktaoss() {
           <div className={`${styles.kontaktBox} ${oswald.className}`}>
             <div className={styles.kontaktBoxLeftContainer}>
               <div className={styles.kontaktBoxTextContainer}>
+              <h2 className={styles.kontaktBoxName}>Philipp Rosie</h2>
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  Grafiker, Partner och Produktansvarig
+                Partner och Produktansvarig <br /> Klubb- & Sponsoransvarig <br /> Marknadsansvarig <br /> Webbutvecklare & Grafiker
                 </p>
-                <h2 className={styles.kontaktBoxName}>Philipp Rosie</h2>
                 <p
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
                 >
@@ -254,12 +255,56 @@ export default function Kontaktaoss() {
           <div className={`${styles.kontaktBox} ${oswald.className}`}>
             <div className={styles.kontaktBoxLeftContainer}>
               <div className={styles.kontaktBoxTextContainer}>
+              <h2 className={styles.kontaktBoxName}>Elliot Leijonberg</h2>
+                <p
+                  className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
+                >
+                  Säljare
+                </p>
+                <p
+                  className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
+                >
+                  <a href="mailto:elliot@dealbooster.nu">
+                    philipp@dealbooster.nu <EmailIcon className={styles.icon} />
+                  </a>
+                </p>
+                <p className={styles.kontaktBoxPhone}>
+                  <a href="tel:+46733680813">
+                    +46 73 368 08 13 <PhoneIcon className={styles.icon} />
+                  </a>
+                </p>
+              </div>
+              <Image
+                className={styles.kontaktBoxDiplom}
+                src={dbDiplom}
+                alt="Diplom"
+                width={200}
+                height={80}
+                loading="lazy"
+                sizes="(max-width: 768px) 200px, 200px"
+              />
+            </div>
+            <div className={styles.kontaktBoxImageContainer}>
+              <Image
+                className={styles.kontaktBoxImage}
+                src={Elliot}
+                alt="Elliot"
+                width={200}
+                height={200}
+                loading="lazy"
+                sizes="(max-width: 768px) 250px, 200px"
+              />
+            </div>
+          </div>
+          <div className={`${styles.kontaktBox} ${oswald.className}`}>
+            <div className={styles.kontaktBoxLeftContainer}>
+              <div className={styles.kontaktBoxTextContainer}>
+              <h2 className={styles.kontaktBoxName}>Poppy Elfner Orgmets</h2>
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
                   Social Media Manager
                 </p>
-                <h2 className={styles.kontaktBoxName}>Poppy Elfner Orgmets</h2>
                 <div className={styles.kontaktBoxPhoneEmpty}></div>
               </div>
               <Image
@@ -272,6 +317,7 @@ export default function Kontaktaoss() {
                 sizes="(max-width: 768px) 200px, 200px"
               />
             </div>
+            
             <div className={styles.kontaktBoxImageContainer}>
               <Image
                 className={styles.kontaktBoxImage}
