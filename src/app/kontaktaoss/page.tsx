@@ -259,7 +259,7 @@ export default function Kontaktaoss() {
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  Säljare
+                  Partner & Produktansvarig
                 </p>
                 <p
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
