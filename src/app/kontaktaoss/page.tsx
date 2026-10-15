@@ -38,10 +38,10 @@ export default function Kontaktaoss() {
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  Grundare <br />
+                  VD & Grundare <br />
                   Klubb & Sponsoransvarig
                 </p>
-                {/*<p
+                <p
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
                 >
                   <a href="mailto:jonas@dealbooster.nu">
@@ -52,7 +52,7 @@ export default function Kontaktaoss() {
                   <a href="tel:+46706170878">
                     +46 70 617 08 78 <PhoneIcon className={styles.icon} />
                   </a>
-                </p>*/}
+                </p>
               </div>
               <Image
                 className={styles.kontaktBoxDiplom}
@@ -83,7 +83,7 @@ export default function Kontaktaoss() {
                 <p
                   className={`${styles.kontaktBoxTitel} ${barlowCondensed.className}`}
                 >
-                  VD <br /> Klubb- Sponsor- & Affärsutvecklingsansvarig
+                  Klubb- Sponsor- & Affärsutvecklingsansvarig
                 </p>
                 <p
                   className={`${styles.kontaktBoxEmail} ${barlowCondensed.className}`}
