@@ -69,20 +69,32 @@
 
 .logo {
   font-size: 2.5rem;
+  display: flex;
+  align-items: center;
 }
 
 .logoWhite {
   display: none;
 }
 
+.logoImage {
+  width: clamp(64px, 7vw, 96px);
+  height: auto;
+}
+
+.logoWhiteImage {
+  width: clamp(56px, 8vw, 70px);
+  height: auto;
+}
+
 .logoBG {
-  width: 700px;
-  height: 700px;
-  opacity: 0.1;
+  width: clamp(420px, 70vw, 700px);
+  height: auto;
+  opacity: 0.018;
   position: absolute;
-  top: 50px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   z-index: -1;
   display: none;
 }
@@ -379,9 +391,9 @@
   }
 
   .logoBG {
-    width: 700px;
-    height: 700px;
-    top: 40px;
+    width: clamp(360px, 90vw, 700px);
+    height: auto;
+    top: 50%;
     display: block;
   }
 
@@ -393,6 +405,11 @@
     left: 0;
     top: 20%;
     z-index: 1000;
+  }
+
+  .logoWhiteImage {
+    width: clamp(56px, 12vw, 72px);
+    height: auto;
   }
 
   .navLinks {
@@ -415,10 +432,16 @@
     left: 7%;
     top: 25%;
   }
+
+  .logoWhiteImage {
+    width: clamp(52px, 15vw, 64px);
+    height: auto;
+  }
+
   .logoBG {
-    width: 600px;
-    height: 600px;
-    top: 0;
+    width: clamp(340px, 90vw, 600px);
+    height: auto;
+    top: 50%;
   }
 
   .tagline {

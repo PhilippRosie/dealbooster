@@ -6,11 +6,9 @@ import styles from "./Header.module.css";
 import { barlowCondensed, oswald } from "../../layout";
 import Image from "next/image";
 import Link from "next/link";
-import dealboosterLogo from "../../../app/assets/images/header/dealboosterLogo.png";
-import dealboosterLogoSmall from "../../../app/assets/images/header/dealboosterLogoSmall.png";
+import headerLogo from "../../../app/assets/images/header/dealboosterLogoCircleWhite.png";
 import Modal from "../kalkylatormodal/Modal";
 import KalkylatorSwitcher from "../kalkylator/KalkylatorSwitcher";
-import logoBG from "../../../app/assets/images/header/dealboosterLogoSmall.png";
 import SocialmediaIcons from "../socialmediaicons/SocialmediaIcons";
 export default function Header() {
   const pathname = usePathname();
@@ -69,17 +67,23 @@ export default function Header() {
       >
         <Link href="/" className={styles.logo}>
           <Image
-            src={isHomePage ? dealboosterLogoSmall : dealboosterLogo}
+            src={headerLogo}
             alt="Dealbooster Logo"
-            width={isHomePage ? 70 : 250}
+            width={220}
+            height={220}
+            className={styles.logoImage}
+            sizes="(max-width: 1024px) 70px, 96px"
           />
           
         </Link>
         <Link href="/" className={styles.logoWhite}>
           <Image
-            src={dealboosterLogoSmall}
+            src={headerLogo}
             alt="Dealbooster Logo"
-            width={70}
+            width={140}
+            height={140}
+            className={styles.logoWhiteImage}
+            sizes="(max-width: 425px) 56px, 70px"
           />
           
         </Link>
@@ -139,7 +143,14 @@ export default function Header() {
         </button>
 
         <nav className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
-          <Image src={logoBG} alt="Close" className={styles.logoBG} />
+          <Image
+            src={headerLogo}
+            alt="Dealbooster bakgrundslogga"
+            className={styles.logoBG}
+            width={700}
+            height={700}
+            sizes="(max-width: 768px) 90vw, 700px"
+          />
           <button onClick={toggleMenu} className={styles.closeButton}>
             ✖
           </button>
